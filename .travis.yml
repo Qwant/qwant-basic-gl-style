@@ -1,7 +1,7 @@
 language: node_js
 sudo: false
 node_js:
-- '4'
+- '6'
 branches:
   only:
   - master
@@ -14,6 +14,7 @@ addons:
     packages:
     - libstdc++6
 script:
+- npm test
 - npm run build
 - zip build.zip build/ -r
 before_deploy:

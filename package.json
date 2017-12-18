@@ -4,7 +4,8 @@
   "description": "a map GL Style for Qwant Map",
   "main": "index.js",
   "scripts": {
-    "build": "npm explore map-style-builder -- npm run build_all -- $(pwd) prod_conf.json"
+    "build": "npm explore map-style-builder -- npm run build_all -- $(pwd) prod_conf.json",
+    "test": "npm explore map-style-builder -- npm run test -- $(pwd)"
   },
   "keywords": [
     "gl-style"
@@ -12,6 +13,6 @@
   "author": "Qwant Research",
   "license": "MIT",
   "dependencies": {
-    "map-style-builder": "git+https://github.com/QwantResearch/gl-style-package-spec.git#init_fork"
+    "map-style-builder": "git+https://github.com/QwantResearch/gl-style-package-spec.git"
   }
 }
