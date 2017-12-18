@@ -16,7 +16,7 @@ addons:
 script:
 - npm test
 - npm run build
-- zip build.zip build/ -r
+- zip assets.zip build/ -r
 before_deploy:
 - git config --local user.name "qwant_travis"
 - git config --local user.email "travis@qwant.com"
@@ -25,7 +25,7 @@ deploy:
   provider: releases
   api_key:
     secure: ZeIdYtmrb4+CGew2exrOmQFGPyqQwOnxENXs4kcvdO0U4cEn+u+eQvEMi7nPW3EvHuilRnWkTrDWn5VPlD8bGmyybB9INx1vIP1Qm4CmCYpczMbkNltEXSQ6mjC1KBHceCun9KQHEV9nbok17yV7kJiZCM2V0OjNJ4heV+Q4E5YO07kIt48XapSA5E3oReDaza6nvaeM9bXjaD45gfOrI8+iloVXS1VaBcWnKj07nog4Qfzu9EhmMXg4I2oaIkSvvboy1f3hWAIG18u60yDjps17PM6/6CiB34f4h/m2NXp0bEO8BEZmwwpixUm4WNDa0/chyTrFjOI4Net9iARNMGsUWU0CvxQUK/bNqEL1TbjbOcFDeCcVylz0W70UJLdUlTKJUDvyFiTrQ+VuAbSHeGBGXfqffRGQWwrRYP0zRXLU2rBXDbtHij3meT4JzFICmTzIgGKj7k8+hJbLEYNzd/fdollp6AAChWu994gWwzU1wDqBaO01SBUCGy177w5r+ytuy7c3SPxxVmpmMJF46Ikg0Sh/p1e5h3p5L1iPerviEKOKGJjB9+ltvg3y0+uTGgSlpMOPFLqt7DzIRkr90sYop7V2sAKkgA9BTDg3dpKzcOpAW7Am/2vQMD4Bva+cII0kig+7yVJLgU/wyZHglWiQ1m8ZseXD0P+IKwIq1Xo=
-  file: build/assets.zip
+  file: assets.zip
   skip_cleanup: true
   on:
     repo: QwantResearch/qwant-basic-gl-style
