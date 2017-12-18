@@ -16,7 +16,7 @@ addons:
 script:
 - npm test
 - npm run build
-- zip assets.zip build/ -r
+- zip assets.zip build/ -rj
 before_deploy:
 - git config --local user.name "qwant_travis"
 - git config --local user.email "travis@qwant.com"
