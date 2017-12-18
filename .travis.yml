@@ -20,7 +20,8 @@ script:
 before_deploy:
 - git config --local user.name "qwant_travis"
 - git config --local user.email "travis@qwant.com"
-- git tag "$(date +'%Y%m%d%H%M%S')-$(git log --format=%h -1)"
+- npm install semver
+- ./release.sh
 deploy:
   provider: releases
   api_key:
