@@ -15,7 +15,7 @@
   "bearing": 0,
   "pitch": 0,
   "sources": {
-    "openmaptiles": {
+    "basemap": {
       "url": "tileschema.json",
       "type": "vector"
     },
@@ -26,8 +26,7 @@
   },
   "sprite": "{sprite_url}",
   "glyphs": "{whatever ...{fontstack}/{range}.pbf}",
-  "layers": [
-    {
+  "layers": [{
       "id": "background",
       "type": "background",
       "paint": {
@@ -40,7 +39,7 @@
       "metadata": {
         "mapbox:group": "1444849388993.3071"
       },
-      "source": "openmaptiles",
+      "source": "basemap",
       "source-layer": "landcover",
       "filter": [
         "==",
@@ -73,7 +72,7 @@
       "metadata": {
         "mapbox:group": "1444849388993.3071"
       },
-      "source": "openmaptiles",
+      "source": "basemap",
       "source-layer": "landuse",
       "filter": [
         "==",
@@ -102,11 +101,10 @@
       "metadata": {
         "mapbox:group": "1444849388993.3071"
       },
-      "source": "openmaptiles",
+      "source": "basemap",
       "source-layer": "landuse",
       "filter": [
-        "all",
-        [
+        "all", [
           "==",
           "$type",
           "Polygon"
@@ -127,11 +125,10 @@
       "metadata": {
         "mapbox:group": "1444849388993.3071"
       },
-      "source": "openmaptiles",
+      "source": "basemap",
       "source-layer": "landuse",
       "filter": [
-        "all",
-        [
+        "all", [
           "==",
           "$type",
           "Polygon"
@@ -152,7 +149,7 @@
       "metadata": {
         "mapbox:group": "1444849388993.3071"
       },
-      "source": "openmaptiles",
+      "source": "basemap",
       "source-layer": "park",
       "filter": [
         "==",
@@ -182,7 +179,7 @@
       "metadata": {
         "mapbox:group": "1444849388993.3071"
       },
-      "source": "openmaptiles",
+      "source": "basemap",
       "source-layer": "park",
       "filter": [
         "==",
@@ -216,7 +213,7 @@
       "metadata": {
         "mapbox:group": "1444849388993.3071"
       },
-      "source": "openmaptiles",
+      "source": "basemap",
       "source-layer": "landuse",
       "filter": [
         "==",
@@ -233,7 +230,7 @@
       "metadata": {
         "mapbox:group": "1444849388993.3071"
       },
-      "source": "openmaptiles",
+      "source": "basemap",
       "source-layer": "landuse",
       "filter": [
         "==",
@@ -250,7 +247,7 @@
       "metadata": {
         "mapbox:group": "1444849388993.3071"
       },
-      "source": "openmaptiles",
+      "source": "basemap",
       "source-layer": "landuse",
       "filter": [
         "==",
@@ -267,7 +264,7 @@
       "metadata": {
         "mapbox:group": "1444849388993.3071"
       },
-      "source": "openmaptiles",
+      "source": "basemap",
       "source-layer": "landuse",
       "filter": [
         "==",
@@ -284,7 +281,7 @@
       "metadata": {
         "mapbox:group": "1444849388993.3071"
       },
-      "source": "openmaptiles",
+      "source": "basemap",
       "source-layer": "landcover",
       "filter": [
         "==",
@@ -316,7 +313,7 @@
       "metadata": {
         "mapbox:group": "1444849388993.3071"
       },
-      "source": "openmaptiles",
+      "source": "basemap",
       "source-layer": "landcover",
       "filter": [
         "==",
@@ -334,7 +331,7 @@
       "metadata": {
         "mapbox:group": "1444849388993.3071"
       },
-      "source": "openmaptiles",
+      "source": "basemap",
       "source-layer": "park",
       "filter": [
         "==",
@@ -352,7 +349,7 @@
       "metadata": {
         "mapbox:group": "1444849382550.77"
       },
-      "source": "openmaptiles",
+      "source": "basemap",
       "source-layer": "waterway",
       "filter": [
         "!in",
@@ -387,7 +384,7 @@
       "metadata": {
         "mapbox:group": "1444849382550.77"
       },
-      "source": "openmaptiles",
+      "source": "basemap",
       "source-layer": "waterway",
       "filter": [
         "in",
@@ -421,7 +418,7 @@
       "metadata": {
         "mapbox:group": "1444849382550.77"
       },
-      "source": "openmaptiles",
+      "source": "basemap",
       "source-layer": "waterway",
       "filter": [
         "==",
@@ -454,7 +451,7 @@
       "metadata": {
         "mapbox:group": "1444849382550.77"
       },
-      "source": "openmaptiles",
+      "source": "basemap",
       "source-layer": "water",
       "maxzoom": 8,
       "filter": [
@@ -472,15 +469,13 @@
           "base": 1,
           "stops": [
             [
-              6,
-              [
+              6, [
                 2,
                 0
               ]
             ],
             [
-              8,
-              [
+              8, [
                 0,
                 0
               ]
@@ -495,7 +490,7 @@
       "metadata": {
         "mapbox:group": "1444849382550.77"
       },
-      "source": "openmaptiles",
+      "source": "basemap",
       "source-layer": "water",
       "layout": {
         "visibility": "visible"
@@ -510,7 +505,7 @@
       "metadata": {
         "mapbox:group": "1444849382550.77"
       },
-      "source": "openmaptiles",
+      "source": "basemap",
       "source-layer": "water",
       "layout": {
         "visibility": "visible"
@@ -529,7 +524,7 @@
       "metadata": {
         "mapbox:group": "1444849382550.77"
       },
-      "source": "openmaptiles",
+      "source": "basemap",
       "source-layer": "landcover",
       "filter": [
         "==",
@@ -562,7 +557,7 @@
       "metadata": {
         "mapbox:group": "1444849364238.8171"
       },
-      "source": "openmaptiles",
+      "source": "basemap",
       "source-layer": "building",
       "paint": {
         "fill-color": {
@@ -587,7 +582,7 @@
       "metadata": {
         "mapbox:group": "1444849364238.8171"
       },
-      "source": "openmaptiles",
+      "source": "basemap",
       "source-layer": "building",
       "layout": {
         "visibility": "visible"
@@ -597,18 +592,13 @@
           "base": 1,
           "stops": [
             [
-              14,
-              [
+              14, [
                 0,
                 0
               ]
             ],
             [
-              16,
-              [
-                -2,
-                -2
-              ]
+              16, [-2, -2]
             ]
           ]
         },
@@ -635,11 +625,10 @@
       "metadata": {
         "mapbox:group": "1444849354174.1904"
       },
-      "source": "openmaptiles",
+      "source": "basemap",
       "source-layer": "transportation",
       "filter": [
-        "all",
-        [
+        "all", [
           "==",
           "brunnel",
           "tunnel"
@@ -685,11 +674,10 @@
       "metadata": {
         "mapbox:group": "1444849354174.1904"
       },
-      "source": "openmaptiles",
+      "source": "basemap",
       "source-layer": "transportation",
       "filter": [
-        "all",
-        [
+        "all", [
           "==",
           "brunnel",
           "tunnel"
@@ -746,11 +734,10 @@
       "metadata": {
         "mapbox:group": "1444849354174.1904"
       },
-      "source": "openmaptiles",
+      "source": "basemap",
       "source-layer": "transportation",
       "filter": [
-        "all",
-        [
+        "all", [
           "==",
           "brunnel",
           "tunnel"
@@ -789,11 +776,10 @@
       "metadata": {
         "mapbox:group": "1444849354174.1904"
       },
-      "source": "openmaptiles",
+      "source": "basemap",
       "source-layer": "transportation",
       "filter": [
-        "all",
-        [
+        "all", [
           "==",
           "brunnel",
           "tunnel"
@@ -839,11 +825,10 @@
       "metadata": {
         "mapbox:group": "1444849354174.1904"
       },
-      "source": "openmaptiles",
+      "source": "basemap",
       "source-layer": "transportation",
       "filter": [
-        "all",
-        [
+        "all", [
           "==",
           "brunnel",
           "tunnel"
@@ -893,18 +878,16 @@
       "metadata": {
         "mapbox:group": "1444849354174.1904"
       },
-      "source": "openmaptiles",
+      "source": "basemap",
       "source-layer": "transportation",
       "filter": [
-        "all",
-        [
+        "all", [
           "==",
           "$type",
           "LineString"
         ],
         [
-          "all",
-          [
+          "all", [
             "==",
             "brunnel",
             "tunnel"
@@ -943,11 +926,10 @@
       "metadata": {
         "mapbox:group": "1444849354174.1904"
       },
-      "source": "openmaptiles",
+      "source": "basemap",
       "source-layer": "transportation",
       "filter": [
-        "all",
-        [
+        "all", [
           "==",
           "brunnel",
           "tunnel"
@@ -989,11 +971,10 @@
       "metadata": {
         "mapbox:group": "1444849354174.1904"
       },
-      "source": "openmaptiles",
+      "source": "basemap",
       "source-layer": "transportation",
       "filter": [
-        "all",
-        [
+        "all", [
           "==",
           "brunnel",
           "tunnel"
@@ -1035,11 +1016,10 @@
       "metadata": {
         "mapbox:group": "1444849354174.1904"
       },
-      "source": "openmaptiles",
+      "source": "basemap",
       "source-layer": "transportation",
       "filter": [
-        "all",
-        [
+        "all", [
           "==",
           "brunnel",
           "tunnel"
@@ -1081,11 +1061,10 @@
       "metadata": {
         "mapbox:group": "1444849354174.1904"
       },
-      "source": "openmaptiles",
+      "source": "basemap",
       "source-layer": "transportation",
       "filter": [
-        "all",
-        [
+        "all", [
           "==",
           "brunnel",
           "tunnel"
@@ -1127,11 +1106,10 @@
       "metadata": {
         "mapbox:group": "1444849354174.1904"
       },
-      "source": "openmaptiles",
+      "source": "basemap",
       "source-layer": "transportation",
       "filter": [
-        "all",
-        [
+        "all", [
           "==",
           "brunnel",
           "tunnel"
@@ -1173,11 +1151,10 @@
       "metadata": {
         "mapbox:group": "1444849354174.1904"
       },
-      "source": "openmaptiles",
+      "source": "basemap",
       "source-layer": "transportation",
       "filter": [
-        "all",
-        [
+        "all", [
           "==",
           "brunnel",
           "tunnel"
@@ -1219,7 +1196,7 @@
       "metadata": {
         "mapbox:group": "1444849345966.4436"
       },
-      "source": "openmaptiles",
+      "source": "basemap",
       "source-layer": "aeroway",
       "minzoom": 12,
       "filter": [
@@ -1256,7 +1233,7 @@
       "metadata": {
         "mapbox:group": "1444849345966.4436"
       },
-      "source": "openmaptiles",
+      "source": "basemap",
       "source-layer": "aeroway",
       "minzoom": 12,
       "filter": [
@@ -1293,12 +1270,11 @@
       "metadata": {
         "mapbox:group": "1444849345966.4436"
       },
-      "source": "openmaptiles",
+      "source": "basemap",
       "source-layer": "aeroway",
       "minzoom": 4,
       "filter": [
-        "all",
-        [
+        "all", [
           "==",
           "$type",
           "Polygon"
@@ -1336,12 +1312,11 @@
       "metadata": {
         "mapbox:group": "1444849345966.4436"
       },
-      "source": "openmaptiles",
+      "source": "basemap",
       "source-layer": "aeroway",
       "minzoom": 4,
       "filter": [
-        "all",
-        [
+        "all", [
           "==",
           "$type",
           "LineString"
@@ -1393,12 +1368,11 @@
       "metadata": {
         "mapbox:group": "1444849345966.4436"
       },
-      "source": "openmaptiles",
+      "source": "basemap",
       "source-layer": "aeroway",
       "minzoom": 4,
       "filter": [
-        "all",
-        [
+        "all", [
           "==",
           "$type",
           "LineString"
@@ -1450,7 +1424,7 @@
       "metadata": {
         "mapbox:group": "1444849345966.4436"
       },
-      "source": "openmaptiles",
+      "source": "basemap",
       "source-layer": "transportation",
       "filter": [
         "==",
@@ -1473,12 +1447,11 @@
       "metadata": {
         "mapbox:group": "1444849345966.4436"
       },
-      "source": "openmaptiles",
+      "source": "basemap",
       "source-layer": "transportation",
       "minzoom": 12,
       "filter": [
-        "all",
-        [
+        "all", [
           "!in",
           "brunnel",
           "bridge",
@@ -1526,12 +1499,11 @@
       "metadata": {
         "mapbox:group": "1444849345966.4436"
       },
-      "source": "openmaptiles",
+      "source": "basemap",
       "source-layer": "transportation",
       "minzoom": 13,
       "filter": [
-        "all",
-        [
+        "all", [
           "!in",
           "brunnel",
           "bridge",
@@ -1583,18 +1555,16 @@
       "metadata": {
         "mapbox:group": "1444849345966.4436"
       },
-      "source": "openmaptiles",
+      "source": "basemap",
       "source-layer": "transportation",
       "filter": [
-        "all",
-        [
+        "all", [
           "==",
           "$type",
           "LineString"
         ],
         [
-          "all",
-          [
+          "all", [
             "!=",
             "brunnel",
             "tunnel"
@@ -1655,11 +1625,10 @@
       "metadata": {
         "mapbox:group": "1444849345966.4436"
       },
-      "source": "openmaptiles",
+      "source": "basemap",
       "source-layer": "transportation",
       "filter": [
-        "all",
-        [
+        "all", [
           "!in",
           "brunnel",
           "bridge",
@@ -1701,12 +1670,11 @@
       "metadata": {
         "mapbox:group": "1444849345966.4436"
       },
-      "source": "openmaptiles",
+      "source": "basemap",
       "source-layer": "transportation",
       "minzoom": 5,
       "filter": [
-        "all",
-        [
+        "all", [
           "!in",
           "brunnel",
           "bridge",
@@ -1766,12 +1734,11 @@
       "metadata": {
         "mapbox:group": "1444849345966.4436"
       },
-      "source": "openmaptiles",
+      "source": "basemap",
       "source-layer": "transportation",
       "minzoom": 5,
       "filter": [
-        "all",
-        [
+        "all", [
           "!in",
           "brunnel",
           "bridge",
@@ -1831,12 +1798,11 @@
       "metadata": {
         "mapbox:group": "1444849345966.4436"
       },
-      "source": "openmaptiles",
+      "source": "basemap",
       "source-layer": "transportation",
       "minzoom": 4,
       "filter": [
-        "all",
-        [
+        "all", [
           "!in",
           "brunnel",
           "bridge",
@@ -1900,18 +1866,16 @@
       "metadata": {
         "mapbox:group": "1444849345966.4436"
       },
-      "source": "openmaptiles",
+      "source": "basemap",
       "source-layer": "transportation",
       "filter": [
-        "all",
-        [
+        "all", [
           "==",
           "$type",
           "LineString"
         ],
         [
-          "all",
-          [
+          "all", [
             "!in",
             "brunnel",
             "bridge",
@@ -1951,12 +1915,11 @@
       "metadata": {
         "mapbox:group": "1444849345966.4436"
       },
-      "source": "openmaptiles",
+      "source": "basemap",
       "source-layer": "transportation",
       "minzoom": 12,
       "filter": [
-        "all",
-        [
+        "all", [
           "!in",
           "brunnel",
           "bridge",
@@ -2003,12 +1966,11 @@
       "metadata": {
         "mapbox:group": "1444849345966.4436"
       },
-      "source": "openmaptiles",
+      "source": "basemap",
       "source-layer": "transportation",
       "minzoom": 13,
       "filter": [
-        "all",
-        [
+        "all", [
           "!in",
           "brunnel",
           "bridge",
@@ -2059,18 +2021,16 @@
       "metadata": {
         "mapbox:group": "1444849345966.4436"
       },
-      "source": "openmaptiles",
+      "source": "basemap",
       "source-layer": "transportation",
       "filter": [
-        "all",
-        [
+        "all", [
           "==",
           "$type",
           "LineString"
         ],
         [
-          "all",
-          [
+          "all", [
             "!=",
             "brunnel",
             "tunnel"
@@ -2116,11 +2076,10 @@
       "metadata": {
         "mapbox:group": "1444849345966.4436"
       },
-      "source": "openmaptiles",
+      "source": "basemap",
       "source-layer": "transportation",
       "filter": [
-        "all",
-        [
+        "all", [
           "!in",
           "brunnel",
           "bridge",
@@ -2165,18 +2124,16 @@
       "metadata": {
         "mapbox:group": "1444849345966.4436"
       },
-      "source": "openmaptiles",
+      "source": "basemap",
       "source-layer": "transportation",
       "filter": [
-        "all",
-        [
+        "all", [
           "==",
           "$type",
           "LineString"
         ],
         [
-          "all",
-          [
+          "all", [
             "!in",
             "brunnel",
             "bridge",
@@ -2221,18 +2178,16 @@
       "metadata": {
         "mapbox:group": "1444849345966.4436"
       },
-      "source": "openmaptiles",
+      "source": "basemap",
       "source-layer": "transportation",
       "filter": [
-        "all",
-        [
+        "all", [
           "==",
           "$type",
           "LineString"
         ],
         [
-          "all",
-          [
+          "all", [
             "!in",
             "brunnel",
             "bridge",
@@ -2277,19 +2232,17 @@
       "metadata": {
         "mapbox:group": "1444849345966.4436"
       },
-      "source": "openmaptiles",
+      "source": "basemap",
       "source-layer": "transportation",
       "minzoom": 5,
       "filter": [
-        "all",
-        [
+        "all", [
           "==",
           "$type",
           "LineString"
         ],
         [
-          "all",
-          [
+          "all", [
             "!in",
             "brunnel",
             "bridge",
@@ -2334,18 +2287,16 @@
       "metadata": {
         "mapbox:group": "1444849345966.4436"
       },
-      "source": "openmaptiles",
+      "source": "basemap",
       "source-layer": "transportation",
       "filter": [
-        "all",
-        [
+        "all", [
           "==",
           "$type",
           "LineString"
         ],
         [
-          "all",
-          [
+          "all", [
             "!=",
             "brunnel",
             "tunnel"
@@ -2383,18 +2334,16 @@
       "metadata": {
         "mapbox:group": "1444849345966.4436"
       },
-      "source": "openmaptiles",
+      "source": "basemap",
       "source-layer": "transportation",
       "filter": [
-        "all",
-        [
+        "all", [
           "==",
           "$type",
           "LineString"
         ],
         [
-          "all",
-          [
+          "all", [
             "!=",
             "brunnel",
             "tunnel"
@@ -2440,18 +2389,16 @@
       "metadata": {
         "mapbox:group": "1444849345966.4436"
       },
-      "source": "openmaptiles",
+      "source": "basemap",
       "source-layer": "transportation",
       "filter": [
-        "all",
-        [
+        "all", [
           "==",
           "$type",
           "LineString"
         ],
         [
-          "all",
-          [
+          "all", [
             "==",
             "class",
             "rail"
@@ -2485,18 +2432,16 @@
       "metadata": {
         "mapbox:group": "1444849345966.4436"
       },
-      "source": "openmaptiles",
+      "source": "basemap",
       "source-layer": "transportation",
       "filter": [
-        "all",
-        [
+        "all", [
           "==",
           "$type",
           "LineString"
         ],
         [
-          "all",
-          [
+          "all", [
             "==",
             "class",
             "rail"
@@ -2541,18 +2486,16 @@
       "metadata": {
         "mapbox:group": "1444849345966.4436"
       },
-      "source": "openmaptiles",
+      "source": "basemap",
       "source-layer": "transportation",
       "filter": [
-        "all",
-        [
+        "all", [
           "==",
           "$type",
           "LineString"
         ],
         [
-          "all",
-          [
+          "all", [
             "!has",
             "service"
           ],
@@ -2596,18 +2539,16 @@
       "metadata": {
         "mapbox:group": "1444849345966.4436"
       },
-      "source": "openmaptiles",
+      "source": "basemap",
       "source-layer": "transportation",
       "filter": [
-        "all",
-        [
+        "all", [
           "==",
           "$type",
           "LineString"
         ],
         [
-          "all",
-          [
+          "all", [
             "!has",
             "service"
           ],
@@ -2655,11 +2596,10 @@
       "metadata": {
         "mapbox:group": "1444849334699.1902"
       },
-      "source": "openmaptiles",
+      "source": "basemap",
       "source-layer": "transportation",
       "filter": [
-        "all",
-        [
+        "all", [
           "==",
           "brunnel",
           "bridge"
@@ -2705,11 +2645,10 @@
       "metadata": {
         "mapbox:group": "1444849334699.1902"
       },
-      "source": "openmaptiles",
+      "source": "basemap",
       "source-layer": "transportation",
       "filter": [
-        "all",
-        [
+        "all", [
           "==",
           "brunnel",
           "bridge"
@@ -2758,11 +2697,10 @@
       "metadata": {
         "mapbox:group": "1444849334699.1902"
       },
-      "source": "openmaptiles",
+      "source": "basemap",
       "source-layer": "transportation",
       "filter": [
-        "all",
-        [
+        "all", [
           "==",
           "brunnel",
           "bridge"
@@ -2801,11 +2739,10 @@
       "metadata": {
         "mapbox:group": "1444849334699.1902"
       },
-      "source": "openmaptiles",
+      "source": "basemap",
       "source-layer": "transportation",
       "filter": [
-        "all",
-        [
+        "all", [
           "==",
           "brunnel",
           "bridge"
@@ -2851,11 +2788,10 @@
       "metadata": {
         "mapbox:group": "1444849334699.1902"
       },
-      "source": "openmaptiles",
+      "source": "basemap",
       "source-layer": "transportation",
       "filter": [
-        "all",
-        [
+        "all", [
           "==",
           "brunnel",
           "bridge"
@@ -2900,18 +2836,16 @@
       "metadata": {
         "mapbox:group": "1444849334699.1902"
       },
-      "source": "openmaptiles",
+      "source": "basemap",
       "source-layer": "transportation",
       "filter": [
-        "all",
-        [
+        "all", [
           "==",
           "$type",
           "LineString"
         ],
         [
-          "all",
-          [
+          "all", [
             "==",
             "brunnel",
             "bridge"
@@ -2946,18 +2880,16 @@
       "metadata": {
         "mapbox:group": "1444849334699.1902"
       },
-      "source": "openmaptiles",
+      "source": "basemap",
       "source-layer": "transportation",
       "filter": [
-        "all",
-        [
+        "all", [
           "==",
           "$type",
           "LineString"
         ],
         [
-          "all",
-          [
+          "all", [
             "==",
             "brunnel",
             "bridge"
@@ -2996,11 +2928,10 @@
       "metadata": {
         "mapbox:group": "1444849334699.1902"
       },
-      "source": "openmaptiles",
+      "source": "basemap",
       "source-layer": "transportation",
       "filter": [
-        "all",
-        [
+        "all", [
           "==",
           "brunnel",
           "bridge"
@@ -3045,11 +2976,10 @@
       "metadata": {
         "mapbox:group": "1444849334699.1902"
       },
-      "source": "openmaptiles",
+      "source": "basemap",
       "source-layer": "transportation",
       "filter": [
-        "all",
-        [
+        "all", [
           "==",
           "brunnel",
           "bridge"
@@ -3097,11 +3027,10 @@
       "metadata": {
         "mapbox:group": "1444849334699.1902"
       },
-      "source": "openmaptiles",
+      "source": "basemap",
       "source-layer": "transportation",
       "filter": [
-        "all",
-        [
+        "all", [
           "==",
           "brunnel",
           "bridge"
@@ -3143,11 +3072,10 @@
       "metadata": {
         "mapbox:group": "1444849334699.1902"
       },
-      "source": "openmaptiles",
+      "source": "basemap",
       "source-layer": "transportation",
       "filter": [
-        "all",
-        [
+        "all", [
           "==",
           "brunnel",
           "bridge"
@@ -3189,11 +3117,10 @@
       "metadata": {
         "mapbox:group": "1444849334699.1902"
       },
-      "source": "openmaptiles",
+      "source": "basemap",
       "source-layer": "transportation",
       "filter": [
-        "all",
-        [
+        "all", [
           "==",
           "brunnel",
           "bridge"
@@ -3234,11 +3161,10 @@
       "metadata": {
         "mapbox:group": "1444849334699.1902"
       },
-      "source": "openmaptiles",
+      "source": "basemap",
       "source-layer": "transportation",
       "filter": [
-        "all",
-        [
+        "all", [
           "==",
           "brunnel",
           "bridge"
@@ -3276,11 +3202,10 @@
       "metadata": {
         "mapbox:group": "1444849334699.1902"
       },
-      "source": "openmaptiles",
+      "source": "basemap",
       "source-layer": "transportation",
       "filter": [
-        "all",
-        [
+        "all", [
           "==",
           "brunnel",
           "bridge"
@@ -3319,11 +3244,10 @@
     {
       "id": "boundary-land-level-4",
       "type": "line",
-      "source": "openmaptiles",
+      "source": "basemap",
       "source-layer": "boundary",
       "filter": [
-        "all",
-        [
+        "all", [
           "!=",
           "maritime",
           1
@@ -3369,11 +3293,10 @@
     {
       "id": "boundary-land-level-2",
       "type": "line",
-      "source": "openmaptiles",
+      "source": "basemap",
       "source-layer": "boundary",
       "filter": [
-        "all",
-        [
+        "all", [
           "!=",
           "disputed",
           1
@@ -3421,11 +3344,10 @@
     {
       "id": "boundary-land-disputed",
       "type": "line",
-      "source": "openmaptiles",
+      "source": "basemap",
       "source-layer": "boundary",
       "filter": [
-        "all",
-        [
+        "all", [
           "!=",
           "maritime",
           1
@@ -3472,11 +3394,10 @@
     {
       "id": "boundary-water",
       "type": "line",
-      "source": "openmaptiles",
+      "source": "basemap",
       "source-layer": "boundary",
       "filter": [
-        "all",
-        [
+        "all", [
           "==",
           "maritime",
           1
@@ -3532,12 +3453,11 @@
     {
       "id": "waterway-name",
       "type": "symbol",
-      "source": "openmaptiles",
+      "source": "basemap",
       "source-layer": "waterway",
       "minzoom": 13,
       "filter": [
-        "all",
-        [
+        "all", [
           "==",
           "$type",
           "LineString"
@@ -3569,7 +3489,7 @@
     {
       "id": "water-name-lakeline",
       "type": "symbol",
-      "source": "openmaptiles",
+      "source": "basemap",
       "source-layer": "water_name",
       "filter": [
         "==",
@@ -3598,11 +3518,10 @@
     {
       "id": "water-name-ocean",
       "type": "symbol",
-      "source": "openmaptiles",
+      "source": "basemap",
       "source-layer": "water_name",
       "filter": [
-        "all",
-        [
+        "all", [
           "==",
           "$type",
           "Point"
@@ -3635,11 +3554,10 @@
     {
       "id": "water-name-other",
       "type": "symbol",
-      "source": "openmaptiles",
+      "source": "basemap",
       "source-layer": "water_name",
       "filter": [
-        "all",
-        [
+        "all", [
           "!=",
           "class",
           "ocean"
@@ -3684,12 +3602,11 @@
     {
       "id": "poi-level-3",
       "type": "symbol",
-      "source": "openmaptiles",
+      "source": "basemap",
       "source-layer": "poi",
       "minzoom": 16,
       "filter": [
-        "all",
-        [
+        "all", [
           "==",
           "$type",
           "Point"
@@ -3728,19 +3645,17 @@
     {
       "id": "poi-level-2",
       "type": "symbol",
-      "source": "openmaptiles",
+      "source": "basemap",
       "source-layer": "poi",
       "minzoom": 15,
       "filter": [
-        "all",
-        [
+        "all", [
           "==",
           "$type",
           "Point"
         ],
         [
-          "all",
-          [
+          "all", [
             "<=",
             "rank",
             24
@@ -3779,19 +3694,17 @@
     {
       "id": "poi-level-1",
       "type": "symbol",
-      "source": "openmaptiles",
+      "source": "basemap",
       "source-layer": "poi",
       "minzoom": 14,
       "filter": [
-        "all",
-        [
+        "all", [
           "==",
           "$type",
           "Point"
         ],
         [
-          "all",
-          [
+          "all", [
             "<=",
             "rank",
             14
@@ -3847,7 +3760,7 @@
     {
       "id": "highway-name-path",
       "type": "symbol",
-      "source": "openmaptiles",
+      "source": "basemap",
       "source-layer": "transportation_name",
       "minzoom": 15.5,
       "filter": [
@@ -3887,12 +3800,11 @@
     {
       "id": "highway-name-minor",
       "type": "symbol",
-      "source": "openmaptiles",
+      "source": "basemap",
       "source-layer": "transportation_name",
       "minzoom": 15,
       "filter": [
-        "all",
-        [
+        "all", [
           "==",
           "$type",
           "LineString"
@@ -3937,7 +3849,7 @@
     {
       "id": "highway-name-major",
       "type": "symbol",
-      "source": "openmaptiles",
+      "source": "basemap",
       "source-layer": "transportation_name",
       "minzoom": 12.2,
       "filter": [
@@ -3980,19 +3892,17 @@
     {
       "id": "highway-shield",
       "type": "symbol",
-      "source": "openmaptiles",
+      "source": "basemap",
       "source-layer": "transportation_name",
       "minzoom": 8,
       "filter": [
-        "all",
-        [
+        "all", [
           "==",
           "$type",
           "LineString"
         ],
         [
-          "all",
-          [
+          "all", [
             "!in",
             "network",
             "us-highway",
@@ -4037,19 +3947,17 @@
     {
       "id": "highway-shield-us-interstate",
       "type": "symbol",
-      "source": "openmaptiles",
+      "source": "basemap",
       "source-layer": "transportation_name",
       "minzoom": 7,
       "filter": [
-        "all",
-        [
+        "all", [
           "==",
           "$type",
           "LineString"
         ],
         [
-          "all",
-          [
+          "all", [
             "<=",
             "ref_length",
             6
@@ -4098,19 +4006,17 @@
     {
       "id": "highway-shield-us-other",
       "type": "symbol",
-      "source": "openmaptiles",
+      "source": "basemap",
       "source-layer": "transportation_name",
       "minzoom": 9,
       "filter": [
-        "all",
-        [
+        "all", [
           "==",
           "$type",
           "LineString"
         ],
         [
-          "all",
-          [
+          "all", [
             "<=",
             "ref_length",
             6
@@ -4159,7 +4065,7 @@
       "metadata": {
         "mapbox:group": "1444849242106.713"
       },
-      "source": "openmaptiles",
+      "source": "basemap",
       "source-layer": "place",
       "filter": [
         "!in",
@@ -4203,7 +4109,7 @@
       "metadata": {
         "mapbox:group": "1444849242106.713"
       },
-      "source": "openmaptiles",
+      "source": "basemap",
       "source-layer": "place",
       "filter": [
         "==",
@@ -4244,7 +4150,7 @@
       "metadata": {
         "mapbox:group": "1444849242106.713"
       },
-      "source": "openmaptiles",
+      "source": "basemap",
       "source-layer": "place",
       "filter": [
         "==",
@@ -4285,11 +4191,10 @@
       "metadata": {
         "mapbox:group": "1444849242106.713"
       },
-      "source": "openmaptiles",
+      "source": "basemap",
       "source-layer": "place",
       "filter": [
-        "all",
-        [
+        "all", [
           "!=",
           "capital",
           2
@@ -4334,11 +4239,10 @@
       "metadata": {
         "mapbox:group": "1444849242106.713"
       },
-      "source": "openmaptiles",
+      "source": "basemap",
       "source-layer": "place",
       "filter": [
-        "all",
-        [
+        "all", [
           "==",
           "capital",
           2
@@ -4390,11 +4294,10 @@
       "metadata": {
         "mapbox:group": "1444849242106.713"
       },
-      "source": "openmaptiles",
+      "source": "basemap",
       "source-layer": "place",
       "filter": [
-        "all",
-        [
+        "all", [
           "==",
           "class",
           "country"
@@ -4440,11 +4343,10 @@
       "metadata": {
         "mapbox:group": "1444849242106.713"
       },
-      "source": "openmaptiles",
+      "source": "basemap",
       "source-layer": "place",
       "filter": [
-        "all",
-        [
+        "all", [
           "==",
           "class",
           "country"
@@ -4490,11 +4392,10 @@
       "metadata": {
         "mapbox:group": "1444849242106.713"
       },
-      "source": "openmaptiles",
+      "source": "basemap",
       "source-layer": "place",
       "filter": [
-        "all",
-        [
+        "all", [
           "==",
           "class",
           "country"
@@ -4539,7 +4440,7 @@
       "metadata": {
         "mapbox:group": "1444849242106.713"
       },
-      "source": "openmaptiles",
+      "source": "basemap",
       "source-layer": "place",
       "maxzoom": 1,
       "filter": [
