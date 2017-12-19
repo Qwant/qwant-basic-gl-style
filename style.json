@@ -3605,7 +3605,7 @@
     {
       "id": "poi-level-3",
       "type": "symbol",
-      "source": "basemap",
+      "source": "poi",
       "source-layer": "poi",
       "minzoom": 16,
       "filter": [
@@ -3786,7 +3786,7 @@
     {
       "id": "poi-level-2",
       "type": "symbol",
-      "source": "basemap",
+      "source": "poi",
       "source-layer": "poi",
       "minzoom": 15,
       "filter": [
@@ -3866,7 +3866,7 @@
     {
       "id": "poi-level-1",
       "type": "symbol",
-      "source": "basemap",
+      "source": "poi",
       "source-layer": "poi",
       "minzoom": 14,
       "filter": [
