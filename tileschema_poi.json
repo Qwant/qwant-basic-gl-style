@@ -518,6 +518,7 @@
       "name:ja_kana": "String",
       "name:is": "String",
       "name:th": "String",
+      "agg_stop": "Number",
       "name:latin": "String",
       "name:sr-Latn": "String",
       "name:et": "String",
