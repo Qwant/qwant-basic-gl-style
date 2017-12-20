@@ -16,7 +16,7 @@
   "pitch": 0,
   "sources": {
     "basemap": {
-      "url": "tileschema.json",
+      "url": "tileschema_base.json",
       "type": "vector"
     },
     "poi": {
