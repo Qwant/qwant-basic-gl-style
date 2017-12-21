@@ -3579,7 +3579,7 @@
           "Klokantech Noto Sans Italic"
         ],
         "text-size": 14,
-        "text-field": "{name:latin} {name:nonlatin}",
+        "text-field": "{name}",
         "text-max-width": 5,
         "text-rotation-alignment": "map",
         "symbol-placement": "line",
@@ -3608,7 +3608,7 @@
           "Klokantech Noto Sans Italic"
         ],
         "text-size": 14,
-        "text-field": "{name:latin}\n{name:nonlatin}",
+        "text-field": "{name}",
         "text-max-width": 5,
         "text-rotation-alignment": "map",
         "symbol-placement": "line",
@@ -3644,7 +3644,7 @@
           "Klokantech Noto Sans Italic"
         ],
         "text-size": 14,
-        "text-field": "{name:latin}",
+        "text-field": "{name}",
         "text-max-width": 5,
         "text-rotation-alignment": "map",
         "symbol-placement": "point",
@@ -3695,7 +3695,7 @@
         "symbol-placement": "point",
         "visibility": "visible",
         "text-rotation-alignment": "map",
-        "text-field": "{name:latin}\n{name:nonlatin}",
+        "text-field": "{name}",
         "text-letter-spacing": 0.2,
         "text-max-width": 5
       },
@@ -4254,7 +4254,7 @@
           "Open Sans Regular",
           "Klokantech Noto Sans Regular"
         ],
-        "text-field": "{name:latin} {name:nonlatin}",
+        "text-field": "{name}",
         "symbol-placement": "line",
         "text-rotation-alignment": "map"
       },
@@ -4302,7 +4302,7 @@
           "Open Sans Regular",
           "Klokantech Noto Sans Regular"
         ],
-        "text-field": "{name:latin} {name:nonlatin}",
+        "text-field": "{name}",
         "symbol-placement": "line",
         "text-rotation-alignment": "map"
       },
@@ -4345,7 +4345,7 @@
           "Open Sans Bold",
           "Klokantech Noto Sans Regular"
         ],
-        "text-field": "{name:latin} {name:nonlatin}",
+        "text-field": "{name}",
         "symbol-placement": "line",
         "text-rotation-alignment": "map"
       },
@@ -4545,7 +4545,7 @@
         ],
         "text-anchor": "top",
         "icon-image": "airport-11",
-        "text-field": "{name:latin}\n{name:nonlatin}",
+        "text-field": "{name}",
         "text-offset": [
           0,
           0.6
@@ -4599,7 +4599,7 @@
           "Open Sans Bold",
           "Klokantech Noto Sans Bold"
         ],
-        "text-field": "{name}\n{name:nonlatin}",
+        "text-field": "{name}",
         "text-max-width": 9
       },
       "paint": {
@@ -4639,7 +4639,7 @@
             ]
           ]
         },
-        "text-field": "{name:latin}\n{name:nonlatin}",
+        "text-field": "{name}",
         "text-max-width": 8,
         "visibility": "visible"
       },
@@ -4680,7 +4680,7 @@
             ]
           ]
         },
-        "text-field": "{name:latin}\n{name:nonlatin}",
+        "text-field": "{name}",
         "text-max-width": 8,
         "visibility": "visible"
       },
@@ -4728,7 +4728,7 @@
             ]
           ]
         },
-        "text-field": "{name:latin}\n{name:nonlatin}",
+        "text-field": "{name}",
         "text-max-width": 8,
         "visibility": "visible"
       },
@@ -4776,7 +4776,7 @@
             ]
           ]
         },
-        "text-field": "{name:latin}\n{name:nonlatin}",
+        "text-field": "{name}",
         "text-max-width": 8,
         "icon-image": "star_11",
         "text-offset": [
@@ -4821,7 +4821,7 @@
         "text-font": [
           "Noto Sans Italic"
         ],
-        "text-field": "{name:latin}",
+        "text-field": "{name}",
         "text-size": {
           "stops": [
             [
@@ -4874,7 +4874,7 @@
           "Open Sans Bold",
           "Klokantech Noto Sans Bold"
         ],
-        "text-field": "{name:latin}",
+        "text-field": "{name}",
         "text-size": {
           "stops": [
             [
@@ -4927,7 +4927,7 @@
           "Open Sans Bold",
           "Klokantech Noto Sans Bold"
         ],
-        "text-field": "{name:latin}",
+        "text-field": "{name}",
         "text-size": {
           "stops": [
             [
@@ -4980,7 +4980,7 @@
           "Open Sans Bold",
           "Klokantech Noto Sans Bold"
         ],
-        "text-field": "{name:latin}",
+        "text-field": "{name}",
         "text-size": {
           "stops": [
             [
@@ -5023,7 +5023,7 @@
           "Open Sans Bold",
           "Klokantech Noto Sans Bold"
         ],
-        "text-field": "{name:latin}",
+        "text-field": "{name}",
         "text-size": 14,
         "text-max-width": 6.25,
         "text-transform": "uppercase",
