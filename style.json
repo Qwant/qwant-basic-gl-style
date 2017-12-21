@@ -3815,8 +3815,76 @@
               "gaming-11"
             ],
             [
-              "",
-              "gaming-11"
+              "bus_stop",
+              "bus-11"
+            ],
+            [
+              "subway",
+              "rail-metro-11"
+            ],
+            [
+              "park",
+              "park-alt1-11"
+            ],
+            [
+              "school",
+              "school-11"
+            ],
+            [
+              "cemetery",
+              "cemetery-11"
+            ],
+            [
+              "hospital",
+              "hospital-11"
+            ],
+            [
+              "kindergarten",
+              "school-11"
+            ],
+            [
+              "museum",
+              "museum-11"
+            ],
+            [
+              "post_office",
+              "post-11"
+            ],
+            [
+              "public_building",
+              "building-15"
+            ],
+            [
+              "attraction",
+              "attraction-11"
+            ],
+            [
+              "marina",
+              "harbor-11"
+            ],
+            [
+              "college",
+              "college-11"
+            ],
+            [
+              "books",
+              "library-11"
+            ],
+            [
+              "university",
+              "college-11"
+            ],
+            [
+              "beauty",
+              "shop-11"
+            ],
+            [
+              "townhall",
+              "town-hall-11"
+            ],
+            [
+              "doityourself",
+              "shop-11"
             ]
           ]
         },
@@ -3924,12 +3992,160 @@
           "property": "subclass",
           "stops": [
             [
+              "bank",
+              "bank-11"
+            ],
+            [
+              "restaurant",
+              "restaurant-11"
+            ],
+            [
+              "supermarket",
+              "grocery-11"
+            ],
+            [
+              "hotel",
+              "lodging-11"
+            ],
+            [
+              "community_centre",
+              "town-hall-11"
+            ],
+            [
+              "place_of_worship",
+              "place-of-worship-11"
+            ],
+            [
+              "embassy",
+              "embassy-11"
+            ],
+            [
+              "fire_station",
+              "fire-station-11"
+            ],
+            [
+              "bakery",
+              "bakery-11"
+            ],
+            [
+              "mobile_phone",
+              "mobile-phone-11"
+            ],
+            [
+              "cafe",
+              "cafe-11"
+            ],
+            [
+              "hairdresser",
+              "hairdresser-11"
+            ],
+            [
+              "cosmetics",
+              "shop-11"
+            ],
+            [
+              "pharmacy",
+              "pharmacy-11"
+            ],
+            [
               "convenience",
               "grocery-11"
             ],
             [
+              "greengrocer",
+              "grocery-11"
+            ],
+            [
+              "clothes",
+              "clothing-store-11"
+            ],
+            [
+              "shoes",
+              "clothing-store-11"
+            ],
+            [
+              "fast_food",
+              "fast-food-11"
+            ],
+            [
+              "dry_cleaning",
+              "laundry-11"
+            ],
+            [
+              "video_games",
+              "gaming-11"
+            ],
+            [
+              "bus_stop",
+              "bus-11"
+            ],
+            [
+              "subway",
+              "rail-metro-11"
+            ],
+            [
+              "park",
+              "park-alt1-11"
+            ],
+            [
               "school",
               "school-11"
+            ],
+            [
+              "cemetery",
+              "cemetery-11"
+            ],
+            [
+              "hospital",
+              "hospital-11"
+            ],
+            [
+              "kindergarten",
+              "school-11"
+            ],
+            [
+              "museum",
+              "museum-11"
+            ],
+            [
+              "post_office",
+              "post-11"
+            ],
+            [
+              "public_building",
+              "building-15"
+            ],
+            [
+              "attraction",
+              "attraction-11"
+            ],
+            [
+              "marina",
+              "harbor-11"
+            ],
+            [
+              "college",
+              "college-11"
+            ],
+            [
+              "books",
+              "library-11"
+            ],
+            [
+              "university",
+              "college-11"
+            ],
+            [
+              "beauty",
+              "shop-11"
+            ],
+            [
+              "townhall",
+              "town-hall-11"
+            ],
+            [
+              "doityourself",
+              "shop-11"
             ]
           ]
         },
@@ -3998,16 +4214,96 @@
           "property": "subclass",
           "stops": [
             [
+              "bank",
+              "bank-11"
+            ],
+            [
+              "restaurant",
+              "restaurant-11"
+            ],
+            [
+              "supermarket",
+              "grocery-11"
+            ],
+            [
+              "hotel",
+              "lodging-11"
+            ],
+            [
+              "community_centre",
+              "town-hall-11"
+            ],
+            [
+              "place_of_worship",
+              "place-of-worship-11"
+            ],
+            [
+              "embassy",
+              "embassy-11"
+            ],
+            [
+              "fire_station",
+              "fire-station-11"
+            ],
+            [
+              "bakery",
+              "bakery-11"
+            ],
+            [
+              "mobile_phone",
+              "mobile-phone-11"
+            ],
+            [
+              "cafe",
+              "cafe-11"
+            ],
+            [
+              "hairdresser",
+              "hairdresser-11"
+            ],
+            [
+              "cosmetics",
+              "shop-11"
+            ],
+            [
+              "pharmacy",
+              "pharmacy-11"
+            ],
+            [
+              "convenience",
+              "grocery-11"
+            ],
+            [
+              "greengrocer",
+              "grocery-11"
+            ],
+            [
+              "clothes",
+              "clothing-store-11"
+            ],
+            [
+              "shoes",
+              "clothing-store-11"
+            ],
+            [
+              "fast_food",
+              "fast-food-11"
+            ],
+            [
+              "dry_cleaning",
+              "laundry-11"
+            ],
+            [
+              "video_games",
+              "gaming-11"
+            ],
+            [
               "bus_stop",
               "bus-11"
             ],
             [
               "subway",
               "rail-metro-11"
-            ],
-            [
-              "station",
-              "rail-11"
             ],
             [
               "park",
@@ -4026,10 +4322,6 @@
               "hospital-11"
             ],
             [
-              "convenience",
-              "shop-11"
-            ],
-            [
               "kindergarten",
               "school-11"
             ],
@@ -4038,20 +4330,12 @@
               "museum-11"
             ],
             [
-              "bank",
-              "bank-11"
-            ],
-            [
               "post_office",
               "post-11"
             ],
             [
               "public_building",
               "building-15"
-            ],
-            [
-              "supermarket",
-              "grocery-11"
             ],
             [
               "attraction",
