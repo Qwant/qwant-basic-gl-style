@@ -1192,6 +1192,31 @@
       }
     },
     {
+      "id": "ferry",
+      "type": "line",
+      "source": "basemap",
+      "source-layer": "transportation",
+      "filter": [
+        "all", [
+          "in",
+          "class",
+          "ferry"
+        ]
+      ],
+      "layout": {
+        "line-join": "round",
+        "visibility": "visible"
+      },
+      "paint": {
+        "line-color": "rgba(108, 159, 182, 1)",
+        "line-width": 1.1,
+        "line-dasharray": [
+          2,
+          2
+        ]
+      }
+    },
+    {
       "id": "aeroway-taxiway-casing",
       "type": "line",
       "metadata": {
@@ -1201,9 +1226,11 @@
       "source-layer": "aeroway",
       "minzoom": 12,
       "filter": [
-        "==",
-        "class",
-        "taxiway"
+        "all", [
+          "in",
+          "class",
+          "taxiway"
+        ]
       ],
       "layout": {
         "line-cap": "round",
@@ -1238,9 +1265,11 @@
       "source-layer": "aeroway",
       "minzoom": 12,
       "filter": [
-        "==",
-        "class",
-        "runway"
+        "all", [
+          "in",
+          "class",
+          "runway"
+        ]
       ],
       "layout": {
         "line-cap": "round",
@@ -1318,14 +1347,14 @@
       "minzoom": 4,
       "filter": [
         "all", [
-          "==",
-          "$type",
-          "LineString"
+          "in",
+          "class",
+          "taxiway"
         ],
         [
           "==",
-          "class",
-          "taxiway"
+          "$type",
+          "LineString"
         ]
       ],
       "layout": {
@@ -1379,7 +1408,7 @@
           "LineString"
         ],
         [
-          "==",
+          "in",
           "class",
           "runway"
         ]
@@ -1682,7 +1711,7 @@
           "tunnel"
         ],
         [
-          "==",
+          "in",
           "class",
           "primary"
         ]
@@ -1746,7 +1775,7 @@
           "tunnel"
         ],
         [
-          "==",
+          "in",
           "class",
           "trunk"
         ]
@@ -1891,6 +1920,10 @@
       ],
       "paint": {
         "line-color": "hsla(0, 0%, 0%, 0.05)",
+        "line-dasharray": [
+          1.5,
+          0.75
+        ],
         "line-width": {
           "base": 1.2,
           "stops": [
@@ -2141,7 +2174,7 @@
             "tunnel"
           ],
           [
-            "==",
+            "in",
             "class",
             "primary"
           ]
@@ -2195,7 +2228,7 @@
             "tunnel"
           ],
           [
-            "==",
+            "in",
             "class",
             "trunk"
           ]
@@ -2298,14 +2331,14 @@
         ],
         [
           "all", [
-            "!=",
-            "brunnel",
-            "tunnel"
-          ],
-          [
             "==",
             "class",
             "transit"
+          ],
+          [
+            "!in",
+            "brunnel",
+            "tunnel"
           ]
         ]
       ],
@@ -2345,14 +2378,14 @@
         ],
         [
           "all", [
-            "!=",
-            "brunnel",
-            "tunnel"
-          ],
-          [
             "==",
             "class",
             "transit"
+          ],
+          [
+            "!in",
+            "brunnel",
+            "tunnel"
           ]
         ]
       ],
@@ -3243,6 +3276,76 @@
       }
     },
     {
+      "id": "cablecar",
+      "type": "line",
+      "source": "basemap",
+      "source-layer": "transportation",
+      "minzoom": 13,
+      "filter": [
+        "==",
+        "class",
+        "cable_car"
+      ],
+      "layout": {
+        "visibility": "visible",
+        "line-cap": "round"
+      },
+      "paint": {
+        "line-color": "hsl(0, 0%, 70%)",
+        "line-width": {
+          "base": 1,
+          "stops": [
+            [
+              11,
+              1
+            ],
+            [
+              19,
+              2.5
+            ]
+          ]
+        }
+      },
+      "maxzoom": 24
+    },
+    {
+      "id": "cablecar-dash",
+      "type": "line",
+      "source": "basemap",
+      "source-layer": "transportation",
+      "minzoom": 13,
+      "filter": [
+        "==",
+        "class",
+        "cable_car"
+      ],
+      "layout": {
+        "visibility": "visible",
+        "line-cap": "round"
+      },
+      "paint": {
+        "line-color": "hsl(0, 0%, 70%)",
+        "line-width": {
+          "base": 1,
+          "stops": [
+            [
+              11,
+              3
+            ],
+            [
+              19,
+              5.5
+            ]
+          ]
+        },
+        "line-dasharray": [
+          2,
+          3
+        ]
+      },
+      "maxzoom": 24
+    },
+    {
       "id": "boundary-land-level-4",
       "type": "line",
       "source": "basemap",
@@ -4067,6 +4170,62 @@
       }
     },
     {
+      "id": "poi-railway",
+      "type": "symbol",
+      "source": "poi",
+      "source-layer": "poi",
+      "minzoom": 13,
+      "maxzoom": 24,
+      "filter": [
+        "all", [
+          "==",
+          "$type",
+          "Point"
+        ],
+        [
+          "has",
+          "name"
+        ],
+        [
+          "==",
+          "class",
+          "railway"
+        ],
+        [
+          "==",
+          "subclass",
+          "station"
+        ]
+      ],
+      "layout": {
+        "text-padding": 2,
+        "text-font": [
+          "Noto Sans Regular"
+        ],
+        "text-anchor": "top",
+        "icon-image": "rail-11",
+        "text-field": "{name}",
+        "text-offset": [
+          0,
+          0.6
+        ],
+        "text-size": 12,
+        "text-max-width": 9,
+        "icon-optional": false,
+        "icon-ignore-placement": false,
+        "icon-allow-overlap": false,
+        "text-ignore-placement": false,
+        "text-allow-overlap": false,
+        "text-optional": true
+      },
+      "paint": {
+        "text-halo-blur": 0.5,
+        "text-color": "#5CA6FB",
+        "text-halo-width": 1,
+        "text-halo-color": "#ffffff"
+      }
+    },
+    {
       "id": "highway-name-path",
       "type": "symbol",
       "source": "basemap",
@@ -4368,6 +4527,43 @@
       }
     },
     {
+      "id": "airport-label-major",
+      "type": "symbol",
+      "source": "basemap",
+      "source-layer": "aerodrome_label",
+      "minzoom": 10,
+      "filter": [
+        "all", [
+          "has",
+          "iata"
+        ]
+      ],
+      "layout": {
+        "text-padding": 2,
+        "text-font": [
+          "Noto Sans Regular"
+        ],
+        "text-anchor": "top",
+        "icon-image": "airport-11",
+        "text-field": "{name}",
+        "text-offset": [
+          0,
+          0.6
+        ],
+        "text-size": 12,
+        "text-max-width": 9,
+        "visibility": "visible",
+        "icon-size": 1,
+        "text-optional": true
+      },
+      "paint": {
+        "text-halo-blur": 0.5,
+        "text-color": "#666",
+        "text-halo-width": 1,
+        "text-halo-color": "#ffffff"
+      }
+    },
+    {
       "id": "place-other",
       "type": "symbol",
       "metadata": {
@@ -4380,7 +4576,9 @@
         "class",
         "city",
         "town",
-        "village"
+        "village",
+        "country",
+        "continent"
       ],
       "layout": {
         "text-letter-spacing": 0.1,
@@ -4442,7 +4640,8 @@
           ]
         },
         "text-field": "{name}",
-        "text-max-width": 8
+        "text-max-width": 8,
+        "visibility": "visible"
       },
       "paint": {
         "text-color": "#333",
@@ -4482,7 +4681,8 @@
           ]
         },
         "text-field": "{name}",
-        "text-max-width": 8
+        "text-max-width": 8,
+        "visibility": "visible"
       },
       "paint": {
         "text-color": "#333",
@@ -4529,7 +4729,8 @@
           ]
         },
         "text-field": "{name}",
-        "text-max-width": 8
+        "text-max-width": 8,
+        "visibility": "visible"
       },
       "paint": {
         "text-color": "#333",
@@ -4583,11 +4784,64 @@
           0
         ],
         "icon-size": 0.8,
-        "text-anchor": "left"
+        "text-anchor": "left",
+        "visibility": "visible"
       },
       "paint": {
         "text-color": "#333",
         "text-halo-width": 1.2,
+        "text-halo-color": "rgba(255,255,255,0.8)"
+      }
+    },
+    {
+      "id": "place-country-other",
+      "type": "symbol",
+      "metadata": {
+        "mapbox:group": "1444849242106.713"
+      },
+      "source": "basemap",
+      "source-layer": "place",
+      "filter": [
+        "all", [
+          "==",
+          "class",
+          "country"
+        ],
+        [
+          ">=",
+          "rank",
+          3
+        ],
+        [
+          "!has",
+          "iso_a2"
+        ]
+      ],
+      "layout": {
+        "text-font": [
+          "Noto Sans Italic"
+        ],
+        "text-field": "{name}",
+        "text-size": {
+          "stops": [
+            [
+              3,
+              11
+            ],
+            [
+              7,
+              17
+            ]
+          ]
+        },
+        "text-transform": "uppercase",
+        "text-max-width": 6.25,
+        "visibility": "visible"
+      },
+      "paint": {
+        "text-halo-blur": 1,
+        "text-color": "#334",
+        "text-halo-width": 2,
         "text-halo-color": "rgba(255,255,255,0.8)"
       }
     },
@@ -4609,6 +4863,10 @@
           ">=",
           "rank",
           3
+        ],
+        [
+          "has",
+          "iso_a2"
         ]
       ],
       "layout": {
@@ -4630,7 +4888,8 @@
           ]
         },
         "text-transform": "uppercase",
-        "text-max-width": 6.25
+        "text-max-width": 6.25,
+        "visibility": "visible"
       },
       "paint": {
         "text-halo-blur": 1,
@@ -4657,6 +4916,10 @@
           "==",
           "rank",
           2
+        ],
+        [
+          "has",
+          "iso_a2"
         ]
       ],
       "layout": {
@@ -4678,7 +4941,8 @@
           ]
         },
         "text-transform": "uppercase",
-        "text-max-width": 6.25
+        "text-max-width": 6.25,
+        "visibility": "visible"
       },
       "paint": {
         "text-halo-blur": 1,
@@ -4705,6 +4969,10 @@
           "==",
           "rank",
           1
+        ],
+        [
+          "has",
+          "iso_a2"
         ]
       ],
       "layout": {
@@ -4726,7 +4994,8 @@
           ]
         },
         "text-transform": "uppercase",
-        "text-max-width": 6.25
+        "text-max-width": 6.25,
+        "visibility": "visible"
       },
       "paint": {
         "text-halo-blur": 1,
@@ -4757,7 +5026,8 @@
         "text-field": "{name}",
         "text-size": 14,
         "text-max-width": 6.25,
-        "text-transform": "uppercase"
+        "text-transform": "uppercase",
+        "visibility": "visible"
       },
       "paint": {
         "text-halo-blur": 1,
