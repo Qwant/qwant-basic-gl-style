@@ -3909,44 +3909,84 @@
           "property": "subclass",
           "stops": [
             [
-              "restaurant",
+              "bakery",
               "#FF8D2B"
-            ],
-            [
-              "supermarket",
-              "#FFC324"
             ],
             [
               "bank",
               "#8A9CF6"
             ],
             [
-              "bakery",
-              "#FF8D2B"
+              "beauty",
+              "#FFC324"
             ],
             [
-              "embassy",
-              "#8A9CF6"
+              "books",
+              "#FFC324"
             ],
             [
-              "place_of_worship",
-              "#8A9CF6"
-            ],
-            [
-              "pharmacy",
-              "#FF5E6A"
-            ],
-            [
-              "community_centre",
-              "#8A9CF6"
+              "bus_stop",
+              "#5CA6FB"
             ],
             [
               "clothes",
               "#FFC324"
             ],
             [
+              "community_centre",
+              "#8A9CF6"
+            ],
+            [
+              "convenience",
+              "#FFC324"
+            ],
+            [
+              "doityourself",
+              "#FFC324"
+            ],
+            [
+              "embassy",
+              "#8A9CF6"
+            ],
+            [
+              "hospital",
+              "#FF5E6A"
+            ],
+            [
               "hotel",
               "#8A9CF6"
+            ],
+            [
+              "park",
+              "#00CB4F"
+            ],
+            [
+              "pharmacy",
+              "#FF5E6A"
+            ],
+            [
+              "place_of_worship",
+              "#8A9CF6"
+            ],
+            [
+              "post_office",
+              "#8A9CF6"
+            ],
+            [
+              "restaurant",
+              "#FF8D2B"
+            ],
+            [
+              "school",
+              "#A3A3A3"
+            ],
+            [
+              "station",
+              "#5CA6FB"
+            ],
+            [
+              "supermarket",
+              "#FFC324"
             ]
           ]
         },
@@ -4165,16 +4205,84 @@
           "property": "subclass",
           "stops": [
             [
-              "school",
-              "#A3A3A3"
-            ],
-            [
-              "supermarket",
-              "#8A9CF6"
+              "bakery",
+              "#FF8D2B"
             ],
             [
               "bank",
               "#8A9CF6"
+            ],
+            [
+              "beauty",
+              "#FFC324"
+            ],
+            [
+              "books",
+              "#FFC324"
+            ],
+            [
+              "bus_stop",
+              "#5CA6FB"
+            ],
+            [
+              "clothes",
+              "#FFC324"
+            ],
+            [
+              "community_centre",
+              "#8A9CF6"
+            ],
+            [
+              "convenience",
+              "#FFC324"
+            ],
+            [
+              "doityourself",
+              "#FFC324"
+            ],
+            [
+              "embassy",
+              "#8A9CF6"
+            ],
+            [
+              "hospital",
+              "#FF5E6A"
+            ],
+            [
+              "hotel",
+              "#8A9CF6"
+            ],
+            [
+              "park",
+              "#00CB4F"
+            ],
+            [
+              "pharmacy",
+              "#FF5E6A"
+            ],
+            [
+              "place_of_worship",
+              "#8A9CF6"
+            ],
+            [
+              "post_office",
+              "#8A9CF6"
+            ],
+            [
+              "restaurant",
+              "#FF8D2B"
+            ],
+            [
+              "school",
+              "#A3A3A3"
+            ],
+            [
+              "station",
+              "#5CA6FB"
+            ],
+            [
+              "supermarket",
+              "#FFC324"
             ]
           ]
         },
@@ -4392,47 +4500,15 @@
           "property": "subclass",
           "stops": [
             [
-              "park",
-              "#00CB4F"
+              "bakery",
+              "#FF8D2B"
             ],
             [
-              "hospital",
-              "#FF5E6A"
-            ],
-            [
-              "bus_stop",
-              "#5CA6FB"
-            ],
-            [
-              "train",
-              "#5CA6FB"
-            ],
-            [
-              "subway",
-              "#5CA6FB"
-            ],
-            [
-              "station",
-              "#5CA6FB"
-            ],
-            [
-              "post_office",
+              "bank",
               "#8A9CF6"
             ],
             [
-              "kindergarden",
-              "#A3A3A3"
-            ],
-            [
-              "school",
-              "#A3A3A3"
-            ],
-            [
-              "supermarket",
-              "#FFC324"
-            ],
-            [
-              "convenience",
+              "beauty",
               "#FFC324"
             ],
             [
@@ -4440,11 +4516,67 @@
               "#FFC324"
             ],
             [
-              "beauty",
+              "bus_stop",
+              "#5CA6FB"
+            ],
+            [
+              "clothes",
+              "#FFC324"
+            ],
+            [
+              "community_centre",
+              "#8A9CF6"
+            ],
+            [
+              "convenience",
               "#FFC324"
             ],
             [
               "doityourself",
+              "#FFC324"
+            ],
+            [
+              "embassy",
+              "#8A9CF6"
+            ],
+            [
+              "hospital",
+              "#FF5E6A"
+            ],
+            [
+              "hotel",
+              "#8A9CF6"
+            ],
+            [
+              "park",
+              "#00CB4F"
+            ],
+            [
+              "pharmacy",
+              "#FF5E6A"
+            ],
+            [
+              "place_of_worship",
+              "#8A9CF6"
+            ],
+            [
+              "post_office",
+              "#8A9CF6"
+            ],
+            [
+              "restaurant",
+              "#FF8D2B"
+            ],
+            [
+              "school",
+              "#A3A3A3"
+            ],
+            [
+              "station",
+              "#5CA6FB"
+            ],
+            [
+              "supermarket",
               "#FFC324"
             ]
           ]
