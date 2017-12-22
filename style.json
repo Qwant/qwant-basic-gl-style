@@ -3386,11 +3386,11 @@
             ],
             [
               5,
-              1
+              0.7
             ],
             [
               12,
-              3
+              1
             ]
           ]
         }
@@ -3886,7 +3886,8 @@
               "doityourself",
               "shop-11"
             ]
-          ]
+          ],
+          "default": "star-stroked-11"
         },
         "text-font": [
           "Open Sans Semibold",
@@ -4187,7 +4188,8 @@
               "doityourself",
               "shop-11"
             ]
-          ]
+          ],
+          "default": "star-stroked-11"
         },
         "text-field": "{name}",
         "text-offset": [
@@ -4477,7 +4479,8 @@
               "doityourself",
               "shop-11"
             ]
-          ]
+          ],
+          "default": "star-stroked-11"
         },
         "text-font": [
           "Open Sans Semibold",
