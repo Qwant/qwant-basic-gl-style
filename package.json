@@ -1,5 +1,5 @@
 {
-  "name": "qwant-basic-gl-style",
+  "name": "@qwant/qwant-basic-gl-style",
   "version": "1.0.0",
   "description": "a map GL Style for Qwant Map",
   "main": "index.js",
