@@ -14,8 +14,12 @@ addons:
     packages:
     - libstdc++6
 script:
-- npm test
-- npm run build
+- git clone https://github.com/QwantResearch/map-style-builder.git
+- cd map-style-builder
+- git checkout QMAPS-153
+- npm install
+- npm run build_all -- --style_dir=../ --conf=./prod_conf.json
+- cd ..
 - zip assets.zip build/ -rj
 before_deploy:
 - git config --local user.name "qwant_travis"
