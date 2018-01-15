@@ -16,7 +16,6 @@ addons:
 script:
 - git clone https://github.com/QwantResearch/map-style-builder.git
 - cd map-style-builder
-- git checkout QMAPS-153
 - npm install
 - npm run build_all -- --style_dir=../ --conf=./prod_conf.json
 - cd ..
