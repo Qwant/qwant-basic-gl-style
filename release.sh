@@ -9,7 +9,8 @@ MSG="version $NEW_TAG
 
 $(git log --format=%B -1)"
 
-git tag -a "v$NEW_TAG" -m "$MSG"
+git checkout -b gh-pages
+
 cp ./node_modules/mapbox-gl/dist/mapbox-gl.js ./
 cp ./node_modules/mapbox-gl/dist/mapbox-gl-dev.js ./
 cp ./node_modules/mapbox-gl/dist/mapbox-gl.css ./
