@@ -5,7 +5,6 @@ node_js:
 branches:
   only:
   - master
-  - QMAPS-176
   - "/^v\\d+(\\.\\d+)*$/"
 addons:
   apt:
@@ -14,6 +13,11 @@ addons:
     - llvm-toolchain-precise-3.5
     packages:
     - libstdc++6
+env:
+  global:
+  - ENCRYPTION_LABEL: "a4adbc32d1aa"
+  - COMMIT_AUTHOR_EMAIL: "j.laville@qwant.com"
+
 script:
 - git clone https://github.com/QwantResearch/map-style-builder.git
 - npm install mapbox-gl
