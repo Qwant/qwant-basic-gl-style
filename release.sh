@@ -36,4 +36,4 @@ eval `ssh-agent -s`
 ssh-add deploy_key
 
 git commit --message "gh-pages $NEW_TAG"
-git push $SSH_REPO $TARGET_BRANCH
+git push $SSH_REPO $TARGET_BRANCH -f
