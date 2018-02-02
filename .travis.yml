@@ -20,10 +20,11 @@ script:
 - npm install
 - npm run build_all -- --style-dir=../ --conf=./prod_conf.json
 before_deploy:
+- cd ..
 - git config --local user.name "qwant_travis"
 - git config --local user.email "travis@qwant.com"
 - npm install semver
-- ../release.sh
+- ./release.sh
 deploy:
   provider: releases
   api_key:
