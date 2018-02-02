@@ -29,3 +29,8 @@ script:
 - git config --local user.email "travis@qwant.com"
 - npm install semver
 - ./release.sh
+before_deploy:
+
+deploy:
+  skip_cleanup: false
+
