@@ -24,5 +24,8 @@ cp ./build/sprite.png ./sprite.png
 git add mapbox-gl.js mapbox-gl-dev.js mapbox-gl.css
 git add style-debug.json style.json style-omt.json sprite.json sprite.png
 
+
+openssl aes-256-cbc -K $encrypted_a4adbc32d1aa_key -iv $encrypted_a4adbc32d1aa_iv -in deploy_key.enc -out deploy_key -d
+
 git commit --message "gh-pages $NEW_TAG"
 git push --quiet --set-upstream origin gh-pages -f
