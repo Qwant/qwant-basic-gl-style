@@ -6,6 +6,7 @@ TAG=`git describe --tags --abbrev=0`
 NEW_TAG=`semver -i minor $TAG`
 REPO=`git config remote.origin.url`
 SSH_REPO=${REPO/https:\/\/github.com\//git@github.com:}
+TARGET_BRANCH="gh-pages"
 
 git checkout -b gh-pages
 
@@ -34,6 +35,5 @@ chmod 600 ./deploy_key
 eval `ssh-agent -s`
 ssh-add deploy_key
 
-
 git commit --message "gh-pages $NEW_TAG"
-git push --quiet --set-upstream origin gh-pages -f
+git push $SSH_REPO $TARGET_BRANCH
