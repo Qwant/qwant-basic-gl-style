@@ -4,10 +4,8 @@ set -e
 
 TAG=`git describe --tags --abbrev=0`
 NEW_TAG=`semver -i minor $TAG`
-
-MSG="version $NEW_TAG
-
-$(git log --format=%B -1)"
+REPO=`git config remote.origin.url`
+SSH_REPO=${REPO/https:\/\/github.com\//git@github.com:}
 
 git checkout -b gh-pages
 
@@ -24,8 +22,18 @@ cp ./build/sprite.png ./sprite.png
 git add mapbox-gl.js mapbox-gl-dev.js mapbox-gl.css
 git add style-debug.json style.json style-omt.json sprite.json sprite.png
 
+git config user.name "Travis CI"
+git config user.email "$COMMIT_AUTHOR_EMAIL"
 
-openssl aes-256-cbc -K $encrypted_a4adbc32d1aa_key -iv $encrypted_a4adbc32d1aa_iv -in deploy_key.enc -out deploy_key -d
+ENCRYPTED_KEY_VAR="encrypted_${ENCRYPTION_LABEL}_key"
+ENCRYPTED_IV_VAR="encrypted_${ENCRYPTION_LABEL}_iv"
+ENCRYPTED_KEY=${!ENCRYPTED_KEY_VAR}
+ENCRYPTED_IV=${!ENCRYPTED_IV_VAR}
+openssl aes-256-cbc -K $ENCRYPTED_KEY -iv $ENCRYPTED_IV -in ../deploy_key.enc -out ../deploy_key -d
+chmod 600 ../deploy_key
+eval `ssh-agent -s`
+ssh-add deploy_key
+
 
 git commit --message "gh-pages $NEW_TAG"
 git push --quiet --set-upstream origin gh-pages -f
