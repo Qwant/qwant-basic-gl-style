@@ -17,15 +17,17 @@ env:
   global:
   - ENCRYPTION_LABEL: "a4adbc32d1aa"
   - COMMIT_AUTHOR_EMAIL: "j.laville@qwant.com"
-
 script:
 - git clone https://github.com/QwantResearch/map-style-builder.git
 - npm install mapbox-gl
 - cd map-style-builder
 - npm install
 - npm run build_all -- --style-dir=../ --conf=./prod_conf.json
+before_deploy:
 - cd ..
 - git config --local user.name "qwant_travis"
 - git config --local user.email "travis@qwant.com"
 - npm install semver
 - ./release.sh
+deploy:
+  skip_cleanup: false
