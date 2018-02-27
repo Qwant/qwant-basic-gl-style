@@ -3649,7 +3649,6 @@
       "source": "basemap",
       "source-layer": "transportation",
       "minzoom": 13,
-      "maxzoom": 24,
       "filter": [
         "==",
         "class",
@@ -3682,7 +3681,6 @@
       "source": "basemap",
       "source-layer": "transportation",
       "minzoom": 13,
-      "maxzoom": 24,
       "filter": [
         "==",
         "class",
