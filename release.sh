@@ -23,6 +23,14 @@ cp ./build/sprite.png ./sprite.png
 git add mapbox-gl.js mapbox-gl-dev.js mapbox-gl.css
 git add style-debug.json style.json style-omt.json sprite.json sprite.png
 
+# add screenshots
+mkdir preview
+cd preview
+docker pull klokantech/thumbnail-gl
+docker run -v $(pwd):/data klokantech/thumbnail-gl "https://qwantresearch.github.io/qwant-basic-gl-style/style-omt.json" "-x 2.3061 -y 48.8811 -z 7 -w 800 -h 600 -r 2"
+cd ..
+git add preview/*
+
 git config user.name "Travis CI"
 git config user.email "$COMMIT_AUTHOR_EMAIL"
 

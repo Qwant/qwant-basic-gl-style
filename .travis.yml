@@ -1,5 +1,5 @@
 language: node_js
-sudo: false
+sudo: required
 node_js:
 - '6'
 branches:
@@ -28,4 +28,5 @@ script:
 - git config --local user.email "travis@qwant.com"
 - npm install semver
 - ./release.sh
-
+services:
+- docker
