@@ -31,6 +31,9 @@ docker run -v $(pwd):/data klokantech/thumbnail-gl "https://qwantresearch.github
 cd ..
 git add preview/*
 
+mv ghpages-readme README.md
+git add README.md
+
 git config user.name "Travis CI"
 git config user.email "$COMMIT_AUTHOR_EMAIL"
 
