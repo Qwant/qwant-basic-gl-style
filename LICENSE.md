@@ -59,8 +59,7 @@ exceptions on a commercial basis.
 # Fonts
 
 The fonts used are :
-* Open Sans, digitized data(c) 2010-2011, Google Corporation. Open Sans is licensed under the Apache License, Version 2.0. You may obtain a copy of the license at http://www.apache.org/licenses/LICENSE-2.0.
-* Noto Sans from Klokantech. This Font Software is licensed under the SIL Open Font License, Version 1.1. You may obtain a copy of the license at http://scripts.sil.org/OFL.
+* Noto Sans. This Font Software is licensed under the SIL Open Font License, Version 1.1. You may obtain a copy of the license at http://scripts.sil.org/OFL.
 
 
 # Icons
