@@ -19,20 +19,12 @@ cp ./build/built-style.json ./style.json
 cp ./build/style-omt.json ./style-omt.json
 cp ./build/sprite.json ./sprite.json
 cp ./build/sprite.png ./sprite.png
+cp ./build/sprite@2x.json ./sprite@2x.json
+cp ./build/sprite@2x.png ./sprite@2x.png
 
 git add mapbox-gl.js mapbox-gl-dev.js mapbox-gl.css
-git add style-debug.json style.json style-omt.json sprite.json sprite.png
-
-# add screenshots
-mkdir preview
-cd preview
-docker pull klokantech/thumbnail-gl
-docker run -v $(pwd):/data klokantech/thumbnail-gl "https://qwantresearch.github.io/qwant-basic-gl-style/style-omt.json" "-x 2.3061 -y 48.8811 -z 7 -w 800 -h 600 -r 2"
-cd ..
-git add preview/*
-
-mv ghpages-readme README.md
-git add README.md
+git add style-debug.json style.json style-omt.json
+git add sprite*
 
 git config user.name "Travis CI"
 git config user.email "$COMMIT_AUTHOR_EMAIL"
@@ -46,5 +38,20 @@ chmod 600 ./deploy_key
 eval `ssh-agent -s`
 ssh-add deploy_key
 
+git commit --message "gh-pages precommit $NEW_TAG"
+git push $SSH_REPO $TARGET_BRANCH -f
+
+# add screenshots
+mkdir preview
+cd preview
+docker pull klokantech/thumbnail-gl
+docker run -v $(pwd):/data klokantech/thumbnail-gl "https://qwantresearch.github.io/qwant-basic-gl-style/style-omt.json" "-x 2.3061 -y 48.8811 -z 7 -w 800 -h 600 -r 2"
+cd ..
+git add preview/*
+
+mv ghpages-readme README.md
+git add README.md
+
+# commit again with screenshots
 git commit --message "gh-pages $NEW_TAG"
 git push $SSH_REPO $TARGET_BRANCH -f
