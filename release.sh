@@ -2,6 +2,8 @@
 
 set -ev
 
+TAG=`git describe --tags --abbrev=0`
+NEW_TAG=`semver -i minor $TAG`
 REPO=`git config remote.origin.url`
 SSH_REPO=${REPO/https:\/\/github.com\//git@github.com:}
 TARGET_BRANCH="gh-pages"
@@ -36,7 +38,7 @@ chmod 600 ./deploy_key
 eval `ssh-agent -s`
 ssh-add deploy_key
 
-git commit --message "gh-pages precommit"
+git commit --message "gh-pages precommit $NEW_TAG"
 git push $SSH_REPO $TARGET_BRANCH -f
 
 # add screenshots
@@ -51,5 +53,9 @@ mv ghpages-readme README.md
 git add README.md
 
 # commit again with screenshots
-git commit --message "gh-pages update"
+git commit --message "gh-pages update $NEW_TAG"
 git push $SSH_REPO $TARGET_BRANCH -f
+
+git checkout master
+git tag $NEW_TAG
+git push --tags origin master
