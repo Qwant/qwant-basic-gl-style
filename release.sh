@@ -58,4 +58,4 @@ git push $SSH_REPO $TARGET_BRANCH -f
 
 git checkout master
 git tag $NEW_TAG
-git push --tags origin master
+git push --tags $SSH_REPO master
