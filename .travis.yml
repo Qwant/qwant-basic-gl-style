@@ -16,7 +16,7 @@ env:
 
 script:
   - git clone https://github.com/QwantResearch/map-style-builder.git
-  - npm install mapbox-gl
+  - npm install mapbox-gl semver
   - cd map-style-builder
   - npm install
   - npm test -- ../
@@ -27,7 +27,6 @@ deploy:
   provider: script
   skip_cleanup: true
   script:
-    - npm install semver
     - ./release.sh
   on:
     branch: master
