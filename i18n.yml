@@ -15,7 +15,7 @@ lang: &lang
     - - get
       - name:{locale}
     - - concat
-      - "{locale} |"
+      - "{locale} | "
       - - get
         - name:{locale}
       - "\n"
@@ -24,24 +24,29 @@ lang: &lang
           - name
         - ''
   - - case
-    - - "=="
-      - - concat
-        - - get
-          - name:latin
-        - ''
-      - - concat
-        - - get
-          - name
-        - ''
-    - - get
-      - name
-    - - concat
-      - 'latin | '
-      - - get
-        - name:latin
-      - "\n"
+    - - has
+      - name:latin
+    - - case
+      - - "=="
+        - - concat
+          - - get
+            - name:latin
+          - ''
+        - - concat
+          - - get
+            - name
+          - ''
       - - get
         - name
+      - - concat
+        - 'latin | '
+        - - get
+          - name:latin
+        - "\n"
+        - - get
+          - name
+    - - get
+      - name
 
 languageFallbacks:
   -
