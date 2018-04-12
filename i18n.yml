@@ -81,15 +81,6 @@ languageFallbacks:
     id: highway-name-major
     lang: "{name}"
   -
-    id: highway-shield
-    lang: "{name}"
-  -
-    id: highway-shield-us-interstate
-    lang: "{name}"
-  -
-    id: highway-shield-us-other
-    lang: "{name}"
-  -
     id: highway-name-path
     lang: "{name}"
   -
