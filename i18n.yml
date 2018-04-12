@@ -15,7 +15,6 @@ lang: &lang
     - - get
       - name:{locale}
     - - concat
-      - "{locale} | "
       - - get
         - name:{locale}
       - "\n"
@@ -39,7 +38,6 @@ lang: &lang
       - - get
         - name
       - - concat
-        - 'latin | '
         - - get
           - name:latin
         - "\n"
