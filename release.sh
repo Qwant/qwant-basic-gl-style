@@ -57,5 +57,5 @@ git commit --message "gh-pages update $NEW_TAG"
 git push $SSH_REPO $TARGET_BRANCH -f
 
 git checkout master
-git tag $NEW_TAG
+git tag "v$NEW_TAG"
 git push --tags $SSH_REPO master
