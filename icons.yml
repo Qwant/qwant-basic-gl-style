@@ -1,7 +1,7 @@
 - subclass: station
   class: aerialway
   iconName: aerialway-11
-  color: '#ff00ff'
+  color: '#11abeb'
 - subclass: station
   class: railway
   iconName: rail-11
