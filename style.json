@@ -4582,62 +4582,6 @@
       }
     },
     {
-      "id": "poi-railway",
-      "type": "symbol",
-      "source": "poi",
-      "source-layer": "poi",
-      "minzoom": 13,
-      "maxzoom": 24,
-      "filter": [
-        "all", [
-          "==",
-          "$type",
-          "Point"
-        ],
-        [
-          "has",
-          "name"
-        ],
-        [
-          "==",
-          "class",
-          "railway"
-        ],
-        [
-          "==",
-          "subclass",
-          "station"
-        ]
-      ],
-      "layout": {
-        "text-padding": 2,
-        "text-font": [
-          "Noto Sans Regular"
-        ],
-        "text-anchor": "top",
-        "icon-image": "rail-11",
-        "text-field": "{name}",
-        "text-offset": [
-          0,
-          0.6
-        ],
-        "text-size": 12,
-        "text-max-width": 9,
-        "icon-optional": false,
-        "icon-ignore-placement": false,
-        "icon-allow-overlap": false,
-        "text-ignore-placement": false,
-        "text-allow-overlap": false,
-        "text-optional": true
-      },
-      "paint": {
-        "text-halo-blur": 0.5,
-        "text-color": "#5CA6FB",
-        "text-halo-width": 1,
-        "text-halo-color": "#ffffff"
-      }
-    },
-    {
       "id": "highway-name-path",
       "type": "symbol",
       "source": "basemap",

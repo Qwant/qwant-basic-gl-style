@@ -22,9 +22,12 @@ cp ./build/sprite.png ./sprite.png
 cp ./build/sprite@2x.json ./sprite@2x.json
 cp ./build/sprite@2x.png ./sprite@2x.png
 
+cp ./build/font/iconfont* ./
+
 git add mapbox-gl.js mapbox-gl-dev.js mapbox-gl.css
 git add style-debug.json style.json style-omt.json
 git add sprite*
+git add iconfont*
 
 git config user.name "Travis CI"
 git config user.email "$COMMIT_AUTHOR_EMAIL"
