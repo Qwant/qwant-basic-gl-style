@@ -9,17 +9,57 @@ mappings:
     class: railway
     iconName: rail-11
     color: '#5CA6FB'
+  - subclass: tram_stop
+    class: railway
+    iconName: rail-light-11
+    color: '#5CA6FB'
   - subclass: bank
     iconName: bank-11
     color: '#8A9CF6'
+  - subclass: pub
+    iconName: beer-11
+    color: '#FF8D2B'
+  - subclass: toilets
+    iconName: toilets-11
+    color: '#8A9CF6'
+  - subclass: police
+    iconName: police-11
+    color: '#8A9CF6'
+  - subclass: theatre
+    iconName: theatre-11
+    color: '#8A9CF6'
+  - subclass: arts_centre
+    iconName: theatre-11
+    color: '#8A9CF6'
   - subclass: restaurant
     iconName: restaurant-11
+    color: '#FF8D2B'
+  - subclass: bar
+    iconName: bar-11
     color: '#FF8D2B'
   - subclass: supermarket
     iconName: grocery-11
     color: '#FFC324'
   - subclass: hotel
     iconName: lodging-11
+    color: '#8A9CF6'
+  - subclass: guest_house
+    iconName: lodging-11
+    color: '#8A9CF6'
+  - subclass: stadium
+    iconName: stadium-11
+    color: '#8A9CF6'
+  - subclass: equestrian
+    iconName: horse-riding-11
+    color: '#8A9CF6'
+  - subclass: golf_course
+    iconName: golf-11
+    color: '#00CB4F'
+  - subclass: swimming_pool
+    iconName: swimming-11
+    color: '#8A9CF6'
+  - subclass: bicycle_rental
+    iconName: bicycle-share-11
     color: '#8A9CF6'
   - subclass: community_centre
     iconName: town-hall-11
@@ -38,6 +78,12 @@ mappings:
     color: '#FF8D2B'
   - subclass: mobile_phone
     iconName: mobile-phone-11
+    color: '#FFC324'
+  - subclass: florist
+    iconName: florist-11
+    color: '#FFC324'
+  - subclass: alcohol
+    iconName: alcohol-shop-11
     color: '#FFC324'
   - subclass: cafe
     iconName: cafe-11
@@ -69,6 +115,9 @@ mappings:
   - subclass: dry_cleaning
     iconName: laundry-11
     color: '#8A9CF6'
+  - subclass: laundry
+    iconName: laundry-11
+    color: '#8A9CF6'
   - subclass: video_games
     iconName: gaming-11
     color: '#FFC324'
@@ -78,9 +127,36 @@ mappings:
   - subclass: subway
     iconName: rail-metro-11
     color: '#5CA6FB'
+  - subclass: ferry_terminal
+    iconName: ferry-11
+    color: '#5CA6FB'
+  - subclass: entrance
+    iconName: entrance-11
+    color: '#5CA6FB'
   - subclass: park
     iconName: park-alt1-11
     color: '#00CB4F'
+  - subclass: dog_park
+    iconName: dog-park-11
+    color: '#00CB4F'
+  - subclass: playground
+    iconName: playground-11
+    color: '#00CB4F'
+  - subclass: garden
+    iconName: garden-11
+    color: '#00CB4F'
+  - subclass: veterinary
+    iconName: veterinary-11
+    color: '#8A9CF6'
+  - subclass: zoo
+    iconName: zoo-11
+    color: '#00CB4F'
+  - subclass: aquarium
+    iconName: aquarium-11
+    color: '#8A9CF6'
+  - subclass: post_box
+    iconName: post-11
+    color: '#8A9CF6'
   - subclass: school
     iconName: school-11
     color: '#A3A3A3'
@@ -89,6 +165,15 @@ mappings:
     color: '#00CB4F'
   - subclass: hospital
     iconName: hospital-11
+    color: '#FF5E6A'
+  - subclass: doctors
+    iconName: doctor-11
+    color: '#FF5E6A'
+  - subclass: clinic
+    iconName: doctor-11
+    color: '#FF5E6A'
+  - subclass: dentist
+    iconName: dentist-11
     color: '#FF5E6A'
   - subclass: kindergarten
     iconName: school-11
@@ -105,6 +190,24 @@ mappings:
   - subclass: attraction
     iconName: attraction-11
     color: '#8A9CF6'
+  - subclass: viewpoint
+    iconName: attraction-11
+    color: '#8A9CF6'
+  - subclass: theme_park
+    iconName: amusement-park-11
+    color: '#8A9CF6'
+  - subclass: cinema
+    iconName: cinema-11
+    color: '#8A9CF6'
+  - subclass: prison
+    iconName: prison-11
+    color: '#8A9CF6'
+  - subclass: sports_centre
+    iconName: basketball-11
+    color: '#8A9CF6'
+  - subclass: fuel
+    iconName: fuel-11
+    color: '#8A9CF6'
   - subclass: marina
     iconName: harbor-11
     color: '#8A9CF6'
@@ -114,15 +217,48 @@ mappings:
   - subclass: books
     iconName: library-11
     color: '#FFC324'
+  - subclass: library
+    iconName: library-11
+    color: '#FFC324'
   - subclass: university
     iconName: college-11
     color: '#A3A3A3'
   - subclass: beauty
     iconName: shop-11
     color: '#FFC324'
+  - subclass: gift
+    iconName: gift-11
+    color: '#000'
+  - subclass: recycling
+    iconName: recycling-11
+    color: '#000'
+  - subclass: mall
+    iconName: commercial-11
+    color: '#000'
+  - subclass: marketplace
+    iconName: commercial-11
+    color: '#000'
   - subclass: townhall
+    iconName: town-hall-11
+    color: '#8A9CF6'
+  - subclass: courthouse
     iconName: town-hall-11
     color: '#8A9CF6'
   - subclass: doityourself
     iconName: shop-11
     color: '#FFC324'
+  - subclass: gate
+    iconName: barrier-11
+    color: '#000'
+  - subclass: cycle_barrier
+    iconName: barrier-11
+    color: '#000'
+  - subclass: monument
+    iconName: monument-11
+    color: '#8A9CF6'
+  - subclass: castle
+    iconName: castle-11
+    color: '#8A9CF6'
+  - subclass: ruins
+    iconName: castle-11
+    color: '#8A9CF6'
