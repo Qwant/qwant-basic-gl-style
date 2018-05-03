@@ -3818,6 +3818,7 @@
         ],
         "text-anchor": "top",
         "text-field": "{name}",
+        "text-optional": true,
         "text-max-width": 9
       },
       "paint": {
@@ -3862,6 +3863,7 @@
         "text-anchor": "top",
         "icon-image": "{subclass}-11",
         "text-field": "{name}",
+        "text-optional": true,
         "text-offset": [
           0,
           1.4
@@ -3895,10 +3897,6 @@
             "<=",
             "rank",
             14
-          ],
-          [
-            "has",
-            "name"
           ]
         ]
       ],
@@ -3915,6 +3913,7 @@
         ],
         "text-anchor": "top",
         "text-field": "{name}",
+        "text-optional": true,
         "text-max-width": 9
       },
       "paint": {
