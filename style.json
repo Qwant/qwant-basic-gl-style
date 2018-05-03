@@ -26,7 +26,8 @@
   },
   "sprite": "{sprite_url}",
   "glyphs": "{whatever ...{fontstack}/{range}.pbf}",
-  "layers": [{
+  "layers": [
+    {
       "id": "background",
       "type": "background",
       "paint": {
@@ -104,7 +105,8 @@
       "source": "basemap",
       "source-layer": "landuse",
       "filter": [
-        "all", [
+        "all",
+        [
           "==",
           "$type",
           "Polygon"
@@ -128,7 +130,8 @@
       "source": "basemap",
       "source-layer": "landuse",
       "filter": [
-        "all", [
+        "all",
+        [
           "==",
           "$type",
           "Polygon"
@@ -470,13 +473,15 @@
           "base": 1,
           "stops": [
             [
-              6, [
+              6,
+              [
                 2,
                 0
               ]
             ],
             [
-              8, [
+              8,
+              [
                 0,
                 0
               ]
@@ -593,13 +598,18 @@
           "base": 1,
           "stops": [
             [
-              14, [
+              14,
+              [
                 0,
                 0
               ]
             ],
             [
-              16, [-2, -2]
+              16,
+              [
+                -2,
+                -2
+              ]
             ]
           ]
         },
@@ -629,7 +639,8 @@
       "source": "basemap",
       "source-layer": "transportation",
       "filter": [
-        "all", [
+        "all",
+        [
           "==",
           "brunnel",
           "tunnel"
@@ -678,7 +689,8 @@
       "source": "basemap",
       "source-layer": "transportation",
       "filter": [
-        "all", [
+        "all",
+        [
           "==",
           "brunnel",
           "tunnel"
@@ -738,7 +750,8 @@
       "source": "basemap",
       "source-layer": "transportation",
       "filter": [
-        "all", [
+        "all",
+        [
           "==",
           "brunnel",
           "tunnel"
@@ -780,7 +793,8 @@
       "source": "basemap",
       "source-layer": "transportation",
       "filter": [
-        "all", [
+        "all",
+        [
           "==",
           "brunnel",
           "tunnel"
@@ -829,7 +843,8 @@
       "source": "basemap",
       "source-layer": "transportation",
       "filter": [
-        "all", [
+        "all",
+        [
           "==",
           "brunnel",
           "tunnel"
@@ -882,13 +897,15 @@
       "source": "basemap",
       "source-layer": "transportation",
       "filter": [
-        "all", [
+        "all",
+        [
           "==",
           "$type",
           "LineString"
         ],
         [
-          "all", [
+          "all",
+          [
             "==",
             "brunnel",
             "tunnel"
@@ -930,7 +947,8 @@
       "source": "basemap",
       "source-layer": "transportation",
       "filter": [
-        "all", [
+        "all",
+        [
           "==",
           "brunnel",
           "tunnel"
@@ -975,7 +993,8 @@
       "source": "basemap",
       "source-layer": "transportation",
       "filter": [
-        "all", [
+        "all",
+        [
           "==",
           "brunnel",
           "tunnel"
@@ -1020,7 +1039,8 @@
       "source": "basemap",
       "source-layer": "transportation",
       "filter": [
-        "all", [
+        "all",
+        [
           "==",
           "brunnel",
           "tunnel"
@@ -1065,7 +1085,8 @@
       "source": "basemap",
       "source-layer": "transportation",
       "filter": [
-        "all", [
+        "all",
+        [
           "==",
           "brunnel",
           "tunnel"
@@ -1110,7 +1131,8 @@
       "source": "basemap",
       "source-layer": "transportation",
       "filter": [
-        "all", [
+        "all",
+        [
           "==",
           "brunnel",
           "tunnel"
@@ -1155,7 +1177,8 @@
       "source": "basemap",
       "source-layer": "transportation",
       "filter": [
-        "all", [
+        "all",
+        [
           "==",
           "brunnel",
           "tunnel"
@@ -1197,7 +1220,8 @@
       "source": "basemap",
       "source-layer": "transportation",
       "filter": [
-        "all", [
+        "all",
+        [
           "in",
           "class",
           "ferry"
@@ -1226,7 +1250,8 @@
       "source-layer": "aeroway",
       "minzoom": 12,
       "filter": [
-        "all", [
+        "all",
+        [
           "in",
           "class",
           "taxiway"
@@ -1265,7 +1290,8 @@
       "source-layer": "aeroway",
       "minzoom": 12,
       "filter": [
-        "all", [
+        "all",
+        [
           "in",
           "class",
           "runway"
@@ -1304,7 +1330,8 @@
       "source-layer": "aeroway",
       "minzoom": 4,
       "filter": [
-        "all", [
+        "all",
+        [
           "==",
           "$type",
           "Polygon"
@@ -1346,7 +1373,8 @@
       "source-layer": "aeroway",
       "minzoom": 4,
       "filter": [
-        "all", [
+        "all",
+        [
           "in",
           "class",
           "taxiway"
@@ -1402,7 +1430,8 @@
       "source-layer": "aeroway",
       "minzoom": 4,
       "filter": [
-        "all", [
+        "all",
+        [
           "==",
           "$type",
           "LineString"
@@ -1481,7 +1510,8 @@
       "source-layer": "transportation",
       "minzoom": 12,
       "filter": [
-        "all", [
+        "all",
+        [
           "!in",
           "brunnel",
           "bridge",
@@ -1533,7 +1563,8 @@
       "source-layer": "transportation",
       "minzoom": 13,
       "filter": [
-        "all", [
+        "all",
+        [
           "!in",
           "brunnel",
           "bridge",
@@ -1588,13 +1619,15 @@
       "source": "basemap",
       "source-layer": "transportation",
       "filter": [
-        "all", [
+        "all",
+        [
           "==",
           "$type",
           "LineString"
         ],
         [
-          "all", [
+          "all",
+          [
             "!=",
             "brunnel",
             "tunnel"
@@ -1658,7 +1691,8 @@
       "source": "basemap",
       "source-layer": "transportation",
       "filter": [
-        "all", [
+        "all",
+        [
           "!in",
           "brunnel",
           "bridge",
@@ -1704,7 +1738,8 @@
       "source-layer": "transportation",
       "minzoom": 5,
       "filter": [
-        "all", [
+        "all",
+        [
           "!in",
           "brunnel",
           "bridge",
@@ -1768,7 +1803,8 @@
       "source-layer": "transportation",
       "minzoom": 5,
       "filter": [
-        "all", [
+        "all",
+        [
           "!in",
           "brunnel",
           "bridge",
@@ -1832,7 +1868,8 @@
       "source-layer": "transportation",
       "minzoom": 4,
       "filter": [
-        "all", [
+        "all",
+        [
           "!in",
           "brunnel",
           "bridge",
@@ -1899,13 +1936,15 @@
       "source": "basemap",
       "source-layer": "transportation",
       "filter": [
-        "all", [
+        "all",
+        [
           "==",
           "$type",
           "LineString"
         ],
         [
-          "all", [
+          "all",
+          [
             "!in",
             "brunnel",
             "bridge",
@@ -1953,7 +1992,8 @@
       "source-layer": "transportation",
       "minzoom": 12,
       "filter": [
-        "all", [
+        "all",
+        [
           "!in",
           "brunnel",
           "bridge",
@@ -2004,7 +2044,8 @@
       "source-layer": "transportation",
       "minzoom": 13,
       "filter": [
-        "all", [
+        "all",
+        [
           "!in",
           "brunnel",
           "bridge",
@@ -2058,13 +2099,15 @@
       "source": "basemap",
       "source-layer": "transportation",
       "filter": [
-        "all", [
+        "all",
+        [
           "==",
           "$type",
           "LineString"
         ],
         [
-          "all", [
+          "all",
+          [
             "!=",
             "brunnel",
             "tunnel"
@@ -2113,7 +2156,8 @@
       "source": "basemap",
       "source-layer": "transportation",
       "filter": [
-        "all", [
+        "all",
+        [
           "!in",
           "brunnel",
           "bridge",
@@ -2161,13 +2205,15 @@
       "source": "basemap",
       "source-layer": "transportation",
       "filter": [
-        "all", [
+        "all",
+        [
           "==",
           "$type",
           "LineString"
         ],
         [
-          "all", [
+          "all",
+          [
             "!in",
             "brunnel",
             "bridge",
@@ -2215,13 +2261,15 @@
       "source": "basemap",
       "source-layer": "transportation",
       "filter": [
-        "all", [
+        "all",
+        [
           "==",
           "$type",
           "LineString"
         ],
         [
-          "all", [
+          "all",
+          [
             "!in",
             "brunnel",
             "bridge",
@@ -2270,13 +2318,15 @@
       "source-layer": "transportation",
       "minzoom": 5,
       "filter": [
-        "all", [
+        "all",
+        [
           "==",
           "$type",
           "LineString"
         ],
         [
-          "all", [
+          "all",
+          [
             "!in",
             "brunnel",
             "bridge",
@@ -2324,13 +2374,15 @@
       "source": "basemap",
       "source-layer": "transportation",
       "filter": [
-        "all", [
+        "all",
+        [
           "==",
           "$type",
           "LineString"
         ],
         [
-          "all", [
+          "all",
+          [
             "==",
             "class",
             "transit"
@@ -2371,13 +2423,15 @@
       "source": "basemap",
       "source-layer": "transportation",
       "filter": [
-        "all", [
+        "all",
+        [
           "==",
           "$type",
           "LineString"
         ],
         [
-          "all", [
+          "all",
+          [
             "==",
             "class",
             "transit"
@@ -2426,13 +2480,15 @@
       "source": "basemap",
       "source-layer": "transportation",
       "filter": [
-        "all", [
+        "all",
+        [
           "==",
           "$type",
           "LineString"
         ],
         [
-          "all", [
+          "all",
+          [
             "==",
             "class",
             "rail"
@@ -2469,13 +2525,15 @@
       "source": "basemap",
       "source-layer": "transportation",
       "filter": [
-        "all", [
+        "all",
+        [
           "==",
           "$type",
           "LineString"
         ],
         [
-          "all", [
+          "all",
+          [
             "==",
             "class",
             "rail"
@@ -2523,13 +2581,15 @@
       "source": "basemap",
       "source-layer": "transportation",
       "filter": [
-        "all", [
+        "all",
+        [
           "==",
           "$type",
           "LineString"
         ],
         [
-          "all", [
+          "all",
+          [
             "!has",
             "service"
           ],
@@ -2576,13 +2636,15 @@
       "source": "basemap",
       "source-layer": "transportation",
       "filter": [
-        "all", [
+        "all",
+        [
           "==",
           "$type",
           "LineString"
         ],
         [
-          "all", [
+          "all",
+          [
             "!has",
             "service"
           ],
@@ -2633,7 +2695,8 @@
       "source": "basemap",
       "source-layer": "transportation",
       "filter": [
-        "all", [
+        "all",
+        [
           "==",
           "brunnel",
           "bridge"
@@ -2682,7 +2745,8 @@
       "source": "basemap",
       "source-layer": "transportation",
       "filter": [
-        "all", [
+        "all",
+        [
           "==",
           "brunnel",
           "bridge"
@@ -2734,7 +2798,8 @@
       "source": "basemap",
       "source-layer": "transportation",
       "filter": [
-        "all", [
+        "all",
+        [
           "==",
           "brunnel",
           "bridge"
@@ -2776,7 +2841,8 @@
       "source": "basemap",
       "source-layer": "transportation",
       "filter": [
-        "all", [
+        "all",
+        [
           "==",
           "brunnel",
           "bridge"
@@ -2825,7 +2891,8 @@
       "source": "basemap",
       "source-layer": "transportation",
       "filter": [
-        "all", [
+        "all",
+        [
           "==",
           "brunnel",
           "bridge"
@@ -2873,13 +2940,15 @@
       "source": "basemap",
       "source-layer": "transportation",
       "filter": [
-        "all", [
+        "all",
+        [
           "==",
           "$type",
           "LineString"
         ],
         [
-          "all", [
+          "all",
+          [
             "==",
             "brunnel",
             "bridge"
@@ -2917,13 +2986,15 @@
       "source": "basemap",
       "source-layer": "transportation",
       "filter": [
-        "all", [
+        "all",
+        [
           "==",
           "$type",
           "LineString"
         ],
         [
-          "all", [
+          "all",
+          [
             "==",
             "brunnel",
             "bridge"
@@ -2965,7 +3036,8 @@
       "source": "basemap",
       "source-layer": "transportation",
       "filter": [
-        "all", [
+        "all",
+        [
           "==",
           "brunnel",
           "bridge"
@@ -3013,7 +3085,8 @@
       "source": "basemap",
       "source-layer": "transportation",
       "filter": [
-        "all", [
+        "all",
+        [
           "==",
           "brunnel",
           "bridge"
@@ -3064,7 +3137,8 @@
       "source": "basemap",
       "source-layer": "transportation",
       "filter": [
-        "all", [
+        "all",
+        [
           "==",
           "brunnel",
           "bridge"
@@ -3109,7 +3183,8 @@
       "source": "basemap",
       "source-layer": "transportation",
       "filter": [
-        "all", [
+        "all",
+        [
           "==",
           "brunnel",
           "bridge"
@@ -3154,7 +3229,8 @@
       "source": "basemap",
       "source-layer": "transportation",
       "filter": [
-        "all", [
+        "all",
+        [
           "==",
           "brunnel",
           "bridge"
@@ -3198,7 +3274,8 @@
       "source": "basemap",
       "source-layer": "transportation",
       "filter": [
-        "all", [
+        "all",
+        [
           "==",
           "brunnel",
           "bridge"
@@ -3239,7 +3316,8 @@
       "source": "basemap",
       "source-layer": "transportation",
       "filter": [
-        "all", [
+        "all",
+        [
           "==",
           "brunnel",
           "bridge"
@@ -3281,6 +3359,7 @@
       "source": "basemap",
       "source-layer": "transportation",
       "minzoom": 13,
+      "maxzoom": 24,
       "filter": [
         "==",
         "class",
@@ -3305,8 +3384,7 @@
             ]
           ]
         }
-      },
-      "maxzoom": 24
+      }
     },
     {
       "id": "cablecar-dash",
@@ -3314,6 +3392,7 @@
       "source": "basemap",
       "source-layer": "transportation",
       "minzoom": 13,
+      "maxzoom": 24,
       "filter": [
         "==",
         "class",
@@ -3342,8 +3421,7 @@
           2,
           3
         ]
-      },
-      "maxzoom": 24
+      }
     },
     {
       "id": "boundary-land-level-4",
@@ -3351,7 +3429,8 @@
       "source": "basemap",
       "source-layer": "boundary",
       "filter": [
-        "all", [
+        "all",
+        [
           "!=",
           "maritime",
           1
@@ -3402,7 +3481,8 @@
       "source": "basemap",
       "source-layer": "boundary",
       "filter": [
-        "all", [
+        "all",
+        [
           "!=",
           "disputed",
           1
@@ -3453,7 +3533,8 @@
       "source": "basemap",
       "source-layer": "boundary",
       "filter": [
-        "all", [
+        "all",
+        [
           "!=",
           "maritime",
           1
@@ -3503,7 +3584,8 @@
       "source": "basemap",
       "source-layer": "boundary",
       "filter": [
-        "all", [
+        "all",
+        [
           "==",
           "maritime",
           1
@@ -3563,7 +3645,8 @@
       "source-layer": "waterway",
       "minzoom": 13,
       "filter": [
-        "all", [
+        "all",
+        [
           "==",
           "$type",
           "LineString"
@@ -3625,7 +3708,8 @@
       "source": "basemap",
       "source-layer": "water_name",
       "filter": [
-        "all", [
+        "all",
+        [
           "==",
           "$type",
           "Point"
@@ -3660,7 +3744,8 @@
       "source": "basemap",
       "source-layer": "water_name",
       "filter": [
-        "all", [
+        "all",
+        [
           "!=",
           "class",
           "ocean"
@@ -3708,7 +3793,8 @@
       "source-layer": "poi",
       "minzoom": 16,
       "filter": [
-        "all", [
+        "all",
+        [
           "==",
           "$type",
           "Point"
@@ -3748,13 +3834,15 @@
       "source-layer": "poi",
       "minzoom": 15,
       "filter": [
-        "all", [
+        "all",
+        [
           "==",
           "$type",
           "Point"
         ],
         [
-          "all", [
+          "all",
+          [
             "<=",
             "rank",
             24
@@ -3795,13 +3883,15 @@
       "source-layer": "poi",
       "minzoom": 14,
       "filter": [
-        "all", [
+        "all",
+        [
           "==",
           "$type",
           "Point"
         ],
         [
-          "all", [
+          "all",
+          [
             "<=",
             "rank",
             14
@@ -3879,7 +3969,8 @@
       "source-layer": "transportation_name",
       "minzoom": 15,
       "filter": [
-        "all", [
+        "all",
+        [
           "==",
           "$type",
           "LineString"
@@ -3969,13 +4060,15 @@
       "source-layer": "transportation_name",
       "minzoom": 8,
       "filter": [
-        "all", [
+        "all",
+        [
           "==",
           "$type",
           "LineString"
         ],
         [
-          "all", [
+          "all",
+          [
             "!in",
             "network",
             "us-highway",
@@ -4023,13 +4116,15 @@
       "source-layer": "transportation_name",
       "minzoom": 7,
       "filter": [
-        "all", [
+        "all",
+        [
           "==",
           "$type",
           "LineString"
         ],
         [
-          "all", [
+          "all",
+          [
             "<=",
             "ref_length",
             6
@@ -4081,13 +4176,15 @@
       "source-layer": "transportation_name",
       "minzoom": 9,
       "filter": [
-        "all", [
+        "all",
+        [
           "==",
           "$type",
           "LineString"
         ],
         [
-          "all", [
+          "all",
+          [
             "<=",
             "ref_length",
             6
@@ -4136,7 +4233,8 @@
       "source-layer": "aerodrome_label",
       "minzoom": 10,
       "filter": [
-        "all", [
+        "all",
+        [
           "has",
           "iata"
         ]
@@ -4299,7 +4397,8 @@
       "source": "basemap",
       "source-layer": "place",
       "filter": [
-        "all", [
+        "all",
+        [
           "!=",
           "capital",
           2
@@ -4346,7 +4445,8 @@
       "source": "basemap",
       "source-layer": "place",
       "filter": [
-        "all", [
+        "all",
+        [
           "==",
           "capital",
           2
@@ -4400,7 +4500,8 @@
       "source": "basemap",
       "source-layer": "place",
       "filter": [
-        "all", [
+        "all",
+        [
           "==",
           "class",
           "country"
@@ -4452,7 +4553,8 @@
       "source": "basemap",
       "source-layer": "place",
       "filter": [
-        "all", [
+        "all",
+        [
           "==",
           "class",
           "country"
@@ -4504,7 +4606,8 @@
       "source": "basemap",
       "source-layer": "place",
       "filter": [
-        "all", [
+        "all",
+        [
           "==",
           "class",
           "country"
@@ -4556,7 +4659,8 @@
       "source": "basemap",
       "source-layer": "place",
       "filter": [
-        "all", [
+        "all",
+        [
           "==",
           "class",
           "country"
