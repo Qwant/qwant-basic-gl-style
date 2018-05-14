@@ -26,7 +26,8 @@
   },
   "sprite": "{sprite_url}",
   "glyphs": "{whatever ...{fontstack}/{range}.pbf}",
-  "layers": [{
+  "layers": [
+    {
       "id": "background",
       "type": "background",
       "paint": {
@@ -104,7 +105,8 @@
       "source": "basemap",
       "source-layer": "landuse",
       "filter": [
-        "all", [
+        "all",
+        [
           "==",
           "$type",
           "Polygon"
@@ -128,7 +130,8 @@
       "source": "basemap",
       "source-layer": "landuse",
       "filter": [
-        "all", [
+        "all",
+        [
           "==",
           "$type",
           "Polygon"
@@ -470,13 +473,15 @@
           "base": 1,
           "stops": [
             [
-              6, [
+              6,
+              [
                 2,
                 0
               ]
             ],
             [
-              8, [
+              8,
+              [
                 0,
                 0
               ]
@@ -593,13 +598,18 @@
           "base": 1,
           "stops": [
             [
-              14, [
+              14,
+              [
                 0,
                 0
               ]
             ],
             [
-              16, [-2, -2]
+              16,
+              [
+                -2,
+                -2
+              ]
             ]
           ]
         },
@@ -629,7 +639,8 @@
       "source": "basemap",
       "source-layer": "transportation",
       "filter": [
-        "all", [
+        "all",
+        [
           "==",
           "brunnel",
           "tunnel"
@@ -678,7 +689,8 @@
       "source": "basemap",
       "source-layer": "transportation",
       "filter": [
-        "all", [
+        "all",
+        [
           "==",
           "brunnel",
           "tunnel"
@@ -738,7 +750,8 @@
       "source": "basemap",
       "source-layer": "transportation",
       "filter": [
-        "all", [
+        "all",
+        [
           "==",
           "brunnel",
           "tunnel"
@@ -780,7 +793,8 @@
       "source": "basemap",
       "source-layer": "transportation",
       "filter": [
-        "all", [
+        "all",
+        [
           "==",
           "brunnel",
           "tunnel"
@@ -829,7 +843,8 @@
       "source": "basemap",
       "source-layer": "transportation",
       "filter": [
-        "all", [
+        "all",
+        [
           "==",
           "brunnel",
           "tunnel"
@@ -882,13 +897,15 @@
       "source": "basemap",
       "source-layer": "transportation",
       "filter": [
-        "all", [
+        "all",
+        [
           "==",
           "$type",
           "LineString"
         ],
         [
-          "all", [
+          "all",
+          [
             "==",
             "brunnel",
             "tunnel"
@@ -930,7 +947,8 @@
       "source": "basemap",
       "source-layer": "transportation",
       "filter": [
-        "all", [
+        "all",
+        [
           "==",
           "brunnel",
           "tunnel"
@@ -975,7 +993,8 @@
       "source": "basemap",
       "source-layer": "transportation",
       "filter": [
-        "all", [
+        "all",
+        [
           "==",
           "brunnel",
           "tunnel"
@@ -1020,7 +1039,8 @@
       "source": "basemap",
       "source-layer": "transportation",
       "filter": [
-        "all", [
+        "all",
+        [
           "==",
           "brunnel",
           "tunnel"
@@ -1065,7 +1085,8 @@
       "source": "basemap",
       "source-layer": "transportation",
       "filter": [
-        "all", [
+        "all",
+        [
           "==",
           "brunnel",
           "tunnel"
@@ -1110,7 +1131,8 @@
       "source": "basemap",
       "source-layer": "transportation",
       "filter": [
-        "all", [
+        "all",
+        [
           "==",
           "brunnel",
           "tunnel"
@@ -1155,7 +1177,8 @@
       "source": "basemap",
       "source-layer": "transportation",
       "filter": [
-        "all", [
+        "all",
+        [
           "==",
           "brunnel",
           "tunnel"
@@ -1197,7 +1220,8 @@
       "source": "basemap",
       "source-layer": "transportation",
       "filter": [
-        "all", [
+        "all",
+        [
           "in",
           "class",
           "ferry"
@@ -1226,7 +1250,8 @@
       "source-layer": "aeroway",
       "minzoom": 12,
       "filter": [
-        "all", [
+        "all",
+        [
           "in",
           "class",
           "taxiway"
@@ -1265,7 +1290,8 @@
       "source-layer": "aeroway",
       "minzoom": 12,
       "filter": [
-        "all", [
+        "all",
+        [
           "in",
           "class",
           "runway"
@@ -1304,7 +1330,8 @@
       "source-layer": "aeroway",
       "minzoom": 4,
       "filter": [
-        "all", [
+        "all",
+        [
           "==",
           "$type",
           "Polygon"
@@ -1346,7 +1373,8 @@
       "source-layer": "aeroway",
       "minzoom": 4,
       "filter": [
-        "all", [
+        "all",
+        [
           "in",
           "class",
           "taxiway"
@@ -1402,7 +1430,8 @@
       "source-layer": "aeroway",
       "minzoom": 4,
       "filter": [
-        "all", [
+        "all",
+        [
           "==",
           "$type",
           "LineString"
@@ -1481,7 +1510,8 @@
       "source-layer": "transportation",
       "minzoom": 12,
       "filter": [
-        "all", [
+        "all",
+        [
           "!in",
           "brunnel",
           "bridge",
@@ -1533,7 +1563,8 @@
       "source-layer": "transportation",
       "minzoom": 13,
       "filter": [
-        "all", [
+        "all",
+        [
           "!in",
           "brunnel",
           "bridge",
@@ -1588,13 +1619,15 @@
       "source": "basemap",
       "source-layer": "transportation",
       "filter": [
-        "all", [
+        "all",
+        [
           "==",
           "$type",
           "LineString"
         ],
         [
-          "all", [
+          "all",
+          [
             "!=",
             "brunnel",
             "tunnel"
@@ -1658,7 +1691,8 @@
       "source": "basemap",
       "source-layer": "transportation",
       "filter": [
-        "all", [
+        "all",
+        [
           "!in",
           "brunnel",
           "bridge",
@@ -1704,7 +1738,8 @@
       "source-layer": "transportation",
       "minzoom": 5,
       "filter": [
-        "all", [
+        "all",
+        [
           "!in",
           "brunnel",
           "bridge",
@@ -1768,7 +1803,8 @@
       "source-layer": "transportation",
       "minzoom": 5,
       "filter": [
-        "all", [
+        "all",
+        [
           "!in",
           "brunnel",
           "bridge",
@@ -1832,7 +1868,8 @@
       "source-layer": "transportation",
       "minzoom": 4,
       "filter": [
-        "all", [
+        "all",
+        [
           "!in",
           "brunnel",
           "bridge",
@@ -1899,13 +1936,15 @@
       "source": "basemap",
       "source-layer": "transportation",
       "filter": [
-        "all", [
+        "all",
+        [
           "==",
           "$type",
           "LineString"
         ],
         [
-          "all", [
+          "all",
+          [
             "!in",
             "brunnel",
             "bridge",
@@ -1953,7 +1992,8 @@
       "source-layer": "transportation",
       "minzoom": 12,
       "filter": [
-        "all", [
+        "all",
+        [
           "!in",
           "brunnel",
           "bridge",
@@ -2004,7 +2044,8 @@
       "source-layer": "transportation",
       "minzoom": 13,
       "filter": [
-        "all", [
+        "all",
+        [
           "!in",
           "brunnel",
           "bridge",
@@ -2058,13 +2099,15 @@
       "source": "basemap",
       "source-layer": "transportation",
       "filter": [
-        "all", [
+        "all",
+        [
           "==",
           "$type",
           "LineString"
         ],
         [
-          "all", [
+          "all",
+          [
             "!=",
             "brunnel",
             "tunnel"
@@ -2113,7 +2156,8 @@
       "source": "basemap",
       "source-layer": "transportation",
       "filter": [
-        "all", [
+        "all",
+        [
           "!in",
           "brunnel",
           "bridge",
@@ -2161,13 +2205,15 @@
       "source": "basemap",
       "source-layer": "transportation",
       "filter": [
-        "all", [
+        "all",
+        [
           "==",
           "$type",
           "LineString"
         ],
         [
-          "all", [
+          "all",
+          [
             "!in",
             "brunnel",
             "bridge",
@@ -2215,13 +2261,15 @@
       "source": "basemap",
       "source-layer": "transportation",
       "filter": [
-        "all", [
+        "all",
+        [
           "==",
           "$type",
           "LineString"
         ],
         [
-          "all", [
+          "all",
+          [
             "!in",
             "brunnel",
             "bridge",
@@ -2270,13 +2318,15 @@
       "source-layer": "transportation",
       "minzoom": 5,
       "filter": [
-        "all", [
+        "all",
+        [
           "==",
           "$type",
           "LineString"
         ],
         [
-          "all", [
+          "all",
+          [
             "!in",
             "brunnel",
             "bridge",
@@ -2324,13 +2374,15 @@
       "source": "basemap",
       "source-layer": "transportation",
       "filter": [
-        "all", [
+        "all",
+        [
           "==",
           "$type",
           "LineString"
         ],
         [
-          "all", [
+          "all",
+          [
             "==",
             "class",
             "transit"
@@ -2371,13 +2423,15 @@
       "source": "basemap",
       "source-layer": "transportation",
       "filter": [
-        "all", [
+        "all",
+        [
           "==",
           "$type",
           "LineString"
         ],
         [
-          "all", [
+          "all",
+          [
             "==",
             "class",
             "transit"
@@ -2426,13 +2480,15 @@
       "source": "basemap",
       "source-layer": "transportation",
       "filter": [
-        "all", [
+        "all",
+        [
           "==",
           "$type",
           "LineString"
         ],
         [
-          "all", [
+          "all",
+          [
             "==",
             "class",
             "rail"
@@ -2469,13 +2525,15 @@
       "source": "basemap",
       "source-layer": "transportation",
       "filter": [
-        "all", [
+        "all",
+        [
           "==",
           "$type",
           "LineString"
         ],
         [
-          "all", [
+          "all",
+          [
             "==",
             "class",
             "rail"
@@ -2523,13 +2581,15 @@
       "source": "basemap",
       "source-layer": "transportation",
       "filter": [
-        "all", [
+        "all",
+        [
           "==",
           "$type",
           "LineString"
         ],
         [
-          "all", [
+          "all",
+          [
             "!has",
             "service"
           ],
@@ -2576,13 +2636,15 @@
       "source": "basemap",
       "source-layer": "transportation",
       "filter": [
-        "all", [
+        "all",
+        [
           "==",
           "$type",
           "LineString"
         ],
         [
-          "all", [
+          "all",
+          [
             "!has",
             "service"
           ],
@@ -2633,7 +2695,8 @@
       "source": "basemap",
       "source-layer": "transportation",
       "filter": [
-        "all", [
+        "all",
+        [
           "==",
           "brunnel",
           "bridge"
@@ -2682,7 +2745,8 @@
       "source": "basemap",
       "source-layer": "transportation",
       "filter": [
-        "all", [
+        "all",
+        [
           "==",
           "brunnel",
           "bridge"
@@ -2734,7 +2798,8 @@
       "source": "basemap",
       "source-layer": "transportation",
       "filter": [
-        "all", [
+        "all",
+        [
           "==",
           "brunnel",
           "bridge"
@@ -2776,7 +2841,8 @@
       "source": "basemap",
       "source-layer": "transportation",
       "filter": [
-        "all", [
+        "all",
+        [
           "==",
           "brunnel",
           "bridge"
@@ -2825,7 +2891,8 @@
       "source": "basemap",
       "source-layer": "transportation",
       "filter": [
-        "all", [
+        "all",
+        [
           "==",
           "brunnel",
           "bridge"
@@ -2873,13 +2940,15 @@
       "source": "basemap",
       "source-layer": "transportation",
       "filter": [
-        "all", [
+        "all",
+        [
           "==",
           "$type",
           "LineString"
         ],
         [
-          "all", [
+          "all",
+          [
             "==",
             "brunnel",
             "bridge"
@@ -2917,13 +2986,15 @@
       "source": "basemap",
       "source-layer": "transportation",
       "filter": [
-        "all", [
+        "all",
+        [
           "==",
           "$type",
           "LineString"
         ],
         [
-          "all", [
+          "all",
+          [
             "==",
             "brunnel",
             "bridge"
@@ -2965,7 +3036,8 @@
       "source": "basemap",
       "source-layer": "transportation",
       "filter": [
-        "all", [
+        "all",
+        [
           "==",
           "brunnel",
           "bridge"
@@ -3013,7 +3085,8 @@
       "source": "basemap",
       "source-layer": "transportation",
       "filter": [
-        "all", [
+        "all",
+        [
           "==",
           "brunnel",
           "bridge"
@@ -3064,7 +3137,8 @@
       "source": "basemap",
       "source-layer": "transportation",
       "filter": [
-        "all", [
+        "all",
+        [
           "==",
           "brunnel",
           "bridge"
@@ -3109,7 +3183,8 @@
       "source": "basemap",
       "source-layer": "transportation",
       "filter": [
-        "all", [
+        "all",
+        [
           "==",
           "brunnel",
           "bridge"
@@ -3154,7 +3229,8 @@
       "source": "basemap",
       "source-layer": "transportation",
       "filter": [
-        "all", [
+        "all",
+        [
           "==",
           "brunnel",
           "bridge"
@@ -3198,7 +3274,8 @@
       "source": "basemap",
       "source-layer": "transportation",
       "filter": [
-        "all", [
+        "all",
+        [
           "==",
           "brunnel",
           "bridge"
@@ -3239,7 +3316,8 @@
       "source": "basemap",
       "source-layer": "transportation",
       "filter": [
-        "all", [
+        "all",
+        [
           "==",
           "brunnel",
           "bridge"
@@ -3281,6 +3359,7 @@
       "source": "basemap",
       "source-layer": "transportation",
       "minzoom": 13,
+      "maxzoom": 24,
       "filter": [
         "==",
         "class",
@@ -3305,8 +3384,7 @@
             ]
           ]
         }
-      },
-      "maxzoom": 24
+      }
     },
     {
       "id": "cablecar-dash",
@@ -3314,6 +3392,7 @@
       "source": "basemap",
       "source-layer": "transportation",
       "minzoom": 13,
+      "maxzoom": 24,
       "filter": [
         "==",
         "class",
@@ -3342,8 +3421,7 @@
           2,
           3
         ]
-      },
-      "maxzoom": 24
+      }
     },
     {
       "id": "boundary-land-level-4",
@@ -3351,7 +3429,8 @@
       "source": "basemap",
       "source-layer": "boundary",
       "filter": [
-        "all", [
+        "all",
+        [
           "!=",
           "maritime",
           1
@@ -3402,7 +3481,8 @@
       "source": "basemap",
       "source-layer": "boundary",
       "filter": [
-        "all", [
+        "all",
+        [
           "!=",
           "disputed",
           1
@@ -3453,7 +3533,8 @@
       "source": "basemap",
       "source-layer": "boundary",
       "filter": [
-        "all", [
+        "all",
+        [
           "!=",
           "maritime",
           1
@@ -3503,7 +3584,8 @@
       "source": "basemap",
       "source-layer": "boundary",
       "filter": [
-        "all", [
+        "all",
+        [
           "==",
           "maritime",
           1
@@ -3563,7 +3645,8 @@
       "source-layer": "waterway",
       "minzoom": 13,
       "filter": [
-        "all", [
+        "all",
+        [
           "==",
           "$type",
           "LineString"
@@ -3625,7 +3708,8 @@
       "source": "basemap",
       "source-layer": "water_name",
       "filter": [
-        "all", [
+        "all",
+        [
           "==",
           "$type",
           "Point"
@@ -3660,7 +3744,8 @@
       "source": "basemap",
       "source-layer": "water_name",
       "filter": [
-        "all", [
+        "all",
+        [
           "!=",
           "class",
           "ocean"
@@ -3708,7 +3793,8 @@
       "source-layer": "poi",
       "minzoom": 16,
       "filter": [
-        "all", [
+        "all",
+        [
           "==",
           "$type",
           "Point"
@@ -3721,170 +3807,7 @@
       ],
       "layout": {
         "text-size": 11,
-        "icon-image": {
-          "base": 1,
-          "type": "categorical",
-          "property": "subclass",
-          "stops": [
-            [
-              "bank",
-              "bank-11"
-            ],
-            [
-              "restaurant",
-              "restaurant-11"
-            ],
-            [
-              "supermarket",
-              "grocery-11"
-            ],
-            [
-              "hotel",
-              "lodging-11"
-            ],
-            [
-              "community_centre",
-              "town-hall-11"
-            ],
-            [
-              "place_of_worship",
-              "place-of-worship-11"
-            ],
-            [
-              "embassy",
-              "embassy-11"
-            ],
-            [
-              "fire_station",
-              "fire-station-11"
-            ],
-            [
-              "bakery",
-              "bakery-11"
-            ],
-            [
-              "mobile_phone",
-              "mobile-phone-11"
-            ],
-            [
-              "cafe",
-              "cafe-11"
-            ],
-            [
-              "hairdresser",
-              "hairdresser-11"
-            ],
-            [
-              "cosmetics",
-              "shop-11"
-            ],
-            [
-              "pharmacy",
-              "pharmacy-11"
-            ],
-            [
-              "convenience",
-              "grocery-11"
-            ],
-            [
-              "greengrocer",
-              "grocery-11"
-            ],
-            [
-              "clothes",
-              "clothing-store-11"
-            ],
-            [
-              "shoes",
-              "clothing-store-11"
-            ],
-            [
-              "fast_food",
-              "fast-food-11"
-            ],
-            [
-              "dry_cleaning",
-              "laundry-11"
-            ],
-            [
-              "video_games",
-              "gaming-11"
-            ],
-            [
-              "bus_stop",
-              "bus-11"
-            ],
-            [
-              "subway",
-              "rail-metro-11"
-            ],
-            [
-              "park",
-              "park-alt1-11"
-            ],
-            [
-              "school",
-              "school-11"
-            ],
-            [
-              "cemetery",
-              "cemetery-11"
-            ],
-            [
-              "hospital",
-              "hospital-11"
-            ],
-            [
-              "kindergarten",
-              "school-11"
-            ],
-            [
-              "museum",
-              "museum-11"
-            ],
-            [
-              "post_office",
-              "post-11"
-            ],
-            [
-              "public_building",
-              "building-15"
-            ],
-            [
-              "attraction",
-              "attraction-11"
-            ],
-            [
-              "marina",
-              "harbor-11"
-            ],
-            [
-              "college",
-              "college-11"
-            ],
-            [
-              "books",
-              "library-11"
-            ],
-            [
-              "university",
-              "college-11"
-            ],
-            [
-              "beauty",
-              "shop-11"
-            ],
-            [
-              "townhall",
-              "town-hall-11"
-            ],
-            [
-              "doityourself",
-              "shop-11"
-            ]
-          ],
-          "default": "star-stroked-11"
-        },
+        "icon-image": "{subclass}-11",
         "text-font": [
           "Noto Sans Regular"
         ],
@@ -3895,97 +3818,12 @@
         ],
         "text-anchor": "top",
         "text-field": "{name}",
+        "text-optional": true,
         "text-max-width": 9
       },
       "paint": {
         "text-halo-blur": 0.5,
-        "text-color": {
-          "base": 1,
-          "type": "categorical",
-          "property": "subclass",
-          "stops": [
-            [
-              "bakery",
-              "#FF8D2B"
-            ],
-            [
-              "bank",
-              "#8A9CF6"
-            ],
-            [
-              "beauty",
-              "#FFC324"
-            ],
-            [
-              "books",
-              "#FFC324"
-            ],
-            [
-              "bus_stop",
-              "#5CA6FB"
-            ],
-            [
-              "clothes",
-              "#FFC324"
-            ],
-            [
-              "community_centre",
-              "#8A9CF6"
-            ],
-            [
-              "convenience",
-              "#FFC324"
-            ],
-            [
-              "doityourself",
-              "#FFC324"
-            ],
-            [
-              "embassy",
-              "#8A9CF6"
-            ],
-            [
-              "hospital",
-              "#FF5E6A"
-            ],
-            [
-              "hotel",
-              "#8A9CF6"
-            ],
-            [
-              "park",
-              "#00CB4F"
-            ],
-            [
-              "pharmacy",
-              "#FF5E6A"
-            ],
-            [
-              "place_of_worship",
-              "#8A9CF6"
-            ],
-            [
-              "post_office",
-              "#8A9CF6"
-            ],
-            [
-              "restaurant",
-              "#FF8D2B"
-            ],
-            [
-              "school",
-              "#A3A3A3"
-            ],
-            [
-              "station",
-              "#5CA6FB"
-            ],
-            [
-              "supermarket",
-              "#FFC324"
-            ]
-          ]
-        },
+        "text-color": "#000",
         "text-halo-width": 0.8,
         "text-halo-color": "#ffffff"
       }
@@ -3997,13 +3835,15 @@
       "source-layer": "poi",
       "minzoom": 15,
       "filter": [
-        "all", [
+        "all",
+        [
           "==",
           "$type",
           "Point"
         ],
         [
-          "all", [
+          "all",
+          [
             "<=",
             "rank",
             24
@@ -4021,171 +3861,9 @@
           "Noto Sans Regular"
         ],
         "text-anchor": "top",
-        "icon-image": {
-          "base": 1,
-          "type": "categorical",
-          "property": "subclass",
-          "stops": [
-            [
-              "bank",
-              "bank-11"
-            ],
-            [
-              "restaurant",
-              "restaurant-11"
-            ],
-            [
-              "supermarket",
-              "grocery-11"
-            ],
-            [
-              "hotel",
-              "lodging-11"
-            ],
-            [
-              "community_centre",
-              "town-hall-11"
-            ],
-            [
-              "place_of_worship",
-              "place-of-worship-11"
-            ],
-            [
-              "embassy",
-              "embassy-11"
-            ],
-            [
-              "fire_station",
-              "fire-station-11"
-            ],
-            [
-              "bakery",
-              "bakery-11"
-            ],
-            [
-              "mobile_phone",
-              "mobile-phone-11"
-            ],
-            [
-              "cafe",
-              "cafe-11"
-            ],
-            [
-              "hairdresser",
-              "hairdresser-11"
-            ],
-            [
-              "cosmetics",
-              "shop-11"
-            ],
-            [
-              "pharmacy",
-              "pharmacy-11"
-            ],
-            [
-              "convenience",
-              "grocery-11"
-            ],
-            [
-              "greengrocer",
-              "grocery-11"
-            ],
-            [
-              "clothes",
-              "clothing-store-11"
-            ],
-            [
-              "shoes",
-              "clothing-store-11"
-            ],
-            [
-              "fast_food",
-              "fast-food-11"
-            ],
-            [
-              "dry_cleaning",
-              "laundry-11"
-            ],
-            [
-              "video_games",
-              "gaming-11"
-            ],
-            [
-              "bus_stop",
-              "bus-11"
-            ],
-            [
-              "subway",
-              "rail-metro-11"
-            ],
-            [
-              "park",
-              "park-alt1-11"
-            ],
-            [
-              "school",
-              "school-11"
-            ],
-            [
-              "cemetery",
-              "cemetery-11"
-            ],
-            [
-              "hospital",
-              "hospital-11"
-            ],
-            [
-              "kindergarten",
-              "school-11"
-            ],
-            [
-              "museum",
-              "museum-11"
-            ],
-            [
-              "post_office",
-              "post-11"
-            ],
-            [
-              "public_building",
-              "building-15"
-            ],
-            [
-              "attraction",
-              "attraction-11"
-            ],
-            [
-              "marina",
-              "harbor-11"
-            ],
-            [
-              "college",
-              "college-11"
-            ],
-            [
-              "books",
-              "library-11"
-            ],
-            [
-              "university",
-              "college-11"
-            ],
-            [
-              "beauty",
-              "shop-11"
-            ],
-            [
-              "townhall",
-              "town-hall-11"
-            ],
-            [
-              "doityourself",
-              "shop-11"
-            ]
-          ],
-          "default": "star-stroked-11"
-        },
+        "icon-image": "{subclass}-11",
         "text-field": "{name}",
+        "text-optional": true,
         "text-offset": [
           0,
           1.4
@@ -4195,93 +3873,7 @@
       },
       "paint": {
         "text-halo-blur": 0.5,
-        "text-color": {
-          "base": 1,
-          "type": "categorical",
-          "property": "subclass",
-          "stops": [
-            [
-              "bakery",
-              "#FF8D2B"
-            ],
-            [
-              "bank",
-              "#8A9CF6"
-            ],
-            [
-              "beauty",
-              "#FFC324"
-            ],
-            [
-              "books",
-              "#FFC324"
-            ],
-            [
-              "bus_stop",
-              "#5CA6FB"
-            ],
-            [
-              "clothes",
-              "#FFC324"
-            ],
-            [
-              "community_centre",
-              "#8A9CF6"
-            ],
-            [
-              "convenience",
-              "#FFC324"
-            ],
-            [
-              "doityourself",
-              "#FFC324"
-            ],
-            [
-              "embassy",
-              "#8A9CF6"
-            ],
-            [
-              "hospital",
-              "#FF5E6A"
-            ],
-            [
-              "hotel",
-              "#8A9CF6"
-            ],
-            [
-              "park",
-              "#00CB4F"
-            ],
-            [
-              "pharmacy",
-              "#FF5E6A"
-            ],
-            [
-              "place_of_worship",
-              "#8A9CF6"
-            ],
-            [
-              "post_office",
-              "#8A9CF6"
-            ],
-            [
-              "restaurant",
-              "#FF8D2B"
-            ],
-            [
-              "school",
-              "#A3A3A3"
-            ],
-            [
-              "station",
-              "#5CA6FB"
-            ],
-            [
-              "supermarket",
-              "#FFC324"
-            ]
-          ]
-        },
+        "text-color": "#000",
         "text-halo-width": 1,
         "text-halo-color": "#ffffff"
       }
@@ -4293,189 +3885,24 @@
       "source-layer": "poi",
       "minzoom": 14,
       "filter": [
-        "all", [
+        "all",
+        [
           "==",
           "$type",
           "Point"
         ],
         [
-          "all", [
+          "all",
+          [
             "<=",
             "rank",
             14
-          ],
-          [
-            "has",
-            "name"
           ]
         ]
       ],
       "layout": {
         "text-size": 10,
-        "icon-image": {
-          "base": 1,
-          "type": "categorical",
-          "property": "subclass",
-          "stops": [
-            [
-              "bank",
-              "bank-11"
-            ],
-            [
-              "restaurant",
-              "restaurant-11"
-            ],
-            [
-              "supermarket",
-              "grocery-11"
-            ],
-            [
-              "hotel",
-              "lodging-11"
-            ],
-            [
-              "community_centre",
-              "town-hall-11"
-            ],
-            [
-              "place_of_worship",
-              "place-of-worship-11"
-            ],
-            [
-              "embassy",
-              "embassy-11"
-            ],
-            [
-              "fire_station",
-              "fire-station-11"
-            ],
-            [
-              "bakery",
-              "bakery-11"
-            ],
-            [
-              "mobile_phone",
-              "mobile-phone-11"
-            ],
-            [
-              "cafe",
-              "cafe-11"
-            ],
-            [
-              "hairdresser",
-              "hairdresser-11"
-            ],
-            [
-              "cosmetics",
-              "shop-11"
-            ],
-            [
-              "pharmacy",
-              "pharmacy-11"
-            ],
-            [
-              "convenience",
-              "grocery-11"
-            ],
-            [
-              "greengrocer",
-              "grocery-11"
-            ],
-            [
-              "clothes",
-              "clothing-store-11"
-            ],
-            [
-              "shoes",
-              "clothing-store-11"
-            ],
-            [
-              "fast_food",
-              "fast-food-11"
-            ],
-            [
-              "dry_cleaning",
-              "laundry-11"
-            ],
-            [
-              "video_games",
-              "gaming-11"
-            ],
-            [
-              "bus_stop",
-              "bus-11"
-            ],
-            [
-              "subway",
-              "rail-metro-11"
-            ],
-            [
-              "park",
-              "park-alt1-11"
-            ],
-            [
-              "school",
-              "school-11"
-            ],
-            [
-              "cemetery",
-              "cemetery-11"
-            ],
-            [
-              "hospital",
-              "hospital-11"
-            ],
-            [
-              "kindergarten",
-              "school-11"
-            ],
-            [
-              "museum",
-              "museum-11"
-            ],
-            [
-              "post_office",
-              "post-11"
-            ],
-            [
-              "public_building",
-              "building-15"
-            ],
-            [
-              "attraction",
-              "attraction-11"
-            ],
-            [
-              "marina",
-              "harbor-11"
-            ],
-            [
-              "college",
-              "college-11"
-            ],
-            [
-              "books",
-              "library-11"
-            ],
-            [
-              "university",
-              "college-11"
-            ],
-            [
-              "beauty",
-              "shop-11"
-            ],
-            [
-              "townhall",
-              "town-hall-11"
-            ],
-            [
-              "doityourself",
-              "shop-11"
-            ]
-          ],
-          "default": "star-stroked-11"
-        },
+        "icon-image": "{subclass}-11",
         "text-font": [
           "Noto Sans Regular"
         ],
@@ -4486,97 +3913,12 @@
         ],
         "text-anchor": "top",
         "text-field": "{name}",
+        "text-optional": true,
         "text-max-width": 9
       },
       "paint": {
         "text-halo-blur": 0.5,
-        "text-color": {
-          "base": 1,
-          "type": "categorical",
-          "property": "subclass",
-          "stops": [
-            [
-              "bakery",
-              "#FF8D2B"
-            ],
-            [
-              "bank",
-              "#8A9CF6"
-            ],
-            [
-              "beauty",
-              "#FFC324"
-            ],
-            [
-              "books",
-              "#FFC324"
-            ],
-            [
-              "bus_stop",
-              "#5CA6FB"
-            ],
-            [
-              "clothes",
-              "#FFC324"
-            ],
-            [
-              "community_centre",
-              "#8A9CF6"
-            ],
-            [
-              "convenience",
-              "#FFC324"
-            ],
-            [
-              "doityourself",
-              "#FFC324"
-            ],
-            [
-              "embassy",
-              "#8A9CF6"
-            ],
-            [
-              "hospital",
-              "#FF5E6A"
-            ],
-            [
-              "hotel",
-              "#8A9CF6"
-            ],
-            [
-              "park",
-              "#00CB4F"
-            ],
-            [
-              "pharmacy",
-              "#FF5E6A"
-            ],
-            [
-              "place_of_worship",
-              "#8A9CF6"
-            ],
-            [
-              "post_office",
-              "#8A9CF6"
-            ],
-            [
-              "restaurant",
-              "#FF8D2B"
-            ],
-            [
-              "school",
-              "#A3A3A3"
-            ],
-            [
-              "station",
-              "#5CA6FB"
-            ],
-            [
-              "supermarket",
-              "#FFC324"
-            ]
-          ]
-        },
+        "text-color": "#000",
         "text-halo-width": 1,
         "text-halo-color": "#ffffff"
       }
@@ -4626,7 +3968,8 @@
       "source-layer": "transportation_name",
       "minzoom": 15,
       "filter": [
-        "all", [
+        "all",
+        [
           "==",
           "$type",
           "LineString"
@@ -4716,13 +4059,15 @@
       "source-layer": "transportation_name",
       "minzoom": 8,
       "filter": [
-        "all", [
+        "all",
+        [
           "==",
           "$type",
           "LineString"
         ],
         [
-          "all", [
+          "all",
+          [
             "!in",
             "network",
             "us-highway",
@@ -4770,13 +4115,15 @@
       "source-layer": "transportation_name",
       "minzoom": 7,
       "filter": [
-        "all", [
+        "all",
+        [
           "==",
           "$type",
           "LineString"
         ],
         [
-          "all", [
+          "all",
+          [
             "<=",
             "ref_length",
             6
@@ -4828,13 +4175,15 @@
       "source-layer": "transportation_name",
       "minzoom": 9,
       "filter": [
-        "all", [
+        "all",
+        [
           "==",
           "$type",
           "LineString"
         ],
         [
-          "all", [
+          "all",
+          [
             "<=",
             "ref_length",
             6
@@ -4883,7 +4232,8 @@
       "source-layer": "aerodrome_label",
       "minzoom": 10,
       "filter": [
-        "all", [
+        "all",
+        [
           "has",
           "iata"
         ]
@@ -5046,7 +4396,8 @@
       "source": "basemap",
       "source-layer": "place",
       "filter": [
-        "all", [
+        "all",
+        [
           "!=",
           "capital",
           2
@@ -5093,7 +4444,8 @@
       "source": "basemap",
       "source-layer": "place",
       "filter": [
-        "all", [
+        "all",
+        [
           "==",
           "capital",
           2
@@ -5147,7 +4499,8 @@
       "source": "basemap",
       "source-layer": "place",
       "filter": [
-        "all", [
+        "all",
+        [
           "==",
           "class",
           "country"
@@ -5199,7 +4552,8 @@
       "source": "basemap",
       "source-layer": "place",
       "filter": [
-        "all", [
+        "all",
+        [
           "==",
           "class",
           "country"
@@ -5251,7 +4605,8 @@
       "source": "basemap",
       "source-layer": "place",
       "filter": [
-        "all", [
+        "all",
+        [
           "==",
           "class",
           "country"
@@ -5303,7 +4658,8 @@
       "source": "basemap",
       "source-layer": "place",
       "filter": [
-        "all", [
+        "all",
+        [
           "==",
           "class",
           "country"
