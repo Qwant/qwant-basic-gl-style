@@ -3793,70 +3793,70 @@
       "source-layer": "poi",
       "minzoom": 17,
       "filter": [
-          "all",
+        "all",
+        [
+          "==",
+          "$type",
+          "Point"
+        ],
+        [
+          "any",
           [
-              "==",
-              "$type",
-              "Point"
+            "==",
+            "subclass",
+            "bollard"
           ],
           [
-              "any",
-              [
-                  "==",
-                  "subclass",
-                  "bollard"
-              ],
-              [
-                  "==",
-                  "subclass",
-                  "border_control"
-              ],
-              [
-                  "==",
-                  "subclass",
-                  "cycle_barrier"
-              ],
-              [
-                  "==",
-                  "subclass",
-                  "gate"
-              ],
-              [
-                  "==",
-                  "subclass",
-                  "lift_gate"
-              ],
-              [
-                  "==",
-                  "subclass",
-                  "post_box"
-              ],
-              [
-                  "==",
-                  "subclass",
-                  "sally_port"
-              ],
-              [
-                  "==",
-                  "subclass",
-                  "stile"
-              ],
-              [
-                  "==",
-                  "subclass",
-                  "telephone"
-              ],
-              [
-                  "==",
-                  "subclass",
-                  "toll_booth"
-              ],
-              [
-                  "==",
-                  "subclass",
-                  "waste_basket"
-              ]
+            "==",
+            "subclass",
+            "border_control"
+          ],
+          [
+            "==",
+            "subclass",
+            "cycle_barrier"
+          ],
+          [
+            "==",
+            "subclass",
+            "gate"
+          ],
+          [
+            "==",
+            "subclass",
+            "lift_gate"
+          ],
+          [
+            "==",
+            "subclass",
+            "post_box"
+          ],
+          [
+            "==",
+            "subclass",
+            "sally_port"
+          ],
+          [
+            "==",
+            "subclass",
+            "stile"
+          ],
+          [
+            "==",
+            "subclass",
+            "telephone"
+          ],
+          [
+            "==",
+            "subclass",
+            "toll_booth"
+          ],
+          [
+            "==",
+            "subclass",
+            "waste_basket"
           ]
+        ]
       ],
       "layout": {
         "text-size": 11,
@@ -3870,7 +3870,6 @@
           1.4
         ],
         "text-anchor": "top",
-        "text-field": "{name}",
         "text-optional": true,
         "text-max-width": 9
       },
@@ -3898,65 +3897,65 @@
           ">=",
           "rank",
           25
-      ],
-      [
+        ],
+        [
           "all",
           [
-              "!=",
-              "subclass",
-              "bollard"
+            "!=",
+            "subclass",
+            "bollard"
           ],
           [
-              "!=",
-              "subclass",
-              "border_control"
+            "!=",
+            "subclass",
+            "border_control"
           ],
           [
-              "!=",
-              "subclass",
-              "cycle_barrier"
+            "!=",
+            "subclass",
+            "cycle_barrier"
           ],
           [
-              "!=",
-              "subclass",
-              "gate"
+            "!=",
+            "subclass",
+            "gate"
           ],
           [
-              "!=",
-              "subclass",
-              "lift_gate"
+            "!=",
+            "subclass",
+            "lift_gate"
           ],
           [
-              "!=",
-              "subclass",
-              "post_box"
+            "!=",
+            "subclass",
+            "post_box"
           ],
           [
-              "!=",
-              "subclass",
-              "sally_port"
+            "!=",
+            "subclass",
+            "sally_port"
           ],
           [
-              "!=",
-              "subclass",
-              "stile"
+            "!=",
+            "subclass",
+            "stile"
           ],
           [
-              "!=",
-              "subclass",
-              "telephone"
+            "!=",
+            "subclass",
+            "telephone"
           ],
           [
-              "!=",
-              "subclass",
-              "toll_booth"
+            "!=",
+            "subclass",
+            "toll_booth"
           ],
           [
-              "!=",
-              "subclass",
-              "waste_basket"
+            "!=",
+            "subclass",
+            "waste_basket"
           ]
-      ]
+        ]
       ],
       "layout": {
         "text-size": 11,
@@ -4006,65 +4005,65 @@
             "rank",
             15
           ]
-      ],
-      [
+        ],
+        [
           "all",
           [
-              "!=",
-              "subclass",
-              "bollard"
+            "!=",
+            "subclass",
+            "bollard"
           ],
           [
-              "!=",
-              "subclass",
-              "border_control"
+            "!=",
+            "subclass",
+            "border_control"
           ],
           [
-              "!=",
-              "subclass",
-              "cycle_barrier"
+            "!=",
+            "subclass",
+            "cycle_barrier"
           ],
           [
-              "!=",
-              "subclass",
-              "gate"
+            "!=",
+            "subclass",
+            "gate"
           ],
           [
-              "!=",
-              "subclass",
-              "lift_gate"
+            "!=",
+            "subclass",
+            "lift_gate"
           ],
           [
-              "!=",
-              "subclass",
-              "post_box"
+            "!=",
+            "subclass",
+            "post_box"
           ],
           [
-              "!=",
-              "subclass",
-              "sally_port"
+            "!=",
+            "subclass",
+            "sally_port"
           ],
           [
-              "!=",
-              "subclass",
-              "stile"
+            "!=",
+            "subclass",
+            "stile"
           ],
           [
-              "!=",
-              "subclass",
-              "telephone"
+            "!=",
+            "subclass",
+            "telephone"
           ],
           [
-              "!=",
-              "subclass",
-              "toll_booth"
+            "!=",
+            "subclass",
+            "toll_booth"
           ],
           [
-              "!=",
-              "subclass",
-              "waste_basket"
+            "!=",
+            "subclass",
+            "waste_basket"
           ]
-      ]
+        ]
       ],
       "layout": {
         "text-padding": 2,
@@ -4109,65 +4108,65 @@
             "rank",
             14
           ]
-      ],
-      [
+        ],
+        [
           "all",
           [
-              "!=",
-              "subclass",
-              "bollard"
+            "!=",
+            "subclass",
+            "bollard"
           ],
           [
-              "!=",
-              "subclass",
-              "border_control"
+            "!=",
+            "subclass",
+            "border_control"
           ],
           [
-              "!=",
-              "subclass",
-              "cycle_barrier"
+            "!=",
+            "subclass",
+            "cycle_barrier"
           ],
           [
-              "!=",
-              "subclass",
-              "gate"
+            "!=",
+            "subclass",
+            "gate"
           ],
           [
-              "!=",
-              "subclass",
-              "lift_gate"
+            "!=",
+            "subclass",
+            "lift_gate"
           ],
           [
-              "!=",
-              "subclass",
-              "post_box"
+            "!=",
+            "subclass",
+            "post_box"
           ],
           [
-              "!=",
-              "subclass",
-              "sally_port"
+            "!=",
+            "subclass",
+            "sally_port"
           ],
           [
-              "!=",
-              "subclass",
-              "stile"
+            "!=",
+            "subclass",
+            "stile"
           ],
           [
-              "!=",
-              "subclass",
-              "telephone"
+            "!=",
+            "subclass",
+            "telephone"
           ],
           [
-              "!=",
-              "subclass",
-              "toll_booth"
+            "!=",
+            "subclass",
+            "toll_booth"
           ],
           [
-              "!=",
-              "subclass",
-              "waste_basket"
+            "!=",
+            "subclass",
+            "waste_basket"
           ]
-      ]
+        ]
       ],
       "layout": {
         "text-size": 10,
