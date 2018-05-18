@@ -3787,6 +3787,101 @@
       }
     },
     {
+      "id": "poi-level-street-furniture",
+      "type": "symbol",
+      "source": "poi",
+      "source-layer": "poi",
+      "minzoom": 17,
+      "filter": [
+          "all",
+          [
+              "==",
+              "$type",
+              "Point"
+          ],
+          [
+              "any",
+              [
+                  "==",
+                  "subclass",
+                  "bollard"
+              ],
+              [
+                  "==",
+                  "subclass",
+                  "border_control"
+              ],
+              [
+                  "==",
+                  "subclass",
+                  "cycle_barrier"
+              ],
+              [
+                  "==",
+                  "subclass",
+                  "gate"
+              ],
+              [
+                  "==",
+                  "subclass",
+                  "lift_gate"
+              ],
+              [
+                  "==",
+                  "subclass",
+                  "post_box"
+              ],
+              [
+                  "==",
+                  "subclass",
+                  "sally_port"
+              ],
+              [
+                  "==",
+                  "subclass",
+                  "stile"
+              ],
+              [
+                  "==",
+                  "subclass",
+                  "telephone"
+              ],
+              [
+                  "==",
+                  "subclass",
+                  "toll_booth"
+              ],
+              [
+                  "==",
+                  "subclass",
+                  "waste_basket"
+              ]
+          ]
+      ],
+      "layout": {
+        "text-size": 11,
+        "icon-image": "{subclass}-11",
+        "text-font": [
+          "Noto Sans Regular"
+        ],
+        "text-padding": 2,
+        "text-offset": [
+          0,
+          1.4
+        ],
+        "text-anchor": "top",
+        "text-field": "{name}",
+        "text-optional": true,
+        "text-max-width": 9
+      },
+      "paint": {
+        "text-halo-blur": 0.5,
+        "text-color": "#000",
+        "text-halo-width": 0.8,
+        "text-halo-color": "#ffffff"
+      }
+    },
+    {
       "id": "poi-level-3",
       "type": "symbol",
       "source": "poi",
@@ -3803,7 +3898,65 @@
           ">=",
           "rank",
           25
-        ]
+      ],
+      [
+          "all",
+          [
+              "!=",
+              "subclass",
+              "bollard"
+          ],
+          [
+              "!=",
+              "subclass",
+              "border_control"
+          ],
+          [
+              "!=",
+              "subclass",
+              "cycle_barrier"
+          ],
+          [
+              "!=",
+              "subclass",
+              "gate"
+          ],
+          [
+              "!=",
+              "subclass",
+              "lift_gate"
+          ],
+          [
+              "!=",
+              "subclass",
+              "post_box"
+          ],
+          [
+              "!=",
+              "subclass",
+              "sally_port"
+          ],
+          [
+              "!=",
+              "subclass",
+              "stile"
+          ],
+          [
+              "!=",
+              "subclass",
+              "telephone"
+          ],
+          [
+              "!=",
+              "subclass",
+              "toll_booth"
+          ],
+          [
+              "!=",
+              "subclass",
+              "waste_basket"
+          ]
+      ]
       ],
       "layout": {
         "text-size": 11,
@@ -3853,7 +4006,65 @@
             "rank",
             15
           ]
-        ]
+      ],
+      [
+          "all",
+          [
+              "!=",
+              "subclass",
+              "bollard"
+          ],
+          [
+              "!=",
+              "subclass",
+              "border_control"
+          ],
+          [
+              "!=",
+              "subclass",
+              "cycle_barrier"
+          ],
+          [
+              "!=",
+              "subclass",
+              "gate"
+          ],
+          [
+              "!=",
+              "subclass",
+              "lift_gate"
+          ],
+          [
+              "!=",
+              "subclass",
+              "post_box"
+          ],
+          [
+              "!=",
+              "subclass",
+              "sally_port"
+          ],
+          [
+              "!=",
+              "subclass",
+              "stile"
+          ],
+          [
+              "!=",
+              "subclass",
+              "telephone"
+          ],
+          [
+              "!=",
+              "subclass",
+              "toll_booth"
+          ],
+          [
+              "!=",
+              "subclass",
+              "waste_basket"
+          ]
+      ]
       ],
       "layout": {
         "text-padding": 2,
@@ -3898,7 +4109,65 @@
             "rank",
             14
           ]
-        ]
+      ],
+      [
+          "all",
+          [
+              "!=",
+              "subclass",
+              "bollard"
+          ],
+          [
+              "!=",
+              "subclass",
+              "border_control"
+          ],
+          [
+              "!=",
+              "subclass",
+              "cycle_barrier"
+          ],
+          [
+              "!=",
+              "subclass",
+              "gate"
+          ],
+          [
+              "!=",
+              "subclass",
+              "lift_gate"
+          ],
+          [
+              "!=",
+              "subclass",
+              "post_box"
+          ],
+          [
+              "!=",
+              "subclass",
+              "sally_port"
+          ],
+          [
+              "!=",
+              "subclass",
+              "stile"
+          ],
+          [
+              "!=",
+              "subclass",
+              "telephone"
+          ],
+          [
+              "!=",
+              "subclass",
+              "toll_booth"
+          ],
+          [
+              "!=",
+              "subclass",
+              "waste_basket"
+          ]
+      ]
       ],
       "layout": {
         "text-size": 10,
