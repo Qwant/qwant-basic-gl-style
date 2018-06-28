@@ -88,7 +88,19 @@ mappings:
   - subclass: golf_course
     iconName: golf-11
     color: '#00CB4F'
+  - subclass: golf
+    iconName: golf-11
+    color: '#00CB4F'
+  - subclass: miniature_golf
+    iconName: golf-11
+    color: '#00CB4F'
   - subclass: swimming_pool
+    iconName: swimming-11
+    color: '#8A9CF6'
+  - subclass: swimming
+    iconName: swimming-11
+    color: '#8A9CF6'
+  - subclass: swimming_area
     iconName: swimming-11
     color: '#8A9CF6'
   - subclass: bicycle_rental
