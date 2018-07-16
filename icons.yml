@@ -373,3 +373,6 @@ mappings:
   - subclass: ruins
     iconName: castle-11
     color: '#8A9CF6'
+  - subclass: airport
+    iconName: airport-11
+    color: '#5CA6FB'
