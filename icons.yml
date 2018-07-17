@@ -110,9 +110,6 @@ mappings:
     iconName: town-hall-11
     color: '#8A9CF6'
   - class: place_of_worship
-    iconName: place-of-worship-11
-    color: '#8A9CF6'
-  - class: place_of_worship
     subclass: christian
     iconName: religious-christian-11
     color: '#8A9CF6'
@@ -123,6 +120,12 @@ mappings:
   - class: place_of_worship
     subclass: jewish
     iconName: religious-jewish-11
+    color: '#8A9CF6'
+  - class: place_of_worship
+    iconName: place-of-worship-11
+    color: '#8A9CF6'
+  - subclass: place_of_worship
+    iconName: place-of-worship-11
     color: '#8A9CF6'
   - subclass: embassy
     iconName: embassy-11
