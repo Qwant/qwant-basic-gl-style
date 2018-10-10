@@ -2,6 +2,86 @@
   "version": 8,
   "name": "Qwant Style Basic",
   "metadata": {
+    "taxonomy:title": "Qwant Style Basic",
+    "taxonomy:groups": [
+      {
+        "id": "admin-boundaries",
+        "type": "line",
+        "title": "Administrative boundaries"
+      },
+      {
+        "id": "landuse",
+        "type": "polygon",
+        "title": "Land use",
+        "zooms": 13
+      },
+      {
+        "id": "waterway",
+        "type": "line",
+        "title": "Waterways",
+        "zooms": {
+          "minzoom": 5,
+          "maxzoom": 20
+        }
+      },
+      {
+        "id": "building",
+        "type": "polygon",
+        "title": "Buildings",
+        "zooms": 20
+      },
+      {
+        "id": "tunnels",
+        "type": "line",
+        "title": "Roads Tunnels",
+        "zooms": {
+          "minzoom": 5,
+          "maxzoom": 20
+        }
+      },
+      {
+        "id": "roads",
+        "type": "line",
+        "title": "Roads",
+        "zooms": {
+          "minzoom": 5,
+          "maxzoom": 20
+        }
+      },
+      {
+        "id": "bridges",
+        "type": "line",
+        "title": "Roads Bridges",
+        "zooms": {
+          "minzoom": 5,
+          "maxzoom": 20
+        }
+      },
+      {
+        "id": "roads-labels",
+        "type": "symbol",
+        "title": "Water Labels",
+        "zooms": {
+          "minzoom": 9,
+          "maxzoom": 20
+        }
+      },
+      {
+        "id": "waterway-labels",
+        "type": "symbol",
+        "title": "Water Labels",
+        "zooms": {
+          "minzoom": 11,
+          "maxzoom": 20
+        }
+      },
+      {
+        "id": "places",
+        "type": "symbol",
+        "title": "Political & Place Labels",
+        "zooms": [2, 4, 6, 8, 10, 12, 14, 16]
+      }
+    ],
     "mapbox:autocomposite": false,
     "mapbox:type": "template",
     "maputnik:renderer": "mbgljs",
@@ -38,7 +118,8 @@
       "id": "landcover-glacier",
       "type": "fill",
       "metadata": {
-        "mapbox:group": "1444849388993.3071"
+        "mapbox:group": "1444849388993.3071",
+        "taxonomy:group": "landuse"
       },
       "source": "basemap",
       "source-layer": "landcover",
@@ -71,7 +152,8 @@
       "id": "landuse-residential",
       "type": "fill",
       "metadata": {
-        "mapbox:group": "1444849388993.3071"
+        "mapbox:group": "1444849388993.3071",
+        "taxonomy:group": "landuse"
       },
       "source": "basemap",
       "source-layer": "landuse",
@@ -100,7 +182,8 @@
       "id": "landuse-commercial",
       "type": "fill",
       "metadata": {
-        "mapbox:group": "1444849388993.3071"
+        "mapbox:group": "1444849388993.3071",
+        "taxonomy:group": "landuse"
       },
       "source": "basemap",
       "source-layer": "landuse",
@@ -125,7 +208,8 @@
       "id": "landuse-industrial",
       "type": "fill",
       "metadata": {
-        "mapbox:group": "1444849388993.3071"
+        "mapbox:group": "1444849388993.3071",
+        "taxonomy:group": "landuse"
       },
       "source": "basemap",
       "source-layer": "landuse",
@@ -150,7 +234,8 @@
       "id": "park",
       "type": "fill",
       "metadata": {
-        "mapbox:group": "1444849388993.3071"
+        "mapbox:group": "1444849388993.3071",
+        "taxonomy:group": "landuse"
       },
       "source": "basemap",
       "source-layer": "park",
@@ -214,7 +299,8 @@
       "id": "landuse-cemetery",
       "type": "fill",
       "metadata": {
-        "mapbox:group": "1444849388993.3071"
+        "mapbox:group": "1444849388993.3071",
+        "taxonomy:group": "landuse"
       },
       "source": "basemap",
       "source-layer": "landuse",
@@ -231,7 +317,8 @@
       "id": "landuse-hospital",
       "type": "fill",
       "metadata": {
-        "mapbox:group": "1444849388993.3071"
+        "mapbox:group": "1444849388993.3071",
+        "taxonomy:group": "landuse"
       },
       "source": "basemap",
       "source-layer": "landuse",
@@ -249,7 +336,8 @@
       "id": "landuse-school",
       "type": "fill",
       "metadata": {
-        "mapbox:group": "1444849388993.3071"
+        "mapbox:group": "1444849388993.3071",
+        "taxonomy:group": "landuse"
       },
       "source": "basemap",
       "source-layer": "landuse",
@@ -266,7 +354,8 @@
       "id": "landuse-railway",
       "type": "fill",
       "metadata": {
-        "mapbox:group": "1444849388993.3071"
+        "mapbox:group": "1444849388993.3071",
+        "taxonomy:group": "landuse"
       },
       "source": "basemap",
       "source-layer": "landuse",
@@ -283,7 +372,8 @@
       "id": "landcover-wood",
       "type": "fill",
       "metadata": {
-        "mapbox:group": "1444849388993.3071"
+        "mapbox:group": "1444849388993.3071",
+        "taxonomy:group": "landuse"
       },
       "source": "basemap",
       "source-layer": "landcover",
@@ -315,7 +405,8 @@
       "id": "landcover-grass",
       "type": "fill",
       "metadata": {
-        "mapbox:group": "1444849388993.3071"
+        "mapbox:group": "1444849388993.3071",
+        "taxonomy:group": "landuse"
       },
       "source": "basemap",
       "source-layer": "landcover",
@@ -333,7 +424,8 @@
       "id": "landcover-grass-park",
       "type": "fill",
       "metadata": {
-        "mapbox:group": "1444849388993.3071"
+        "mapbox:group": "1444849388993.3071",
+        "taxonomy:group": "landuse"
       },
       "source": "basemap",
       "source-layer": "park",
@@ -351,7 +443,8 @@
       "id": "waterway-other",
       "type": "line",
       "metadata": {
-        "mapbox:group": "1444849382550.77"
+        "mapbox:group": "1444849382550.77",
+        "taxonomy:group": "waterway"
       },
       "source": "basemap",
       "source-layer": "waterway",
@@ -386,7 +479,8 @@
       "id": "waterway-stream-canal",
       "type": "line",
       "metadata": {
-        "mapbox:group": "1444849382550.77"
+        "mapbox:group": "1444849382550.77",
+        "taxonomy:group": "waterway"
       },
       "source": "basemap",
       "source-layer": "waterway",
@@ -420,7 +514,8 @@
       "id": "waterway-river",
       "type": "line",
       "metadata": {
-        "mapbox:group": "1444849382550.77"
+        "mapbox:group": "1444849382550.77",
+        "taxonomy:group": "waterway"
       },
       "source": "basemap",
       "source-layer": "waterway",
@@ -494,7 +589,8 @@
       "id": "water",
       "type": "fill",
       "metadata": {
-        "mapbox:group": "1444849382550.77"
+        "mapbox:group": "1444849382550.77",
+        "taxonomy:group": "landuse"
       },
       "source": "basemap",
       "source-layer": "water",
@@ -528,7 +624,8 @@
       "id": "landcover-ice-shelf",
       "type": "fill",
       "metadata": {
-        "mapbox:group": "1444849382550.77"
+        "mapbox:group": "1444849382550.77",
+        "taxonomy:group": "landuse"
       },
       "source": "basemap",
       "source-layer": "landcover",
@@ -561,7 +658,8 @@
       "id": "building",
       "type": "fill",
       "metadata": {
-        "mapbox:group": "1444849364238.8171"
+        "mapbox:group": "1444849364238.8171",
+        "taxonomy:group": "building"
       },
       "source": "basemap",
       "source-layer": "building",
@@ -586,7 +684,8 @@
       "id": "building-top",
       "type": "fill",
       "metadata": {
-        "mapbox:group": "1444849364238.8171"
+        "mapbox:group": "1444849364238.8171",
+        "taxonomy:group": "building"
       },
       "source": "basemap",
       "source-layer": "building",
@@ -634,7 +733,9 @@
       "id": "tunnel-service-track-casing",
       "type": "line",
       "metadata": {
-        "mapbox:group": "1444849354174.1904"
+        "mapbox:group": "1444849354174.1904",
+        "taxonomy:group": "tunnels",
+        "taxonomy:casing": "tunnel-service-track"
       },
       "source": "basemap",
       "source-layer": "transportation",
@@ -684,7 +785,9 @@
       "id": "tunnel-minor-casing",
       "type": "line",
       "metadata": {
-        "mapbox:group": "1444849354174.1904"
+        "mapbox:group": "1444849354174.1904",
+        "taxonomy:group": "tunnels",
+        "taxonomy:casing": "tunnel-minor"
       },
       "source": "basemap",
       "source-layer": "transportation",
@@ -745,7 +848,9 @@
       "id": "tunnel-secondary-tertiary-casing",
       "type": "line",
       "metadata": {
-        "mapbox:group": "1444849354174.1904"
+        "mapbox:group": "1444849354174.1904",
+        "taxonomy:group": "tunnels",
+        "taxonomy:casing": "tunnel-secondary-tertiary"
       },
       "source": "basemap",
       "source-layer": "transportation",
@@ -788,7 +893,9 @@
       "id": "tunnel-trunk-primary-casing",
       "type": "line",
       "metadata": {
-        "mapbox:group": "1444849354174.1904"
+        "mapbox:group": "1444849354174.1904",
+        "taxonomy:group": "tunnels",
+        "taxonomy:casing": "tunnel-secondary-primary"
       },
       "source": "basemap",
       "source-layer": "transportation",
@@ -838,7 +945,9 @@
       "id": "tunnel-motorway-casing",
       "type": "line",
       "metadata": {
-        "mapbox:group": "1444849354174.1904"
+        "mapbox:group": "1444849354174.1904",
+        "taxonomy:group": "tunnels",
+        "taxonomy:casing": "tunnel-motorway"
       },
       "source": "basemap",
       "source-layer": "transportation",
@@ -892,7 +1001,8 @@
       "id": "tunnel-path",
       "type": "line",
       "metadata": {
-        "mapbox:group": "1444849354174.1904"
+        "mapbox:group": "1444849354174.1904",
+        "taxonomy:group": "tunnels"
       },
       "source": "basemap",
       "source-layer": "transportation",
@@ -942,7 +1052,8 @@
       "id": "tunnel-service-track",
       "type": "line",
       "metadata": {
-        "mapbox:group": "1444849354174.1904"
+        "mapbox:group": "1444849354174.1904",
+        "taxonomy:group": "tunnels"
       },
       "source": "basemap",
       "source-layer": "transportation",
@@ -988,7 +1099,8 @@
       "id": "tunnel-minor",
       "type": "line",
       "metadata": {
-        "mapbox:group": "1444849354174.1904"
+        "mapbox:group": "1444849354174.1904",
+        "taxonomy:group": "tunnels"
       },
       "source": "basemap",
       "source-layer": "transportation",
@@ -1034,7 +1146,8 @@
       "id": "tunnel-secondary-tertiary",
       "type": "line",
       "metadata": {
-        "mapbox:group": "1444849354174.1904"
+        "mapbox:group": "1444849354174.1904",
+        "taxonomy:group": "tunnels"
       },
       "source": "basemap",
       "source-layer": "transportation",
@@ -1080,7 +1193,8 @@
       "id": "tunnel-trunk-primary",
       "type": "line",
       "metadata": {
-        "mapbox:group": "1444849354174.1904"
+        "mapbox:group": "1444849354174.1904",
+        "taxonomy:group": "tunnels"
       },
       "source": "basemap",
       "source-layer": "transportation",
@@ -1126,7 +1240,8 @@
       "id": "tunnel-motorway",
       "type": "line",
       "metadata": {
-        "mapbox:group": "1444849354174.1904"
+        "mapbox:group": "1444849354174.1904",
+        "taxonomy:group": "tunnels"
       },
       "source": "basemap",
       "source-layer": "transportation",
@@ -1172,7 +1287,8 @@
       "id": "tunnel-railway",
       "type": "line",
       "metadata": {
-        "mapbox:group": "1444849354174.1904"
+        "mapbox:group": "1444849354174.1904",
+        "taxonomy:group": "tunnels"
       },
       "source": "basemap",
       "source-layer": "transportation",
@@ -1217,6 +1333,9 @@
     {
       "id": "ferry",
       "type": "line",
+      "metadata": {
+        "taxonomy:group": "roads"
+      },
       "source": "basemap",
       "source-layer": "transportation",
       "filter": [
@@ -1244,7 +1363,9 @@
       "id": "aeroway-taxiway-casing",
       "type": "line",
       "metadata": {
-        "mapbox:group": "1444849345966.4436"
+        "mapbox:group": "1444849345966.4436",
+          "taxonomy:group": "bridges",
+          "taxonomy:casing": "aeroway-taxiway"
       },
       "source": "basemap",
       "source-layer": "aeroway",
@@ -1284,7 +1405,9 @@
       "id": "aeroway-runway-casing",
       "type": "line",
       "metadata": {
-        "mapbox:group": "1444849345966.4436"
+        "mapbox:group": "1444849345966.4436",
+          "taxonomy:group": "bridges",
+          "taxonomy:casing": "aeroway-runway"
       },
       "source": "basemap",
       "source-layer": "aeroway",
@@ -1324,7 +1447,8 @@
       "id": "aeroway-area",
       "type": "fill",
       "metadata": {
-        "mapbox:group": "1444849345966.4436"
+        "mapbox:group": "1444849345966.4436",
+        "taxonomy:group": "landuse"
       },
       "source": "basemap",
       "source-layer": "aeroway",
@@ -1367,7 +1491,8 @@
       "id": "aeroway-taxiway",
       "type": "line",
       "metadata": {
-        "mapbox:group": "1444849345966.4436"
+        "mapbox:group": "1444849345966.4436",
+        "taxonomy:group": "bridges"
       },
       "source": "basemap",
       "source-layer": "aeroway",
@@ -1424,7 +1549,8 @@
       "id": "aeroway-runway",
       "type": "line",
       "metadata": {
-        "mapbox:group": "1444849345966.4436"
+        "mapbox:group": "1444849345966.4436",
+        "taxonomy:group": "bridges"
       },
       "source": "basemap",
       "source-layer": "aeroway",
@@ -1481,7 +1607,8 @@
       "id": "highway-area",
       "type": "fill",
       "metadata": {
-        "mapbox:group": "1444849345966.4436"
+        "mapbox:group": "1444849345966.4436",
+        "taxonomy:group": "landuse"
       },
       "source": "basemap",
       "source-layer": "transportation",
@@ -1504,7 +1631,9 @@
       "id": "highway-motorway-link-casing",
       "type": "line",
       "metadata": {
-        "mapbox:group": "1444849345966.4436"
+        "mapbox:group": "1444849345966.4436",
+        "taxonomy:group": "roads",
+        "taxonomy:casing": "highway-motorway-link"
       },
       "source": "basemap",
       "source-layer": "transportation",
@@ -1557,7 +1686,9 @@
       "id": "highway-link-casing",
       "type": "line",
       "metadata": {
-        "mapbox:group": "1444849345966.4436"
+        "mapbox:group": "1444849345966.4436",
+        "taxonomy:group": "roads",
+        "taxonomy:casing": "highway-link"
       },
       "source": "basemap",
       "source-layer": "transportation",
@@ -1614,7 +1745,9 @@
       "id": "highway-minor-casing",
       "type": "line",
       "metadata": {
-        "mapbox:group": "1444849345966.4436"
+        "mapbox:group": "1444849345966.4436",
+        "taxonomy:group": "roads",
+        "taxonomy:casing": "highway-minor"
       },
       "source": "basemap",
       "source-layer": "transportation",
@@ -1686,7 +1819,9 @@
       "id": "highway-secondary-tertiary-casing",
       "type": "line",
       "metadata": {
-        "mapbox:group": "1444849345966.4436"
+        "mapbox:group": "1444849345966.4436",
+        "taxonomy:group": "roads",
+        "taxonomy:casing": "highway-secondary-tertiary"
       },
       "source": "basemap",
       "source-layer": "transportation",
@@ -1732,7 +1867,9 @@
       "id": "highway-primary-casing",
       "type": "line",
       "metadata": {
-        "mapbox:group": "1444849345966.4436"
+        "mapbox:group": "1444849345966.4436",
+        "taxonomy:group": "roads",
+        "taxonomy:casing": "highway-primary"
       },
       "source": "basemap",
       "source-layer": "transportation",
@@ -1797,7 +1934,9 @@
       "id": "highway-trunk-casing",
       "type": "line",
       "metadata": {
-        "mapbox:group": "1444849345966.4436"
+        "mapbox:group": "1444849345966.4436",
+        "taxonomy:group": "roads",
+        "taxonomy:casing": "highway-trunk"
       },
       "source": "basemap",
       "source-layer": "transportation",
@@ -1862,7 +2001,9 @@
       "id": "highway-motorway-casing",
       "type": "line",
       "metadata": {
-        "mapbox:group": "1444849345966.4436"
+        "mapbox:group": "1444849345966.4436",
+        "taxonomy:group": "roads",
+        "taxonomy:casing": "highway-motorway"
       },
       "source": "basemap",
       "source-layer": "transportation",
@@ -1931,7 +2072,8 @@
       "id": "highway-path",
       "type": "line",
       "metadata": {
-        "mapbox:group": "1444849345966.4436"
+        "mapbox:group": "1444849345966.4436",
+        "taxonomy:group": "roads"
       },
       "source": "basemap",
       "source-layer": "transportation",
@@ -1986,7 +2128,8 @@
       "id": "highway-motorway-link",
       "type": "line",
       "metadata": {
-        "mapbox:group": "1444849345966.4436"
+        "mapbox:group": "1444849345966.4436",
+        "taxonomy:group": "roads"
       },
       "source": "basemap",
       "source-layer": "transportation",
@@ -2038,7 +2181,8 @@
       "id": "highway-link",
       "type": "line",
       "metadata": {
-        "mapbox:group": "1444849345966.4436"
+        "mapbox:group": "1444849345966.4436",
+        "taxonomy:group": "roads"
       },
       "source": "basemap",
       "source-layer": "transportation",
@@ -2094,7 +2238,8 @@
       "id": "highway-minor",
       "type": "line",
       "metadata": {
-        "mapbox:group": "1444849345966.4436"
+        "mapbox:group": "1444849345966.4436",
+        "taxonomy:group": "roads"
       },
       "source": "basemap",
       "source-layer": "transportation",
@@ -2151,7 +2296,8 @@
       "id": "highway-secondary-tertiary",
       "type": "line",
       "metadata": {
-        "mapbox:group": "1444849345966.4436"
+        "mapbox:group": "1444849345966.4436",
+        "taxonomy:group": "roads"
       },
       "source": "basemap",
       "source-layer": "transportation",
@@ -2200,7 +2346,8 @@
       "id": "highway-primary",
       "type": "line",
       "metadata": {
-        "mapbox:group": "1444849345966.4436"
+        "mapbox:group": "1444849345966.4436",
+        "taxonomy:group": "roads"
       },
       "source": "basemap",
       "source-layer": "transportation",
@@ -2256,7 +2403,8 @@
       "id": "highway-trunk",
       "type": "line",
       "metadata": {
-        "mapbox:group": "1444849345966.4436"
+        "mapbox:group": "1444849345966.4436",
+        "taxonomy:group": "roads"
       },
       "source": "basemap",
       "source-layer": "transportation",
@@ -2312,7 +2460,8 @@
       "id": "highway-motorway",
       "type": "line",
       "metadata": {
-        "mapbox:group": "1444849345966.4436"
+        "mapbox:group": "1444849345966.4436",
+        "taxonomy:group": "roads"
       },
       "source": "basemap",
       "source-layer": "transportation",
@@ -2369,7 +2518,8 @@
       "id": "railway-transit",
       "type": "line",
       "metadata": {
-        "mapbox:group": "1444849345966.4436"
+        "mapbox:group": "1444849345966.4436",
+        "taxonomy:group": "roads"
       },
       "source": "basemap",
       "source-layer": "transportation",
@@ -2475,7 +2625,8 @@
       "id": "railway-service",
       "type": "line",
       "metadata": {
-        "mapbox:group": "1444849345966.4436"
+        "mapbox:group": "1444849345966.4436",
+        "taxonomy:group": "roads"
       },
       "source": "basemap",
       "source-layer": "transportation",
@@ -2576,7 +2727,8 @@
       "id": "railway",
       "type": "line",
       "metadata": {
-        "mapbox:group": "1444849345966.4436"
+        "mapbox:group": "1444849345966.4436",
+        "taxonomy:group": "roads"
       },
       "source": "basemap",
       "source-layer": "transportation",
@@ -2690,7 +2842,9 @@
       "id": "bridge-motorway-link-casing",
       "type": "line",
       "metadata": {
-        "mapbox:group": "1444849334699.1902"
+        "mapbox:group": "1444849334699.1902",
+        "taxonomy:group": "bridges",
+        "taxonomy:casing": "bridge-motorway-link"
       },
       "source": "basemap",
       "source-layer": "transportation",
@@ -2740,7 +2894,9 @@
       "id": "bridge-link-casing",
       "type": "line",
       "metadata": {
-        "mapbox:group": "1444849334699.1902"
+        "mapbox:group": "1444849334699.1902",
+        "taxonomy:group": "bridges",
+        "taxonomy:casing": "bridge-link"
       },
       "source": "basemap",
       "source-layer": "transportation",
@@ -2793,7 +2949,9 @@
       "id": "bridge-secondary-tertiary-casing",
       "type": "line",
       "metadata": {
-        "mapbox:group": "1444849334699.1902"
+        "mapbox:group": "1444849334699.1902",
+        "taxonomy:group": "bridges",
+        "taxonomy:casing": "bridge-secondary-tertiary"
       },
       "source": "basemap",
       "source-layer": "transportation",
@@ -2836,7 +2994,9 @@
       "id": "bridge-trunk-primary-casing",
       "type": "line",
       "metadata": {
-        "mapbox:group": "1444849334699.1902"
+        "mapbox:group": "1444849334699.1902",
+        "taxonomy:group": "bridges",
+        "taxonomy:casing": "bridge-trunk-primary"
       },
       "source": "basemap",
       "source-layer": "transportation",
@@ -2886,7 +3046,9 @@
       "id": "bridge-motorway-casing",
       "type": "line",
       "metadata": {
-        "mapbox:group": "1444849334699.1902"
+        "mapbox:group": "1444849334699.1902",
+        "taxonomy:group": "bridges",
+        "taxonomy:casing": "bridge-motorway"
       },
       "source": "basemap",
       "source-layer": "transportation",
@@ -2935,7 +3097,9 @@
       "id": "bridge-path-casing",
       "type": "line",
       "metadata": {
-        "mapbox:group": "1444849334699.1902"
+        "mapbox:group": "1444849334699.1902",
+        "taxonomy:group": "bridges",
+        "taxonomy:casing": "bridge-path"
       },
       "source": "basemap",
       "source-layer": "transportation",
@@ -2981,7 +3145,8 @@
       "id": "bridge-path",
       "type": "line",
       "metadata": {
-        "mapbox:group": "1444849334699.1902"
+        "mapbox:group": "1444849334699.1902",
+        "taxonomy:group": "bridges"
       },
       "source": "basemap",
       "source-layer": "transportation",
@@ -3031,7 +3196,8 @@
       "id": "bridge-motorway-link",
       "type": "line",
       "metadata": {
-        "mapbox:group": "1444849334699.1902"
+        "mapbox:group": "1444849334699.1902",
+        "taxonomy:group": "bridges"
       },
       "source": "basemap",
       "source-layer": "transportation",
@@ -3080,7 +3246,8 @@
       "id": "bridge-link",
       "type": "line",
       "metadata": {
-        "mapbox:group": "1444849334699.1902"
+        "mapbox:group": "1444849334699.1902",
+        "taxonomy:group": "bridges"
       },
       "source": "basemap",
       "source-layer": "transportation",
@@ -3132,7 +3299,8 @@
       "id": "bridge-secondary-tertiary",
       "type": "line",
       "metadata": {
-        "mapbox:group": "1444849334699.1902"
+        "mapbox:group": "1444849334699.1902",
+        "taxonomy:group": "bridges"
       },
       "source": "basemap",
       "source-layer": "transportation",
@@ -3178,7 +3346,8 @@
       "id": "bridge-trunk-primary",
       "type": "line",
       "metadata": {
-        "mapbox:group": "1444849334699.1902"
+        "mapbox:group": "1444849334699.1902",
+        "taxonomy:group": "bridges"
       },
       "source": "basemap",
       "source-layer": "transportation",
@@ -3224,7 +3393,8 @@
       "id": "bridge-motorway",
       "type": "line",
       "metadata": {
-        "mapbox:group": "1444849334699.1902"
+        "mapbox:group": "1444849334699.1902",
+        "taxonomy:group": "bridges"
       },
       "source": "basemap",
       "source-layer": "transportation",
@@ -3269,7 +3439,8 @@
       "id": "bridge-railway",
       "type": "line",
       "metadata": {
-        "mapbox:group": "1444849334699.1902"
+        "mapbox:group": "1444849334699.1902",
+        "taxonomy:group": "bridges"
       },
       "source": "basemap",
       "source-layer": "transportation",
@@ -3426,6 +3597,9 @@
     {
       "id": "boundary-land-level-4",
       "type": "line",
+      "metadata": {
+        "taxonomy:group": "admin-boundaries"
+      },
       "source": "basemap",
       "source-layer": "boundary",
       "filter": [
@@ -3478,6 +3652,9 @@
     {
       "id": "boundary-land-level-2",
       "type": "line",
+      "metadata": {
+        "taxonomy:group": "admin-boundaries"
+      },
       "source": "basemap",
       "source-layer": "boundary",
       "filter": [
@@ -3530,6 +3707,9 @@
     {
       "id": "boundary-land-disputed",
       "type": "line",
+      "metadata": {
+        "taxonomy:group": "admin-boundaries"
+      },
       "source": "basemap",
       "source-layer": "boundary",
       "filter": [
@@ -3581,6 +3761,9 @@
     {
       "id": "boundary-water",
       "type": "line",
+      "metadata": {
+        "taxonomy:group": "admin-boundaries"
+      },
       "source": "basemap",
       "source-layer": "boundary",
       "filter": [
@@ -3641,6 +3824,9 @@
     {
       "id": "waterway-name",
       "type": "symbol",
+      "metadata": {
+        "taxonomy:group": "waterway-labels"
+      },
       "source": "basemap",
       "source-layer": "waterway",
       "minzoom": 13,
@@ -3677,6 +3863,9 @@
     {
       "id": "water-name-lakeline",
       "type": "symbol",
+      "metadata": {
+        "taxonomy:group": "waterway-labels"
+      },
       "source": "basemap",
       "source-layer": "water_name",
       "filter": [
@@ -3705,6 +3894,9 @@
     {
       "id": "water-name-ocean",
       "type": "symbol",
+      "metadata": {
+        "taxonomy:group": "waterway-labels"
+      },
       "source": "basemap",
       "source-layer": "water_name",
       "filter": [
@@ -3741,6 +3933,9 @@
     {
       "id": "water-name-other",
       "type": "symbol",
+      "metadata": {
+        "taxonomy:group": "waterway-labels"
+      },
       "source": "basemap",
       "source-layer": "water_name",
       "filter": [
@@ -4194,6 +4389,9 @@
     {
       "id": "highway-name-path",
       "type": "symbol",
+      "metadata": {
+        "taxonomy:group": "roads-labels"
+      },
       "source": "basemap",
       "source-layer": "transportation_name",
       "minzoom": 15.5,
@@ -4232,6 +4430,9 @@
     {
       "id": "highway-name-minor",
       "type": "symbol",
+      "metadata": {
+        "taxonomy:group": "roads-labels"
+      },
       "source": "basemap",
       "source-layer": "transportation_name",
       "minzoom": 15,
@@ -4281,6 +4482,9 @@
     {
       "id": "highway-name-major",
       "type": "symbol",
+      "metadata": {
+        "taxonomy:group": "roads-labels"
+      },
       "source": "basemap",
       "source-layer": "transportation_name",
       "minzoom": 12.2,
@@ -4323,6 +4527,9 @@
     {
       "id": "highway-shield",
       "type": "symbol",
+      "metadata": {
+        "taxonomy:group": "roads-labels"
+      },
       "source": "basemap",
       "source-layer": "transportation_name",
       "minzoom": 8,
@@ -4379,6 +4586,9 @@
     {
       "id": "highway-shield-us-interstate",
       "type": "symbol",
+      "metadata": {
+        "taxonomy:group": "roads-labels"
+      },
       "source": "basemap",
       "source-layer": "transportation_name",
       "minzoom": 7,
@@ -4439,6 +4649,9 @@
     {
       "id": "highway-shield-us-other",
       "type": "symbol",
+      "metadata": {
+        "taxonomy:group": "roads-labels"
+      },
       "source": "basemap",
       "source-layer": "transportation_name",
       "minzoom": 9,
@@ -4535,7 +4748,8 @@
       "id": "place-other",
       "type": "symbol",
       "metadata": {
-        "mapbox:group": "1444849242106.713"
+        "mapbox:group": "1444849242106.713",
+        "taxonomy:group": "places"
       },
       "source": "basemap",
       "source-layer": "place",
@@ -4579,7 +4793,8 @@
       "id": "place-village",
       "type": "symbol",
       "metadata": {
-        "mapbox:group": "1444849242106.713"
+        "mapbox:group": "1444849242106.713",
+        "taxonomy:group": "places"
       },
       "source": "basemap",
       "source-layer": "place",
@@ -4619,7 +4834,8 @@
       "id": "place-town",
       "type": "symbol",
       "metadata": {
-        "mapbox:group": "1444849242106.713"
+        "mapbox:group": "1444849242106.713",
+        "taxonomy:group": "places"
       },
       "source": "basemap",
       "source-layer": "place",
@@ -4659,7 +4875,8 @@
       "id": "place-city",
       "type": "symbol",
       "metadata": {
-        "mapbox:group": "1444849242106.713"
+        "mapbox:group": "1444849242106.713",
+        "taxonomy:group": "places"
       },
       "source": "basemap",
       "source-layer": "place",
@@ -4707,7 +4924,8 @@
       "id": "place-city-capital",
       "type": "symbol",
       "metadata": {
-        "mapbox:group": "1444849242106.713"
+        "mapbox:group": "1444849242106.713",
+        "taxonomy:group": "places"
       },
       "source": "basemap",
       "source-layer": "place",
@@ -4762,7 +4980,8 @@
       "id": "place-country-other",
       "type": "symbol",
       "metadata": {
-        "mapbox:group": "1444849242106.713"
+        "mapbox:group": "1444849242106.713",
+        "taxonomy:group": "places"
       },
       "source": "basemap",
       "source-layer": "place",
@@ -4815,7 +5034,8 @@
       "id": "place-country-3",
       "type": "symbol",
       "metadata": {
-        "mapbox:group": "1444849242106.713"
+        "mapbox:group": "1444849242106.713",
+        "taxonomy:group": "places"
       },
       "source": "basemap",
       "source-layer": "place",
@@ -4868,7 +5088,8 @@
       "id": "place-country-2",
       "type": "symbol",
       "metadata": {
-        "mapbox:group": "1444849242106.713"
+        "mapbox:group": "1444849242106.713",
+        "taxonomy:group": "places"
       },
       "source": "basemap",
       "source-layer": "place",
@@ -4921,7 +5142,8 @@
       "id": "place-country-1",
       "type": "symbol",
       "metadata": {
-        "mapbox:group": "1444849242106.713"
+        "mapbox:group": "1444849242106.713",
+        "taxonomy:group": "places"
       },
       "source": "basemap",
       "source-layer": "place",
