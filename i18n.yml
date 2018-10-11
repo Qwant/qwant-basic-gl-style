@@ -1,127 +1,149 @@
-lang: &lang
-  - case
-  - - has
-    - name:{locale}
-  - - case
-    - - "=="
-      - - concat
+lang:
+    - &lang_double
+      - case
+      - - has
+        - name:{locale}
+      - - case
+        - - "=="
+          - - concat
+            - - get
+              - name:{locale}
+            - ''
+          - - concat
+            - - get
+              - name
+            - ''
         - - get
           - name:{locale}
-        - ''
-      - - concat
-        - - get
-          - name
-        - ''
-    - - get
-      - name:{locale}
-    - - concat
-      - - get
-        - name:{locale}
-      - "\n"
-      - - concat
-        - - get
-          - name
-        - ''
-  - - case
-    - - has
-      - name:latin
-    - - case
-      - - "=="
         - - concat
           - - get
-            - name:latin
-          - ''
-        - - concat
+            - name:{locale}
+          - "\n"
+          - - concat
+            - - get
+              - name
+            - ''
+      - - case
+        - - has
+          - name:latin
+        - - case
+          - - "=="
+            - - concat
+              - - get
+                - name:latin
+              - ''
+            - - concat
+              - - get
+                - name
+              - ''
           - - get
             - name
-          - ''
-      - - get
-        - name
-      - - concat
-        - - get
-          - name:latin
-        - "\n"
+          - - concat
+            - - get
+              - name:latin
+            - "\n"
+            - - get
+              - name
         - - get
           - name
-    - - get
-      - name
+    - &lang_locale
+      - case
+      - - has
+        - name:{locale}
+      - - get
+        - name:{locale}
+      - - get
+        - name
 
 languageFallbacks:
   -
     id: waterway-name
-    lang: "{name}"
+    lang:
+      *lang_locale
   -
     id: water-name-lakeline
-    lang: "{name}"
+    lang:
+      *lang_locale
   -
     id: water-name-ocean
-    lang: "{name}"
+    lang:
+      *lang_locale
   -
     id: water-name-other
-    lang: "{name}"
+    lang:
+      *lang_locale
   -
     id: poi-level-3
-    lang: "{name}"
+    lang:
+      *lang_locale
   -
     id: poi-level-2
-    lang: "{name}"
+    lang:
+      *lang_locale
   -
     id: poi-level-1
-    lang: "{name}"
+    lang:
+      *lang_locale
   -
     id: poi-railway
-    lang: "{name}"
+    lang:
+      *lang_locale
   -
     id: highway-name-path
-    lang: "{name}"
+    lang:
+      *lang_locale
   -
     id: highway-name-minor
-    lang: "{name}"
+    lang:
+      *lang_locale
   -
     id: highway-name-major
-    lang: "{name}"
+    lang:
+      *lang_locale
   -
     id: highway-name-path
-    lang: "{name}"
+    lang:
+      *lang_locale
   -
     id: airport-label-major
-    lang: "{name}"
+    lang:
+      *lang_locale
   -
     id: place-other
     lang: "{name}"
   -
     id: place-village
     lang:
-      *lang
+      *lang_double
   -
     id: place-town
     lang:
-      *lang
+      *lang_double
   -
     id: place-city
     lang:
-      *lang
+      *lang_double
   -
     id: place-city-capital
     lang:
-      *lang
+      *lang_double
   -
     id: place-country-other
     lang:
-      *lang
+      *lang_locale
   -
     id: place-country-3
     lang:
-      *lang
+      *lang_locale
   -
     id: place-country-2
     lang:
-      *lang
+      *lang_locale
   -
     id: place-country-1
     lang:
-      *lang
+      *lang_locale
   -
     id: place-continent
     lang:
-      *lang
+      *lang_locale
