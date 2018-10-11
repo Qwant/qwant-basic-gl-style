@@ -1,7 +1,7 @@
 # qwant-basic-gl-style
 a very cool GL style for Qwant Maps
 
-See https://qwantresearch.github.io/qwant-basic-gl-style/
+See https://qwantresearch.github.io/qwant-basic-gl-style/ and the [taxonomy chart](https://jawg.github.io/taxonomy/demo/?url=https://raw.githubusercontent.com/QwantResearch/qwant-basic-gl-style/master/style.json)
 
 ## Archi
 
