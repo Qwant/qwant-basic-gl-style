@@ -3759,65 +3759,6 @@
       }
     },
     {
-      "id": "boundary-water",
-      "type": "line",
-      "metadata": {
-        "taxonomy:group": "admin-boundaries"
-      },
-      "source": "basemap",
-      "source-layer": "boundary",
-      "filter": [
-        "all",
-        [
-          "==",
-          "maritime",
-          1
-        ],
-        [
-          "in",
-          "admin_level",
-          2,
-          4
-        ]
-      ],
-      "layout": {
-        "line-cap": "round",
-        "line-join": "round"
-      },
-      "paint": {
-        "line-color": "rgba(154, 189, 214, 1)",
-        "line-width": {
-          "base": 1,
-          "stops": [
-            [
-              0,
-              0.6
-            ],
-            [
-              4,
-              1.4
-            ],
-            [
-              5,
-              2
-            ]
-          ]
-        },
-        "line-opacity": {
-          "stops": [
-            [
-              6,
-              0.6
-            ],
-            [
-              10,
-              1
-            ]
-          ]
-        }
-      }
-    },
-    {
       "id": "waterway-name",
       "type": "symbol",
       "metadata": {
