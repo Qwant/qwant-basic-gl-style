@@ -1,5 +1,8 @@
 defaultIcon: star-stroked-11
 defaultColor: '#444648'
+defaultAdministrativeIcon: marker2-11
+defaultAdministrativeColor: '#5c6f84'
+
 mappings:
   - subclass: station
     class: aerialway
