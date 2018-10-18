@@ -3851,7 +3851,7 @@
       "type": "symbol",
       "source": "poi",
       "source-layer": "poi",
-      "minzoom": 17,
+      "minzoom": 18,
       "filter": [
         "all",
         [
@@ -3860,62 +3860,19 @@
           "Point"
         ],
         [
-          "any",
-          [
-            "==",
-            "subclass",
-            "bollard"
-          ],
-          [
-            "==",
-            "subclass",
-            "border_control"
-          ],
-          [
-            "==",
-            "subclass",
-            "cycle_barrier"
-          ],
-          [
-            "==",
-            "subclass",
-            "gate"
-          ],
-          [
-            "==",
-            "subclass",
-            "lift_gate"
-          ],
-          [
-            "==",
-            "subclass",
-            "post_box"
-          ],
-          [
-            "==",
-            "subclass",
-            "sally_port"
-          ],
-          [
-            "==",
-            "subclass",
-            "stile"
-          ],
-          [
-            "==",
-            "subclass",
-            "telephone"
-          ],
-          [
-            "==",
-            "subclass",
-            "toll_booth"
-          ],
-          [
-            "==",
-            "subclass",
-            "waste_basket"
-          ]
+          "in",
+          "subclass",
+          "bollard",
+          "border_control",
+          "cycle_barrier",
+          "gate",
+          "lift_gate",
+          "post_box",
+          "sally_port",
+          "stile",
+          "telephone",
+          "toll_booth",
+          "waste_basket"
         ]
       ],
       "layout": {
@@ -3959,67 +3916,42 @@
           25
         ],
         [
-          "all",
-          [
-            "!=",
-            "subclass",
-            "bollard"
-          ],
-          [
-            "!=",
-            "subclass",
-            "border_control"
-          ],
-          [
-            "!=",
-            "subclass",
-            "cycle_barrier"
-          ],
-          [
-            "!=",
-            "subclass",
-            "gate"
-          ],
-          [
-            "!=",
-            "subclass",
-            "lift_gate"
-          ],
-          [
-            "!=",
-            "subclass",
-            "post_box"
-          ],
-          [
-            "!=",
-            "subclass",
-            "sally_port"
-          ],
-          [
-            "!=",
-            "subclass",
-            "stile"
-          ],
-          [
-            "!=",
-            "subclass",
-            "telephone"
-          ],
-          [
-            "!=",
-            "subclass",
-            "toll_booth"
-          ],
-          [
-            "!=",
-            "subclass",
-            "waste_basket"
-          ]
+          "!in",
+          "subclass",
+          "bollard",
+          "border_control",
+          "cycle_barrier",
+          "gate",
+          "lift_gate",
+          "post_box",
+          "sally_port",
+          "stile",
+          "telephone",
+          "toll_booth",
+          "waste_basket"
+        ],
+        [
+          "!in",
+          "class",
+          "railway",
+          "bus"
         ]
       ],
       "layout": {
         "text-size": 11,
         "icon-image": "{subclass}-11",
+        "icon-padding": {
+          "stops": [
+            [
+              16,
+              20
+            ],
+            [
+              18,
+              2
+            ]
+          ]
+        },
         "text-font": [
           "Noto Sans Regular"
         ],
@@ -4054,75 +3986,35 @@
           "Point"
         ],
         [
-          "all",
-          [
-            "<=",
-            "rank",
-            24
-          ],
-          [
-            ">=",
-            "rank",
-            15
-          ]
+          "<=",
+          "rank",
+          24
         ],
         [
-          "all",
-          [
-            "!=",
-            "subclass",
-            "bollard"
-          ],
-          [
-            "!=",
-            "subclass",
-            "border_control"
-          ],
-          [
-            "!=",
-            "subclass",
-            "cycle_barrier"
-          ],
-          [
-            "!=",
-            "subclass",
-            "gate"
-          ],
-          [
-            "!=",
-            "subclass",
-            "lift_gate"
-          ],
-          [
-            "!=",
-            "subclass",
-            "post_box"
-          ],
-          [
-            "!=",
-            "subclass",
-            "sally_port"
-          ],
-          [
-            "!=",
-            "subclass",
-            "stile"
-          ],
-          [
-            "!=",
-            "subclass",
-            "telephone"
-          ],
-          [
-            "!=",
-            "subclass",
-            "toll_booth"
-          ],
-          [
-            "!=",
-            "subclass",
-            "waste_basket"
-          ]
+          ">=",
+          "rank",
+          15
+        ],
+        [
+          "!in",
+          "subclass",
+          "bollard",
+          "border_control",
+          "cycle_barrier",
+          "gate",
+          "lift_gate",
+          "post_box",
+          "sally_port",
+          "stile",
+          "telephone",
+          "toll_booth",
+          "waste_basket"
+        ],
+        [
+          "!in",
+          "class",
+          "railway",
+          "bus"
         ]
       ],
       "layout": {
@@ -4162,70 +4054,139 @@
           "Point"
         ],
         [
-          "all",
-          [
-            "<=",
-            "rank",
-            14
-          ]
+          "<=",
+          "rank",
+          14
         ],
         [
-          "all",
+          "!in",
+          "subclass",
+          "bollard",
+          "border_control",
+          "cycle_barrier",
+          "gate",
+          "lift_gate",
+          "post_box",
+          "sally_port",
+          "stile",
+          "telephone",
+          "toll_booth",
+          "waste_basket"
+        ],
+        [
+          "!in",
+          "class",
+          "railway",
+          "bus"
+        ]
+      ],
+      "layout": {
+        "text-size": 10,
+        "icon-image": "{subclass}-11",
+        "text-font": [
+          "Noto Sans Regular"
+        ],
+        "text-padding": 2,
+        "text-offset": [
+          0,
+          1.4
+        ],
+        "text-anchor": "top",
+        "text-field": "{name}",
+        "text-optional": true,
+        "text-max-width": 9
+      },
+      "paint": {
+        "text-halo-blur": 0.5,
+        "text-color": "#000",
+        "text-halo-width": 1,
+        "text-halo-color": "#ffffff"
+      }
+    },
+    {
+      "id": "poi-level-public-tranports-2",
+      "type": "symbol",
+      "source": "poi",
+      "source-layer": "poi",
+      "minzoom": 15,
+      "filter": [
+        "all",
+        [
+          "==",
+          "$type",
+          "Point"
+        ],
+        [
+          "any",
           [
-            "!=",
-            "subclass",
-            "bollard"
+            "all",
+            [
+              "==",
+              "class",
+              "railway"
+            ],
+            [
+              "!in",
+              "subclass",
+              "station",
+              "subway",
+              "halt"
+            ]
           ],
           [
-            "!=",
-            "subclass",
-            "border_control"
-          ],
-          [
-            "!=",
-            "subclass",
-            "cycle_barrier"
-          ],
-          [
-            "!=",
-            "subclass",
-            "gate"
-          ],
-          [
-            "!=",
-            "subclass",
-            "lift_gate"
-          ],
-          [
-            "!=",
-            "subclass",
-            "post_box"
-          ],
-          [
-            "!=",
-            "subclass",
-            "sally_port"
-          ],
-          [
-            "!=",
-            "subclass",
-            "stile"
-          ],
-          [
-            "!=",
-            "subclass",
-            "telephone"
-          ],
-          [
-            "!=",
-            "subclass",
-            "toll_booth"
-          ],
-          [
-            "!=",
-            "subclass",
-            "waste_basket"
+            "in",
+            "class",
+            "bus"
           ]
+        ]
+      ],
+      "layout": {
+        "text-size": 10,
+        "icon-image": "{subclass}-11",
+        "text-font": [
+          "Noto Sans Regular"
+        ],
+        "text-padding": 2,
+        "text-offset": [
+          0,
+          1.4
+        ],
+        "text-anchor": "top",
+        "text-field": "{name}",
+        "text-optional": true,
+        "text-max-width": 9
+      },
+      "paint": {
+        "text-halo-blur": 0.5,
+        "text-color": "#000",
+        "text-halo-width": 1,
+        "text-halo-color": "#ffffff"
+      }
+    },
+    {
+      "id": "poi-level-public-tranports-1",
+      "type": "symbol",
+      "source": "poi",
+      "source-layer": "poi",
+      "minzoom": 13,
+      "filter": [
+        "all",
+        [
+          "==",
+          "$type",
+          "Point"
+        ],
+        [
+          "==",
+          "class",
+          "railway"
+        ],
+        [
+          "in",
+          "subclass",
+          "station",
+          "subway",
+          "halt"
         ]
       ],
       "layout": {
