@@ -85,6 +85,14 @@ languageFallbacks:
     lang:
       *lang_locale
   -
+    id: poi-level-public-tranports-2
+    lang:
+      *lang_locale
+  -
+    id: poi-level-public-tranports-1
+    lang:
+      *lang_locale
+  -
     id: poi-railway
     lang:
       *lang_locale
