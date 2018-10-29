@@ -456,8 +456,8 @@
         "aerodrome"
       ],
       "paint": {
-        "fill-color": "#e3e3e3",
-        "fill-opacity": 0.5
+        "fill-color": "#e0e0ff",
+        "fill-opacity": 0.25
       }
     },
     {
