@@ -328,8 +328,9 @@
         "hospital"
       ],
       "paint": {
-        "fill-color": "#FFEBEC",
-        "fill-outline-color": "#FFEBEC"
+        "fill-color": "#4AA0E7",
+        "fill-outline-color": "#4AA0E7",
+        "fill-opacity": 0.1
       }
     },
     {
@@ -456,8 +457,27 @@
         "aerodrome"
       ],
       "paint": {
-        "fill-color": "#e0e0ff",
-        "fill-opacity": 0.25
+        "fill-color": "#8665E7",
+        "fill-opacity": 0.06
+      }
+    },
+    {
+      "id": "landuse-bus",
+      "type": "fill",
+      "metadata": {
+        "mapbox:group": "1444849388993.3071",
+        "taxonomy:group": "landuse"
+      },
+      "source": "basemap",
+      "source-layer": "landuse",
+      "filter": [
+        "in",
+        "class",
+        "bus_station"
+      ],
+      "paint": {
+        "fill-color": "#8665E7",
+        "fill-opacity": 0.06
       }
     },
     {
@@ -4741,7 +4761,7 @@
       },
       "paint": {
         "text-halo-blur": 0.5,
-        "text-color": "#666",
+        "text-color": "#8665E7",
         "text-halo-width": 1,
         "text-halo-color": "#ffffff"
       }

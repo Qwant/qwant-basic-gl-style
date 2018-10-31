@@ -7,24 +7,24 @@ mappings:
   - subclass: station
     class: aerialway
     iconName: aerialway-11
-    color: '#11abeb'
+    color: '#8665E7'
   - subclass: station
     class: railway
     iconName: rail-11
-    color: '#5CA6FB'
+    color: '#8665E7'
   - subclass: halt
     iconName: rail-11
-    color: '#5CA6FB'
+    color: '#8665E7'
   - subclass: tram_stop
     class: railway
     iconName: rail-light-11
-    color: '#5CA6FB'
+    color: '#8665E7'
   - subclass: subway_entrance
     iconName: entrance-11
-    color: '#5CA6FB'
+    color: '#8665E7'
   - subclass: train_station_entrance
     iconName: entrance-11
-    color: '#5CA6FB'
+    color: '#8665E7'
   - subclass: bank
     iconName: bank-11
     color: '#8A9CF6'
@@ -111,7 +111,7 @@ mappings:
     color: '#A3A3A3'
   - subclass: pharmacy
     iconName: pharmacy-11
-    color: '#FF5E6A'
+    color: '#4AA0E7'
   - subclass: convenience
     iconName: grocery-11
     color: '#FFC324'
@@ -129,16 +129,16 @@ mappings:
     color: '#FF8D2B'
   - subclass: bus_stop
     iconName: bus-11
-    color: '#5CA6FB'
+    color: '#8665E7'
   - subclass: subway
     iconName: rail-metro-11
-    color: '#5CA6FB'
+    color: '#8665E7'
   - subclass: ferry_terminal
     iconName: ferry-11
-    color: '#5CA6FB'
+    color: '#8665E7'
   - subclass: entrance
     iconName: entrance-11
-    color: '#5CA6FB'
+    color: '#8665E7'
   - subclass: park
     iconName: park-alt1-11
     color: '#00CB4F'
@@ -159,7 +159,7 @@ mappings:
     color: '#00CB4F'
   - subclass: veterinary
     iconName: veterinary-11
-    color: '#8A9CF6'
+    color: '#4AA0E7'
   - subclass: zoo
     iconName: zoo-11
     color: '#00CB4F'
@@ -171,13 +171,13 @@ mappings:
     color: '#8A9CF6'
   - subclass: doctors
     iconName: doctor-11
-    color: '#FF5E6A'
+    color: '#4AA0E7'
   - subclass: clinic
     iconName: doctor-11
-    color: '#FF5E6A'
+    color: '#4AA0E7'
   - subclass: dentist
     iconName: dentist-11
-    color: '#FF5E6A'
+    color: '#4AA0E7'
   - subclass: museum
     iconName: museum-11
     color: '#8A9CF6'
@@ -249,7 +249,7 @@ mappings:
     color: '#8A9CF6'
   - subclass: airport
     iconName: airport-11
-    color: '#5CA6FB'
+    color: '#8665E7'
   - subclass: athletics
     iconName: pitch-11
     color: '#000'
@@ -271,6 +271,9 @@ mappings:
   - class: bicycle
     iconName: bicycle-11
     color: '#9AA1FA'
+  - class: bus
+    iconName: bus-11
+    color: '#8665E7'
   - class: campsite
     iconName: campsite-11
     color: '#00CB4F'
@@ -297,7 +300,7 @@ mappings:
     color: '#8A9CF6'
   - class: hospital
     iconName: hospital-11
-    color: '#FF5E6A'
+    color: '#4AA0E7'
   - class: information
     iconName: information-11
     color: '#9AA1FA'
