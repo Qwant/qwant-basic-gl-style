@@ -27,7 +27,7 @@ mappings:
     color: '#8665E7'
   - subclass: bank
     iconName: bank-11
-    color: '#8A9CF6'
+    color: '#495063'
   - subclass: ice_cream
     iconName: ice-cream-11
     color: '#EF8000'
@@ -42,13 +42,13 @@ mappings:
     color: '#8A9CF6'
   - subclass: police
     iconName: police-11
-    color: '#8A9CF6'
+    color: '#495063'
   - subclass: theatre
     iconName: theatre-11
-    color: '#8A9CF6'
+    color: '#E93865'
   - subclass: arts_centre
     iconName: theatre-11
-    color: '#8A9CF6'
+    color: '#E93865'
   - subclass: restaurant
     iconName: restaurant-11
     color: '#EF8000'
@@ -63,31 +63,31 @@ mappings:
     color: '#8A9CF6'
   - subclass: bicycle_rental
     iconName: bicycle-share-11
-    color: '#8A9CF6'
+    color: '#495063'
   - class: place_of_worship
     subclass: christian
     iconName: religious-christian-11
-    color: '#8A9CF6'
+    color: '#495063'
   - class: place_of_worship
     subclass: muslim
     iconName: religious-muslim-11
-    color: '#8A9CF6'
+    color: '#495063'
   - class: place_of_worship
     subclass: jewish
     iconName: religious-jewish-11
-    color: '#8A9CF6'
+    color: '#495063'
   - class: place_of_worship
     iconName: place-of-worship-11
-    color: '#8A9CF6'
+    color: '#495063'
   - subclass: place_of_worship
     iconName: place-of-worship-11
-    color: '#8A9CF6'
+    color: '#495063'
   - subclass: embassy
     iconName: embassy-11
-    color: '#8A9CF6'
+    color: '#495063'
   - subclass: fire_station
     iconName: fire-station-11
-    color: '#8A9CF6'
+    color: '#495063'
   - subclass: bakery
     iconName: bakery-11
     color: '#EF8000'
@@ -162,13 +162,13 @@ mappings:
     color: '#4AA0E7'
   - subclass: zoo
     iconName: zoo-11
-    color: '#00CB4F'
+    color: '#E93865'
   - subclass: aquarium
     iconName: aquarium-11
-    color: '#8A9CF6'
+    color: '#E93865'
   - subclass: gallery
     iconName: art-gallery-11
-    color: '#8A9CF6'
+    color: '#E93865'
   - subclass: doctors
     iconName: doctor-11
     color: '#4AA0E7'
@@ -180,25 +180,25 @@ mappings:
     color: '#4AA0E7'
   - subclass: museum
     iconName: museum-11
-    color: '#8A9CF6'
+    color: '#E93865'
   - subclass: public_building
     iconName: building-15
-    color: '#000000'
+    color: '#495063'
   - subclass: artwork
     iconName: attraction-11
-    color: '#8A9CF6'
+    color: '#E93865'
   - subclass: theme_park
     iconName: amusement-park-11
-    color: '#8A9CF6'
+    color: '#E93865'
   - subclass: cinema
     iconName: cinema-11
-    color: '#8A9CF6'
+    color: '#E93865'
   - subclass: nightclub
     iconName: music-11
-    color: '#8A9CF6'
+    color: '#E93865'
   - subclass: prison
     iconName: prison-11
-    color: '#8A9CF6'
+    color: '#495063'
   - subclass: sports_centre
     iconName: basketball-11
     color: '#8A9CF6'
@@ -261,7 +261,7 @@ mappings:
     color: '#F3C600'
   - class: attraction
     iconName: attraction-11
-    color: '#8A9CF6'
+    color: '#E93865'
   - class: barrier
     iconName: barrier-11
     color: '#000'
@@ -279,16 +279,16 @@ mappings:
     color: '#00CB4F'
   - class: car
     iconName: car-11
-    color: '#9AA1FA'
+    color: '#495063'
   - class: castle
     iconName: castle-11
     color: '#8A9CF6'
   - class: cemetery
     iconName: cemetery-11
-    color: '#00CB4F'
+    color: '#495063'
   - class: college
     iconName: college-11
-    color: '#A3A3A3'
+    color: '#495063'
   - class: golf
     iconName: golf-11
     color: '#00CB4F'
@@ -297,28 +297,28 @@ mappings:
     color: '#F3C600'
   - class: harbor
     iconName: harbor-11
-    color: '#8A9CF6'
+    color: '#495063'
   - class: hospital
     iconName: hospital-11
     color: '#4AA0E7'
   - class: information
     iconName: information-11
-    color: '#9AA1FA'
+    color: '#495063'
   - class: library
     iconName: library-11
     color: '#FFC324'
   - class: laundry
     iconName: laundry-11
-    color: '#8A9CF6'
+    color: '#495063'
   - class: lodging
     iconName: lodging-11
-    color: '#8A9CF6'
+    color: '#495063'
   - class: post
     iconName: post-11
-    color: '#8A9CF6'
+    color: '#495063'
   - class: school
     iconName: school-11
-    color: '#A3A3A3'
+    color: '#495063'
   - class: shop
     iconName: shop-11
     color: '#F3C600'
@@ -330,4 +330,4 @@ mappings:
     color: '#8A9CF6'
   - class: town_hall
     iconName: town-hall-11
-    color: '#8A9CF6'
+    color: '#495063'
