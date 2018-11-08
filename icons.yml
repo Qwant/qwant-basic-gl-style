@@ -38,7 +38,7 @@ mappings:
     iconName: bbq-11
     color: '#EF8000'
   - subclass: toilets
-    iconName: toilets-11
+    iconName: toilet-11
     color: '#5C6F84'
   - subclass: police
     iconName: police-11
