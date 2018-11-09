@@ -201,7 +201,7 @@
         ]
       ],
       "paint": {
-        "fill-color": "hsla(0, 60%, 87%, 0.23)"
+        "fill-color": "hsla(49, 100%, 88%, 0.34)"
       }
     },
     {
@@ -477,6 +477,47 @@
       ],
       "paint": {
         "fill-color": "#8665E7",
+        "fill-opacity": 0.06
+      }
+    },
+    {
+      "id": "landuse-entertainment",
+      "type": "fill",
+      "metadata": {
+        "mapbox:group": "1444849388993.3071",
+        "taxonomy:group": "landuse"
+      },
+      "source": "basemap",
+      "source-layer": "landuse",
+      "filter": [
+        "in",
+        "class",
+        "theme_park",
+        "zoo"
+      ],
+      "paint": {
+        "fill-color": "#E93865",
+        "fill-opacity": 0.05
+      }
+    },
+    {
+      "id": "landuse-pitch",
+      "type": "fill",
+      "metadata": {
+        "mapbox:group": "1444849388993.3071",
+        "taxonomy:group": "landuse"
+      },
+      "source": "basemap",
+      "source-layer": "landuse",
+      "filter": [
+        "in",
+        "class",
+        "pitch",
+        "playground",
+        "stadium"
+      ],
+      "paint": {
+        "fill-color": "#5C6F84",
         "fill-opacity": 0.06
       }
     },

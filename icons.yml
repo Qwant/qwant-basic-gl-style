@@ -1,5 +1,5 @@
-defaultIcon: star-stroked-11
-defaultColor: '#444648'
+defaultIcon: marker-11
+defaultColor: '#5C6F84'
 defaultAdministrativeIcon: marker2-11
 defaultAdministrativeColor: '#5c6f84'
 
@@ -93,16 +93,16 @@ mappings:
     color: '#EF8000'
   - subclass: mobile_phone
     iconName: mobile-phone-11
-    color: '#F3C600'
+    color: '#C17900'
   - subclass: florist
     iconName: florist-11
-    color: '#F3C600'
+    color: '#C17900'
   - subclass: cafe
     iconName: cafe-11
     color: '#EF8000'
   - subclass: hairdresser
     iconName: hairdresser-11
-    color: '#F3C600'
+    color: '#C17900'
   - subclass: telephone
     iconName: telephone-11
     color: '#5C6F84'
@@ -114,16 +114,16 @@ mappings:
     color: '#4AA0E7'
   - subclass: convenience
     iconName: grocery-11
-    color: '#F3C600'
+    color: '#C17900'
   - subclass: clothes
     iconName: clothing-store-11
-    color: '#F3C600'
+    color: '#C17900'
   - subclass: shoes
     iconName: clothing-store-11
-    color: '#F3C600'
+    color: '#C17900'
   - subclass: boutique
     iconName: clothing-store-11
-    color: '#F3C600'
+    color: '#C17900'
   - subclass: fast_food
     iconName: fast-food-11
     color: '#EF8000'
@@ -185,8 +185,8 @@ mappings:
     iconName: building-15
     color: '#495063'
   - subclass: artwork
-    iconName: attraction-11
-    color: '#E93865'
+    iconName: artwork-11
+    color: '#5C6F84'
   - subclass: theme_park
     iconName: amusement-park-11
     color: '#E93865'
@@ -207,22 +207,22 @@ mappings:
     color: '#5C6F84'
   - subclass: gift
     iconName: gift-11
-    color: '#F3C600'
+    color: '#C17900'
   - subclass: recycling
     iconName: recycling-11
     color: '#5C6F84'
   - subclass: mall
     iconName: commercial-11
-    color: '#F3C600'
+    color: '#C17900'
   - subclass: marketplace
     iconName: commercial-11
-    color: '#F3C600'
+    color: '#C17900'
   - subclass: video_games
     iconName: gaming-11
-    color: '#F3C600'
+    color: '#C17900'
   - subclass: toys
     iconName: gaming-11
-    color: '#F3C600'
+    color: '#C17900'
   - subclass: gate
     iconName: barrier-11
     color: '#5C6F84'
@@ -251,14 +251,14 @@ mappings:
     iconName: airport-11
     color: '#8665E7'
   - subclass: athletics
-    iconName: pitch-11
+    iconName: soccer-11
     color: '#5C6F84'
   - subclass: pitch
-    iconName: pitch-11
+    iconName: soccer-11
     color: '#5C6F84'
   - class: alcohol_shop
     iconName: alcohol-shop-11
-    color: '#F3C600'
+    color: '#C17900'
   - class: attraction
     iconName: attraction-11
     color: '#E93865'
@@ -294,7 +294,7 @@ mappings:
     color: '#5C6F84'
   - class: grocery
     iconName: grocery-11
-    color: '#F3C600'
+    color: '#C17900'
   - class: harbor
     iconName: harbor-11
     color: '#495063'
@@ -321,7 +321,7 @@ mappings:
     color: '#495063'
   - class: shop
     iconName: shop-11
-    color: '#F3C600'
+    color: '#C17900'
   - class: stadium
     iconName: stadium-11
     color: '#5C6F84'
