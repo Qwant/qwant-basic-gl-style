@@ -28,6 +28,15 @@ mappings:
   - subclass: bank
     iconName: bank-11
     color: '#495063'
+  - subclass: car_rental
+    iconName: car-rental-11
+    color: '#495063'
+  - subclass: car_repair
+    iconName: car-repair-11
+    color: '#495063'
+  - subclass: confectionary
+    iconName: confectionary-11
+    color: '#EF8000'
   - subclass: ice_cream
     iconName: ice-cream-11
     color: '#EF8000'
@@ -113,7 +122,7 @@ mappings:
     iconName: pharmacy-11
     color: '#4AA0E7'
   - subclass: convenience
-    iconName: grocery-11
+    iconName: convenience-store-11
     color: '#C17900'
   - subclass: clothes
     iconName: clothing-store-11
@@ -123,6 +132,24 @@ mappings:
     color: '#C17900'
   - subclass: boutique
     iconName: clothing-store-11
+    color: '#C17900'
+  - subclass: furniture
+    iconName: furniture-11
+    color: '#C17900'
+  - subclass: hardware
+    iconName: hardware-11
+    color: '#C17900'
+  - subclass: jewelry
+    iconName: jewelry-store-11
+    color: '#C17900'
+  - subclass: optician
+    iconName: optician-11
+    color: '#C17900'
+  - subclass: interior_decoration
+    iconName: paint-11
+    color: '#C17900'
+  - subclass: watches
+    iconName: paint-11
     color: '#C17900'
   - subclass: fast_food
     iconName: fast-food-11
@@ -186,6 +213,9 @@ mappings:
     color: '#495063'
   - subclass: artwork
     iconName: artwork-11
+    color: '#5C6F84'
+  - subclass: viewpoint
+    iconName: viewpoint-11
     color: '#5C6F84'
   - subclass: theme_park
     iconName: amusement-park-11
@@ -259,6 +289,9 @@ mappings:
   - class: alcohol_shop
     iconName: alcohol-shop-11
     color: '#C17900'
+  - class: art_gallery
+    iconName: art-gallery-11
+    color: '#E93865'
   - class: attraction
     iconName: attraction-11
     color: '#E93865'
@@ -279,7 +312,7 @@ mappings:
     color: '#76BC54'
   - class: car
     iconName: car-11
-    color: '#495063'
+    color: '#C17900'
   - class: castle
     iconName: castle-11
     color: '#5C6F84'
