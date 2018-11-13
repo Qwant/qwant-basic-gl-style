@@ -168,10 +168,10 @@ mappings:
     color: '#8665E7'
   - subclass: park
     iconName: park-alt1-11
-    color: '#76BC54'
+    color: '#538C37'
   - subclass: dog_park
     iconName: dog-park-11
-    color: '#76BC54'
+    color: '#538C37'
   - subclass: playground
     iconName: playground-11
     color: '#5C6F84'
@@ -180,10 +180,10 @@ mappings:
     color: '#5C6F84'
   - subclass: picnic_site
     iconName: picnic-site-11
-    color: '#76BC54'
+    color: '#538C37'
   - subclass: garden
     iconName: garden-11
-    color: '#76BC54'
+    color: '#538C37'
   - subclass: veterinary
     iconName: veterinary-11
     color: '#4AA0E7'
@@ -270,10 +270,10 @@ mappings:
     color: '#5C6F84'
   - subclass: basin
     iconName: dam-11
-    color: '#76BC54'
+    color: '#538C37'
   - subclass: reservoir
     iconName: dam-11
-    color: '#76BC54'
+    color: '#538C37'
   - subclass: monument
     iconName: monument-11
     color: '#5C6F84'
@@ -309,7 +309,7 @@ mappings:
     color: '#8665E7'
   - class: campsite
     iconName: campsite-11
-    color: '#76BC54'
+    color: '#538C37'
   - class: car
     iconName: car-11
     color: '#C17900'

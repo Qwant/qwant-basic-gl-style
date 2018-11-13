@@ -517,8 +517,8 @@
         "stadium"
       ],
       "paint": {
-        "fill-color": "#5C6F84",
-        "fill-opacity": 0.06
+        "fill-color": "rgb(105,150,108)",
+        "fill-opacity": 0.2
       }
     },
     {
