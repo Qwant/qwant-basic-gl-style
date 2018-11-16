@@ -4405,7 +4405,7 @@
       "type": "symbol",
       "source": "poi",
       "source-layer": "poi",
-      "minzoom": 13,
+      "minzoom": 14,
       "filter": [
         "all",
         [
