@@ -47,8 +47,8 @@ git push $SSH_REPO $TARGET_BRANCH -f
 # add screenshots
 mkdir preview
 cd preview
-docker pull klokantech/thumbnail-gl
-docker run -v $(pwd):/data klokantech/thumbnail-gl "https://qwantresearch.github.io/qwant-basic-gl-style/style-omt.json" "-x 2.3061 -y 48.8811 -z 7 -w 800 -h 600 -r 2"
+docker pull qwantresearch/thumbnail-gl
+docker run -v $(pwd):/data qwantresearch/thumbnail-gl "https://qwantresearch.github.io/qwant-basic-gl-style/style.json" "-x 2.3061 -y 48.8811 -z 7 -w 800 -h 600 -r 2"
 cd ..
 git add preview/*
 
