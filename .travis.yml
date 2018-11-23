@@ -20,7 +20,7 @@ script:
   - cd map-style-builder
   - npm install
   - npm test -- ../ --icons=true
-  - npm run build_all -- --style-dir=../ --conf=./prod_conf.json --i18n=fr --webfont=true --icons=true
+  - npm run build_all -- --style-dir=../ --conf=./prod_conf.json --webfont=true --icons=true
   - cd ..
 
 deploy:
