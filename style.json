@@ -372,6 +372,42 @@
       }
     },
     {
+      "id": "landcover-garden",
+      "type": "fill",
+      "metadata": {
+        "mapbox:group": "1444849388993.3071",
+        "taxonomy:group": "landuse"
+      },
+      "source": "basemap",
+      "source-layer": "landcover",
+      "filter": [
+        "all",
+        ["==", "class", "grass"],
+        ["in", "subclass", "park", "garden"]
+      ],
+      "paint": {
+        "fill-color": "#c0eab8"
+      }
+    },
+    {
+      "id": "landcover-grass",
+      "type": "fill",
+      "metadata": {
+        "mapbox:group": "1444849388993.3071",
+        "taxonomy:group": "landuse"
+      },
+      "source": "basemap",
+      "source-layer": "landcover",
+      "filter": [
+        "all",
+        ["==", "class", "grass"],
+        ["!in", "subclass", "park", "garden"]
+      ],
+      "paint": {
+        "fill-color": "#e0f2d3"
+      }
+    },
+    {
       "id": "landcover-wood",
       "type": "fill",
       "metadata": {
@@ -386,8 +422,8 @@
         "wood"
       ],
       "paint": {
-        "fill-color": "#6a4",
-        "fill-opacity": 0.1,
+        "fill-color": "#cae4be",
+        "fill-opacity": 1,
         "fill-outline-color": "hsla(0, 0%, 0%, 0.03)",
         "fill-antialias": {
           "base": 1,
@@ -402,25 +438,6 @@
             ]
           ]
         }
-      }
-    },
-    {
-      "id": "landcover-grass",
-      "type": "fill",
-      "metadata": {
-        "mapbox:group": "1444849388993.3071",
-        "taxonomy:group": "landuse"
-      },
-      "source": "basemap",
-      "source-layer": "landcover",
-      "filter": [
-        "==",
-        "class",
-        "grass"
-      ],
-      "paint": {
-        "fill-color": "#B7EBBF",
-        "fill-opacity": 1
       }
     },
     {
@@ -5287,10 +5304,6 @@
       }
     }
   ],
-  "created": "2017-12-19T09:39:33.365Z",
   "id": "cjbdftwmm936t2rquyt8ycvor",
-  "modified": "2017-12-19T10:13:03.220Z",
-  "owner": "clementaupiais",
-  "visibility": "private",
-  "draft": false
+  "visibility": "private"
 }
