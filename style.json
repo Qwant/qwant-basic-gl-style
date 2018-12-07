@@ -762,67 +762,23 @@
       },
       "source": "basemap",
       "source-layer": "building",
-      "paint": {
-        "fill-color": {
-          "base": 1,
-          "stops": [
-            [
-              15.5,
-              "hsla(0, 0%, 95%, 0)"
-            ],
-            [
-              16,
-              "hsla(0, 0%, 84%, 0)"
-            ]
-          ]
-        },
-        "fill-antialias": true
-      }
-    },
-    {
-      "id": "building-top",
-      "type": "fill",
-      "metadata": {
-        "mapbox:group": "1444849364238.8171",
-        "taxonomy:group": "building"
-      },
-      "source": "basemap",
-      "source-layer": "building",
+      "minzoom": 15,
       "layout": {
         "visibility": "visible"
       },
       "paint": {
-        "fill-translate": {
-          "base": 1,
-          "stops": [
-            [
-              14,
-              [
-                0,
-                0
-              ]
-            ],
-            [
-              16,
-              [
-                -2,
-                -2
-              ]
-            ]
-          ]
-        },
-        "fill-outline-color": "#dfdbd7",
+        "fill-outline-color": "#d5d0cb",
         "fill-color": "hsl(0, 0%, 93%)",
         "fill-opacity": {
           "base": 1,
           "stops": [
             [
-              15.9,
+              15.5,
               0
             ],
             [
               16,
-              0.8
+              0.9
             ]
           ]
         }
