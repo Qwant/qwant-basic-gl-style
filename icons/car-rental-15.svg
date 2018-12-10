@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg version="1.1" id="car-rental-15" xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 27 27">
+<svg version="1.1" id="car-rental-15" xmlns="http://www.w3.org/2000/svg" width="27" height="27" viewBox="0 0 27 27">
   <rect fill="none" x="0" y="0" width="27" height="27"></rect><rect x="1" y="1" rx="12.5" ry="12.5" width="25" height="25" stroke="#ffffff" style="stroke-linejoin:round;stroke-miterlimit:4;" fill="#ffffff" stroke-width="2"></rect><rect x="1" y="1" width="25" height="25" rx="12.5" ry="12.5" fill="#495063"></rect>
   <g fill="#ffffff" transform="translate(6 6)">
     <path d="M11.5039,1H10C9.2616,1,8.6238,1.4047,8.2774,2H3.5l-1,1l1,1l1-1l1,1l1-1l1,1h0.7774C8.6238,4.5953,9.2616,5,10,5h1.4982&#xA;&#x9;&#x9;C11.7753,5,12,4.7753,12,4.4982V1.4961C12,1.2221,11.7779,1,11.5039,1z M11,3.5C11,3.7761,10.7761,4,10.5,4S10,3.7761,10,3.5v-1&#xA;&#x9;&#x9;C10,2.2238,10.2239,2,10.5,2S11,2.2238,11,2.5V3.5z"/>
