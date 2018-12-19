@@ -4110,6 +4110,81 @@
       }
     },
     {
+      "id": "poi-level-no-name",
+      "type": "symbol",
+      "source": "poi",
+      "source-layer": "poi",
+      "minzoom": 18,
+      "filter": [
+        "all",
+        [
+          "==",
+          "$type",
+          "Point"
+        ],
+        [
+          "!in",
+          "subclass",
+          "artwork",
+          "bollard",
+          "bicycle_rental",
+          "border_control",
+          "cycle_barrier",
+          "ferry_terminal",
+          "gate",
+          "lift_gate",
+          "playground",
+          "pitch",
+          "post_box",
+          "post_office",
+          "recycling",
+          "sally_port",
+          "shelter",
+          "stile",
+          "taxi",
+          "telephone",
+          "toll_booth",
+          "toilets",
+          "subway_entrance",
+          "train_station_entrance",
+          "waste_basket"
+        ],
+        [
+          "!has",
+          "name"
+        ],
+        [
+          "!in",
+          "class",
+          "railway",
+          "bus",
+          "information",
+          "barrier"
+        ]
+      ],
+      "layout": {
+        "icon-image": "{subclass}-11",
+        "icon-padding": {
+          "stops": [
+            [
+              16,
+              20
+            ],
+            [
+              18,
+              2
+            ]
+          ]
+        },
+        "text-font": [
+          "Noto Sans Regular"
+        ]
+      },
+      "paint": {
+        "text-color": "#000"
+      }
+    },
+    {
       "id": "poi-level-3",
       "type": "symbol",
       "source": "poi",
@@ -4153,6 +4228,10 @@
           "subway_entrance",
           "train_station_entrance",
           "waste_basket"
+        ],
+        [
+          "has",
+          "name"
         ],
         [
           "!in",
@@ -4249,6 +4328,10 @@
           "waste_basket"
         ],
         [
+          "has",
+          "name"
+        ],
+        [
           "!in",
           "class",
           "railway",
@@ -4324,6 +4407,10 @@
           "subway_entrance",
           "train_station_entrance",
           "waste_basket"
+        ],
+        [
+          "has",
+          "name"
         ],
         [
           "!in",
