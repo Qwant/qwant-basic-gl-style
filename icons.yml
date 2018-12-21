@@ -86,6 +86,10 @@ mappings:
     iconName: religious-jewish-11
     color: '#495063'
   - class: place_of_worship
+    subclass: buddhist
+    iconName: religious-buddhism-11
+    color: '#495063'
+  - class: place_of_worship
     iconName: place-of-worship-11
     color: '#495063'
   - subclass: place_of_worship
@@ -111,6 +115,12 @@ mappings:
     color: '#EF8000'
   - subclass: hairdresser
     iconName: hairdresser-11
+    color: '#C17900'
+  - class: alcohol_shop
+    iconName: alcohol-shop-11
+    color: '#C17900'
+  - class: travel_agency
+    iconName: globe-11
     color: '#C17900'
   - subclass: telephone
     iconName: telephone-11
@@ -187,6 +197,9 @@ mappings:
   - subclass: veterinary
     iconName: veterinary-11
     color: '#4AA0E7'
+  - subclass: escape_game
+    iconName: escape-11
+    color: '#E93865'
   - subclass: zoo
     iconName: zoo-11
     color: '#E93865'
@@ -286,9 +299,6 @@ mappings:
   - subclass: pitch
     iconName: soccer-11
     color: '#5C6F84'
-  - class: alcohol_shop
-    iconName: alcohol-shop-11
-    color: '#C17900'
   - class: art_gallery
     iconName: art-gallery-11
     color: '#E93865'
