@@ -119,6 +119,15 @@ mappings:
   - class: alcohol_shop
     iconName: alcohol-shop-11
     color: '#C17900'
+  - class: outdoor
+    iconName: mountain-11
+    color: '#C17900'
+  - class: watches
+    iconName: watch-11
+    color: '#C17900'
+  - class: butcher
+    iconName: slaughterhouse-11
+    color: '#C17900'
   - class: travel_agency
     iconName: globe-11
     color: '#C17900'
@@ -146,7 +155,16 @@ mappings:
   - subclass: furniture
     iconName: furniture-11
     color: '#C17900'
+  - subclass: lamps
+    iconName: furniture-11
+    color: '#C17900'
+  - subclass: garden_centre
+    iconName: garden-center-11
+    color: '#C17900'
   - subclass: hardware
+    iconName: hardware-11
+    color: '#C17900'
+  - subclass: doityourself
     iconName: hardware-11
     color: '#C17900'
   - subclass: jewelry
