@@ -331,7 +331,10 @@ mappings:
     color: '#EF8000'
   - class: bicycle
     iconName: bicycle-11
-    color: '#EF8000'
+    color: '#C17900'
+  - class: motorcycle
+    iconName: scooter-11
+    color: '#C17900'
   - class: bus
     iconName: bus-11
     color: '#8665E7'
