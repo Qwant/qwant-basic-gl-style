@@ -335,6 +335,24 @@ mappings:
   - class: motorcycle
     iconName: scooter-11
     color: '#C17900'
+  - class: pet
+    iconName: pet-11
+    color: '#C17900'
+  - class: seafood
+    iconName: seafood-11
+    color: '#C17900'
+  - class: stationery
+    iconName: stationery-11
+    color: '#C17900'
+  - class: sports
+    iconName: baseball-11
+    color: '#C17900'
+  - class: music
+    iconName: music-shop-11
+    color: '#C17900'
+  - class: bed
+    iconName: bed-11
+    color: '#C17900'
   - class: bus
     iconName: bus-11
     color: '#8665E7'
@@ -343,6 +361,9 @@ mappings:
     color: '#538C37'
   - class: car
     iconName: car-11
+    color: '#C17900'
+  - class: electronics
+    iconName: electronics-11
     color: '#C17900'
   - class: castle
     iconName: castle-11
