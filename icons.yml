@@ -116,19 +116,16 @@ mappings:
   - subclass: hairdresser
     iconName: hairdresser-11
     color: '#C17900'
-  - class: alcohol_shop
-    iconName: alcohol-shop-11
-    color: '#C17900'
-  - class: outdoor
+  - subclass: outdoor
     iconName: mountain-11
     color: '#C17900'
-  - class: watches
+  - subclass: watches
     iconName: watch-11
     color: '#C17900'
-  - class: butcher
+  - subclass: butcher
     iconName: slaughterhouse-11
     color: '#C17900'
-  - class: travel_agency
+  - subclass: travel_agency
     iconName: globe-11
     color: '#C17900'
   - subclass: telephone
@@ -284,6 +281,33 @@ mappings:
   - subclass: toys
     iconName: gaming-11
     color: '#C17900'
+  - subclass: bicycle
+    iconName: bicycle-11
+    color: '#C17900'
+  - subclass: motorcycle
+    iconName: scooter-11
+    color: '#C17900'
+  - subclass: pet
+    iconName: pet-11
+    color: '#C17900'
+  - subclass: seafood
+    iconName: seafood-11
+    color: '#C17900'
+  - subclass: stationery
+    iconName: stationery-11
+    color: '#C17900'
+  - subclass: sports
+    iconName: baseball-11
+    color: '#C17900'
+  - subclass: music
+    iconName: music-shop-11
+    color: '#C17900'
+  - subclass: bed
+    iconName: bed-11
+    color: '#C17900'
+  - subclass: electronics
+    iconName: electronics-11
+    color: '#C17900'
   - subclass: gate
     iconName: barrier-11
     color: '#5C6F84'
@@ -317,6 +341,9 @@ mappings:
   - subclass: pitch
     iconName: soccer-11
     color: '#5C6F84'
+  - class: alcohol_shop
+    iconName: alcohol-shop-11
+    color: '#C17900'
   - class: art_gallery
     iconName: art-gallery-11
     color: '#E93865'
@@ -329,30 +356,6 @@ mappings:
   - class: beer
     iconName: beer-11
     color: '#EF8000'
-  - class: bicycle
-    iconName: bicycle-11
-    color: '#C17900'
-  - class: motorcycle
-    iconName: scooter-11
-    color: '#C17900'
-  - class: pet
-    iconName: pet-11
-    color: '#C17900'
-  - class: seafood
-    iconName: seafood-11
-    color: '#C17900'
-  - class: stationery
-    iconName: stationery-11
-    color: '#C17900'
-  - class: sports
-    iconName: baseball-11
-    color: '#C17900'
-  - class: music
-    iconName: music-shop-11
-    color: '#C17900'
-  - class: bed
-    iconName: bed-11
-    color: '#C17900'
   - class: bus
     iconName: bus-11
     color: '#8665E7'
@@ -361,9 +364,6 @@ mappings:
     color: '#538C37'
   - class: car
     iconName: car-11
-    color: '#C17900'
-  - class: electronics
-    iconName: electronics-11
     color: '#C17900'
   - class: castle
     iconName: castle-11
