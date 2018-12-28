@@ -34,8 +34,8 @@ mappings:
   - subclass: car_repair
     iconName: car-repair-11
     color: '#495063'
-  - subclass: confectionary
-    iconName: confectionary-11
+  - subclass: confectionery
+    iconName: confectionery-11
     color: '#EF8000'
   - subclass: ice_cream
     iconName: ice-cream-11
