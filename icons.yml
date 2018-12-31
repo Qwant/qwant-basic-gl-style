@@ -410,6 +410,9 @@ mappings:
   - class: stadium
     iconName: stadium-11
     color: '#5C6F84'
+  - class: clothing_store
+    iconName: clothing-store-11
+    color: '#C17900'
   - class: swimming
     iconName: swimming-11
     color: '#5C6F84'
