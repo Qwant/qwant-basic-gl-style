@@ -34,8 +34,8 @@ mappings:
   - subclass: car_repair
     iconName: car-repair-11
     color: '#495063'
-  - subclass: confectionary
-    iconName: confectionary-11
+  - subclass: confectionery
+    iconName: confectionery-11
     color: '#EF8000'
   - subclass: ice_cream
     iconName: ice-cream-11
@@ -86,6 +86,10 @@ mappings:
     iconName: religious-jewish-11
     color: '#495063'
   - class: place_of_worship
+    subclass: buddhist
+    iconName: religious-buddhism-11
+    color: '#495063'
+  - class: place_of_worship
     iconName: place-of-worship-11
     color: '#495063'
   - subclass: place_of_worship
@@ -112,6 +116,18 @@ mappings:
   - subclass: hairdresser
     iconName: hairdresser-11
     color: '#C17900'
+  - subclass: outdoor
+    iconName: mountain-11
+    color: '#C17900'
+  - subclass: watches
+    iconName: watch-11
+    color: '#C17900'
+  - subclass: butcher
+    iconName: slaughterhouse-11
+    color: '#C17900'
+  - subclass: travel_agency
+    iconName: globe-11
+    color: '#C17900'
   - subclass: telephone
     iconName: telephone-11
     color: '#5C6F84'
@@ -136,7 +152,16 @@ mappings:
   - subclass: furniture
     iconName: furniture-11
     color: '#C17900'
+  - subclass: lamps
+    iconName: furniture-11
+    color: '#C17900'
+  - subclass: garden_centre
+    iconName: garden-center-11
+    color: '#C17900'
   - subclass: hardware
+    iconName: hardware-11
+    color: '#C17900'
+  - subclass: doityourself
     iconName: hardware-11
     color: '#C17900'
   - subclass: jewelry
@@ -187,6 +212,9 @@ mappings:
   - subclass: veterinary
     iconName: veterinary-11
     color: '#4AA0E7'
+  - subclass: escape_game
+    iconName: escape-11
+    color: '#E93865'
   - subclass: zoo
     iconName: zoo-11
     color: '#E93865'
@@ -253,6 +281,33 @@ mappings:
   - subclass: toys
     iconName: gaming-11
     color: '#C17900'
+  - subclass: bicycle
+    iconName: bicycle-11
+    color: '#C17900'
+  - subclass: motorcycle
+    iconName: scooter-11
+    color: '#C17900'
+  - subclass: pet
+    iconName: pet-11
+    color: '#C17900'
+  - subclass: seafood
+    iconName: seafood-11
+    color: '#C17900'
+  - subclass: stationery
+    iconName: stationery-11
+    color: '#C17900'
+  - subclass: sports
+    iconName: baseball-11
+    color: '#C17900'
+  - subclass: music
+    iconName: music-shop-11
+    color: '#C17900'
+  - subclass: bed
+    iconName: bed-11
+    color: '#C17900'
+  - subclass: electronics
+    iconName: electronics-11
+    color: '#C17900'
   - subclass: gate
     iconName: barrier-11
     color: '#5C6F84'
@@ -300,9 +355,6 @@ mappings:
     color: '#5C6F84'
   - class: beer
     iconName: beer-11
-    color: '#EF8000'
-  - class: bicycle
-    iconName: bicycle-11
     color: '#EF8000'
   - class: bus
     iconName: bus-11
@@ -358,6 +410,9 @@ mappings:
   - class: stadium
     iconName: stadium-11
     color: '#5C6F84'
+  - class: clothing_store
+    iconName: clothing-store-11
+    color: '#C17900'
   - class: swimming
     iconName: swimming-11
     color: '#5C6F84'
