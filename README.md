@@ -36,7 +36,8 @@ You will need to install [Qwant Maps style builder](https://github.com/QwantRese
 
 Build the style using our builder:
 
-```npm run build_all -- --style-dir=PATH/TO/YOUR/MAPSTYLE/FOLDER --conf=prod_conf.json --i18n=fr --webfont=true --icons=true
+```
+npm run build_all -- --style-dir=PATH/TO/YOUR/MAPSTYLE/FOLDER --conf=prod_conf.json --i18n=fr --webfont=true --icons=true
 ```
 
 Then browse the `build` folder that has been created in your qwant-basic-gl-style folder: it contains
