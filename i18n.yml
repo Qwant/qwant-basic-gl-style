@@ -73,6 +73,10 @@ languageFallbacks:
     lang:
       *lang_locale
   -
+    id: poi-level-street-furniture
+    lang:
+      *lang_locale
+  -
     id: poi-level-3
     lang:
       *lang_locale
