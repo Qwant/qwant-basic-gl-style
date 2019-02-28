@@ -1,7 +1,11 @@
 defaultIcon: marker-11
 defaultColor: '#5C6F84'
-defaultAdministrativeIcon: marker2-11
+defaultAdministrativeIcon: town-11
 defaultAdministrativeColor: '#5c6f84'
+defaultStreetIcon: residential-community-11
+defaultStreetColor: '#5c6f84'
+defaultAddressIcon: home-11
+defaultAddressColor: '#5c6f84'
 
 mappings:
   - subclass: station
