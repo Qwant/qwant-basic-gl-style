@@ -4642,8 +4642,8 @@
       },
       "paint": {
         "text-halo-blur": 0,
-        "text-color": "#666",
-        "text-halo-width": 1,
+        "text-color": "#333",
+        "text-halo-width": 2,
         "text-halo-color": "hsl(0, 0%, 100%)"
       }
     },
@@ -4687,8 +4687,8 @@
       },
       "paint": {
         "text-halo-blur": 0,
-        "text-color": "#666",
-        "text-halo-width": 1,
+        "text-color": "#333",
+        "text-halo-width": 2,
         "text-halo-color": "hsl(0, 0%, 100%)"
       }
     },
