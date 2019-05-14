@@ -4577,7 +4577,7 @@
       "paint": {
         "icon-opacity": 0.5
       },
-      "source": "openmaptiles",
+      "source": "basemap",
       "source-layer": "transportation",
       "type": "symbol"
     }, {
@@ -4603,7 +4603,7 @@
       "paint": {
         "icon-opacity": 0.5
       },
-      "source": "openmaptiles",
+      "source": "basemap",
       "source-layer": "transportation",
       "type": "symbol"
     },
