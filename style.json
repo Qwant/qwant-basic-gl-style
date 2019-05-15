@@ -4563,6 +4563,7 @@
         "icon-image": "oneway",
         "icon-padding": 2,
         "icon-rotate": 90,
+        "icon-ignore-placement": true,
         "icon-rotation-alignment": "map",
         "icon-size": {
           "stops": [
@@ -4575,7 +4576,7 @@
       },
       "minzoom": 15,
       "paint": {
-        "icon-opacity": 0.5
+        "icon-opacity": 0.2
       },
       "source": "basemap",
       "source-layer": "transportation",
@@ -4589,6 +4590,7 @@
         "icon-image": "oneway",
         "icon-padding": 2,
         "icon-rotate": -90,
+        "icon-ignore-placement": true,
         "icon-rotation-alignment": "map",
         "icon-size": {
           "stops": [
@@ -4601,7 +4603,7 @@
       },
       "minzoom": 15,
       "paint": {
-        "icon-opacity": 0.5
+        "icon-opacity": 0.2
       },
       "source": "basemap",
       "source-layer": "transportation",
