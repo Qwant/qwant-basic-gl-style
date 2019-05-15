@@ -4576,7 +4576,7 @@
       },
       "minzoom": 15,
       "paint": {
-        "icon-opacity": 0.2
+        "icon-opacity": 0.4
       },
       "source": "basemap",
       "source-layer": "transportation",
@@ -4603,7 +4603,7 @@
       },
       "minzoom": 15,
       "paint": {
-        "icon-opacity": 0.2
+        "icon-opacity": 0.4
       },
       "source": "basemap",
       "source-layer": "transportation",
