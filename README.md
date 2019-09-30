@@ -63,13 +63,15 @@ To add a new icon, a few constraints are to be followed:
   Used to generate "sprite@2x.png" (for high DPI screens) and by map-style-builder to generate the webfont.
 	Example: [`bar-15.svg`](./icons/bar-15.svg)
 
-    > Note that any "rect" element (including the icon border) will be ignored on webfont generation, to keep the main symbol "path" only. 
+    > Note that the border-radius must be applied to a "rect" element, and that any "rect" element (including the icon border) will be ignored on webfont generation, to keep the main symbol "path" only. The (white) color of this path will also be removed in the webfont.
 
 2. Update the rules in `icons.yml` mappings to associate the new icon with a POI class and/or subclass. (Mappings are defined with decreasing priority: the most specific rules should come first).
     > This second step is optional : if the new icon is not defined in the icons mappings, it will still be added to the webfont.
 
 That's it!  
 Update `qwant-basic-gl-style` dependency in [Erdapfel](https://github.com/QwantResearch/erdapfel) : the new icon will directly be used in the map style, and a CSS class `icon-{iconname}` will be defined.
+
+PS: the new icons must follow the [Maki](https://labs.mapbox.com/maki-icons/guidelines/) guidelines, especially: no groups, flat icons, use fill instead of stroke, proper pixel alignment, 1px-wide strokes and all the units in "px".
 
 
 ## Our sprite icons
