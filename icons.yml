@@ -11,24 +11,24 @@ mappings:
   - subclass: station
     class: aerialway
     iconName: aerialway-11
-    color: '#8665E7'
+    color: '#123295'
   - subclass: station
     class: railway
     iconName: rail-11
-    color: '#8665E7'
+    color: '#123295'
   - subclass: halt
     iconName: rail-11
-    color: '#8665E7'
+    color: '#123295'
   - subclass: tram_stop
     class: railway
     iconName: rail-light-11
-    color: '#8665E7'
+    color: '#123295'
   - subclass: subway_entrance
     iconName: entrance-11
-    color: '#8665E7'
+    color: '#123295'
   - subclass: train_station_entrance
     iconName: entrance-11
-    color: '#8665E7'
+    color: '#123295'
   - subclass: bank
     iconName: bank-11
     color: '#495063'
@@ -185,16 +185,16 @@ mappings:
     color: '#EF8000'
   - subclass: bus_stop
     iconName: bus-11
-    color: '#8665E7'
+    color: '#123295'
   - subclass: subway
     iconName: rail-metro-11
-    color: '#8665E7'
+    color: '#123295'
   - subclass: ferry_terminal
     iconName: ferry-11
-    color: '#8665E7'
+    color: '#123295'
   - subclass: entrance
     iconName: entrance-11
-    color: '#8665E7'
+    color: '#123295'
   - subclass: park
     iconName: park-alt1-11
     color: '#538C37'
@@ -338,7 +338,7 @@ mappings:
     color: '#5C6F84'
   - subclass: airport
     iconName: airport-11
-    color: '#8665E7'
+    color: '#123295'
   - subclass: athletics
     iconName: soccer-11
     color: '#5C6F84'
@@ -362,7 +362,7 @@ mappings:
     color: '#EF8000'
   - class: bus
     iconName: bus-11
-    color: '#8665E7'
+    color: '#123295'
   - class: campsite
     iconName: campsite-11
     color: '#538C37'
