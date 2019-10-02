@@ -11,24 +11,24 @@ mappings:
   - subclass: station
     class: aerialway
     iconName: aerialway-11
-    color: '#8665E7'
+    color: '#123295'
   - subclass: station
     class: railway
     iconName: rail-11
-    color: '#8665E7'
+    color: '#123295'
   - subclass: halt
     iconName: rail-11
-    color: '#8665E7'
+    color: '#123295'
   - subclass: tram_stop
     class: railway
     iconName: rail-light-11
-    color: '#8665E7'
+    color: '#123295'
   - subclass: subway_entrance
     iconName: entrance-11
-    color: '#8665E7'
+    color: '#123295'
   - subclass: train_station_entrance
     iconName: entrance-11
-    color: '#8665E7'
+    color: '#123295'
   - subclass: bank
     iconName: bank-11
     color: '#495063'
@@ -110,28 +110,28 @@ mappings:
     color: '#EF8000'
   - subclass: mobile_phone
     iconName: mobile-phone-11
-    color: '#C17900'
+    color: '#8665E7'
   - subclass: florist
     iconName: florist-11
-    color: '#C17900'
+    color: '#8665E7'
   - subclass: cafe
     iconName: cafe-11
     color: '#EF8000'
   - subclass: hairdresser
     iconName: hairdresser-11
-    color: '#C17900'
+    color: '#8665E7'
   - subclass: outdoor
     iconName: mountain-11
-    color: '#C17900'
+    color: '#8665E7'
   - subclass: watches
     iconName: watch-11
-    color: '#C17900'
+    color: '#8665E7'
   - subclass: butcher
     iconName: slaughterhouse-11
-    color: '#C17900'
+    color: '#8665E7'
   - subclass: travel_agency
     iconName: globe-11
-    color: '#C17900'
+    color: '#8665E7'
   - subclass: telephone
     iconName: telephone-11
     color: '#5C6F84'
@@ -143,58 +143,58 @@ mappings:
     color: '#4AA0E7'
   - subclass: convenience
     iconName: convenience-store-11
-    color: '#C17900'
+    color: '#8665E7'
   - subclass: clothes
     iconName: clothing-store-11
-    color: '#C17900'
+    color: '#8665E7'
   - subclass: shoes
     iconName: clothing-store-11
-    color: '#C17900'
+    color: '#8665E7'
   - subclass: boutique
     iconName: clothing-store-11
-    color: '#C17900'
+    color: '#8665E7'
   - subclass: furniture
     iconName: furniture-11
-    color: '#C17900'
+    color: '#8665E7'
   - subclass: lamps
     iconName: furniture-11
-    color: '#C17900'
+    color: '#8665E7'
   - subclass: garden_centre
     iconName: garden-center-11
-    color: '#C17900'
+    color: '#8665E7'
   - subclass: hardware
     iconName: hardware-11
-    color: '#C17900'
+    color: '#8665E7'
   - subclass: doityourself
     iconName: hardware-11
-    color: '#C17900'
+    color: '#8665E7'
   - subclass: jewelry
     iconName: jewelry-store-11
-    color: '#C17900'
+    color: '#8665E7'
   - subclass: optician
     iconName: optician-11
-    color: '#C17900'
+    color: '#8665E7'
   - subclass: interior_decoration
     iconName: paint-11
-    color: '#C17900'
+    color: '#8665E7'
   - subclass: watches
     iconName: paint-11
-    color: '#C17900'
+    color: '#8665E7'
   - subclass: fast_food
     iconName: fast-food-11
     color: '#EF8000'
   - subclass: bus_stop
     iconName: bus-11
-    color: '#8665E7'
+    color: '#123295'
   - subclass: subway
     iconName: rail-metro-11
-    color: '#8665E7'
+    color: '#123295'
   - subclass: ferry_terminal
     iconName: ferry-11
-    color: '#8665E7'
+    color: '#123295'
   - subclass: entrance
     iconName: entrance-11
-    color: '#8665E7'
+    color: '#123295'
   - subclass: park
     iconName: park-alt1-11
     color: '#538C37'
@@ -269,49 +269,49 @@ mappings:
     color: '#5C6F84'
   - subclass: gift
     iconName: gift-11
-    color: '#C17900'
+    color: '#8665E7'
   - subclass: recycling
     iconName: recycling-11
     color: '#5C6F84'
   - subclass: mall
     iconName: commercial-11
-    color: '#C17900'
+    color: '#8665E7'
   - subclass: marketplace
     iconName: commercial-11
-    color: '#C17900'
+    color: '#8665E7'
   - subclass: video_games
     iconName: gaming-11
-    color: '#C17900'
+    color: '#8665E7'
   - subclass: toys
     iconName: gaming-11
-    color: '#C17900'
+    color: '#8665E7'
   - subclass: bicycle
     iconName: bicycle-11
-    color: '#C17900'
+    color: '#8665E7'
   - subclass: motorcycle
     iconName: scooter-11
-    color: '#C17900'
+    color: '#8665E7'
   - subclass: pet
     iconName: pet-11
-    color: '#C17900'
+    color: '#8665E7'
   - subclass: seafood
     iconName: seafood-11
-    color: '#C17900'
+    color: '#8665E7'
   - subclass: stationery
     iconName: stationery-11
-    color: '#C17900'
+    color: '#8665E7'
   - subclass: sports
     iconName: baseball-11
-    color: '#C17900'
+    color: '#8665E7'
   - subclass: music
     iconName: music-shop-11
-    color: '#C17900'
+    color: '#8665E7'
   - subclass: bed
     iconName: bed-11
-    color: '#C17900'
+    color: '#8665E7'
   - subclass: electronics
     iconName: electronics-11
-    color: '#C17900'
+    color: '#8665E7'
   - subclass: gate
     iconName: barrier-11
     color: '#5C6F84'
@@ -338,7 +338,7 @@ mappings:
     color: '#5C6F84'
   - subclass: airport
     iconName: airport-11
-    color: '#8665E7'
+    color: '#123295'
   - subclass: athletics
     iconName: soccer-11
     color: '#5C6F84'
@@ -347,7 +347,7 @@ mappings:
     color: '#5C6F84'
   - class: alcohol_shop
     iconName: alcohol-shop-11
-    color: '#C17900'
+    color: '#8665E7'
   - class: art_gallery
     iconName: art-gallery-11
     color: '#E93865'
@@ -362,13 +362,13 @@ mappings:
     color: '#EF8000'
   - class: bus
     iconName: bus-11
-    color: '#8665E7'
+    color: '#123295'
   - class: campsite
     iconName: campsite-11
     color: '#538C37'
   - class: car
     iconName: car-11
-    color: '#C17900'
+    color: '#8665E7'
   - class: castle
     iconName: castle-11
     color: '#5C6F84'
@@ -383,7 +383,7 @@ mappings:
     color: '#5C6F84'
   - class: grocery
     iconName: grocery-11
-    color: '#C17900'
+    color: '#8665E7'
   - class: harbor
     iconName: harbor-11
     color: '#495063'
@@ -410,13 +410,13 @@ mappings:
     color: '#495063'
   - class: shop
     iconName: shop-11
-    color: '#C17900'
+    color: '#8665E7'
   - class: stadium
     iconName: stadium-11
     color: '#5C6F84'
   - class: clothing_store
     iconName: clothing-store-11
-    color: '#C17900'
+    color: '#8665E7'
   - class: swimming
     iconName: swimming-11
     color: '#5C6F84'
