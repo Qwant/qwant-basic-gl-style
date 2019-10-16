@@ -5276,7 +5276,7 @@
         "text-font": [
           "Noto Sans Bold"
         ],
-        "text-field": "{name:latin}\n{name:nonlatin}",
+        "text-field": "{name}",
         "text-transform": "none",
         "text-max-width": 9,
         "visibility": "visible",
