@@ -4952,7 +4952,7 @@
         "text-field": "{name}",
         "text-offset": [
           0,
-          0.6
+          1
         ],
         "text-size": 12,
         "text-max-width": 9,
@@ -4962,7 +4962,7 @@
       },
       "paint": {
         "text-halo-blur": 0.5,
-        "text-color": "#8665E7",
+        "text-color": "#123295",
         "text-halo-width": 1,
         "text-halo-color": "#ffffff"
       }
