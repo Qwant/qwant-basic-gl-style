@@ -423,7 +423,7 @@ mappings:
   - class: town_hall
     iconName: town-hall-11
     color: '#495063'
-  - class: parking-bike
+  - class: bicycle_parking
     iconName: parking-bike-11
     color: '#123295'
   - class: parking
