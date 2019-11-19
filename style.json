@@ -4436,7 +4436,8 @@
         "text-anchor": "top",
         "text-field": "{name}",
         "text-optional": true,
-        "text-max-width": 9
+        "text-max-width": 9,
+        "icon-padding": 10
       },
       "paint": {
         "text-halo-blur": 0.5,
