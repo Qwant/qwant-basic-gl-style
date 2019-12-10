@@ -89,11 +89,11 @@ languageFallbacks:
     lang:
       *lang_locale
   -
-    id: poi-level-public-tranports-2
+    id: poi-level-public-transports-2
     lang:
       *lang_locale
   -
-    id: poi-level-public-tranports-1
+    id: poi-level-public-transports-1
     lang:
       *lang_locale
   -
