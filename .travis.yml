@@ -12,7 +12,7 @@ addons:
 env:
   global:
   - ENCRYPTION_LABEL: "a4adbc32d1aa"
-  - COMMIT_AUTHOR_EMAIL: "j.laville@qwant.com"
+  - COMMIT_AUTHOR_EMAIL: "maps@qwant.com"
 
 script:
   - git clone https://github.com/QwantResearch/map-style-builder.git
