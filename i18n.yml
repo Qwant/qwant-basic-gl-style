@@ -121,6 +121,10 @@ languageFallbacks:
     lang:
       *lang_locale
   -
+    id: park-label
+    lang:
+      *lang_locale
+  -
     id: place-other
     lang: "{name}"
   -
