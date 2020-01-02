@@ -339,10 +339,10 @@ mappings:
     color: *default_color
   - subclass: basin
     iconName: dam-11
-    color: *park_color
+    color: *default_color
   - subclass: reservoir
     iconName: dam-11
-    color: *park_color
+    color: *default_color
   - subclass: monument
     iconName: monument-11
     color: *default_color
