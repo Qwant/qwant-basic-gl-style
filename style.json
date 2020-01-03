@@ -5515,7 +5515,7 @@
       }
     },
     {
-      "id": "place-country-other",
+      "id": "place-country",
       "type": "symbol",
       "metadata": {
         "mapbox:group": "1444849242106.713",
@@ -5523,200 +5523,32 @@
       },
       "source": "basemap",
       "source-layer": "place",
+      "maxzoom": 12,
       "filter": [
         "all",
         [
           "==",
           "class",
           "country"
-        ],
-        [
-          ">=",
-          "rank",
-          3
-        ],
-        [
-          "!has",
-          "iso_a2"
         ]
       ],
       "layout": {
         "text-font": [
-          "Noto Sans Italic"
+          "case",
+          ["has", "iso_a2"],
+          ["literal", ["Noto Sans Bold"]],
+          ["literal", ["Noto Sans Italic"]]
         ],
         "text-field": "{name}",
         "text-size": {
+          "property": "rank",
           "stops": [
-            [
-              3,
-              11
-            ],
-            [
-              7,
-              17
-            ]
-          ]
-        },
-        "text-transform": "uppercase",
-        "text-max-width": 6.25,
-        "visibility": "visible"
-      },
-      "paint": {
-        "text-halo-blur": 1,
-        "text-color": "#334",
-        "text-halo-width": 2,
-        "text-halo-color": "rgba(255,255,255,0.8)"
-      }
-    },
-    {
-      "id": "place-country-3",
-      "type": "symbol",
-      "metadata": {
-        "mapbox:group": "1444849242106.713",
-        "taxonomy:group": "places"
-      },
-      "source": "basemap",
-      "source-layer": "place",
-      "filter": [
-        "all",
-        [
-          "==",
-          "class",
-          "country"
-        ],
-        [
-          ">=",
-          "rank",
-          3
-        ],
-        [
-          "has",
-          "iso_a2"
-        ]
-      ],
-      "layout": {
-        "text-font": [
-          "Noto Sans Bold"
-        ],
-        "text-field": "{name}",
-        "text-size": {
-          "stops": [
-            [
-              3,
-              11
-            ],
-            [
-              7,
-              17
-            ]
-          ]
-        },
-        "text-transform": "uppercase",
-        "text-max-width": 6.25,
-        "visibility": "visible"
-      },
-      "paint": {
-        "text-halo-blur": 1,
-        "text-color": "#334",
-        "text-halo-width": 2,
-        "text-halo-color": "rgba(255,255,255,0.8)"
-      }
-    },
-    {
-      "id": "place-country-2",
-      "type": "symbol",
-      "metadata": {
-        "mapbox:group": "1444849242106.713",
-        "taxonomy:group": "places"
-      },
-      "source": "basemap",
-      "source-layer": "place",
-      "filter": [
-        "all",
-        [
-          "==",
-          "class",
-          "country"
-        ],
-        [
-          "==",
-          "rank",
-          2
-        ],
-        [
-          "has",
-          "iso_a2"
-        ]
-      ],
-      "layout": {
-        "text-font": [
-          "Noto Sans Bold"
-        ],
-        "text-field": "{name}",
-        "text-size": {
-          "stops": [
-            [
-              2,
-              11
-            ],
-            [
-              5,
-              17
-            ]
-          ]
-        },
-        "text-transform": "uppercase",
-        "text-max-width": 6.25,
-        "visibility": "visible"
-      },
-      "paint": {
-        "text-halo-blur": 1,
-        "text-color": "#334",
-        "text-halo-width": 2,
-        "text-halo-color": "rgba(255,255,255,0.8)"
-      }
-    },
-    {
-      "id": "place-country-1",
-      "type": "symbol",
-      "metadata": {
-        "mapbox:group": "1444849242106.713",
-        "taxonomy:group": "places"
-      },
-      "source": "basemap",
-      "source-layer": "place",
-      "filter": [
-        "all",
-        [
-          "==",
-          "class",
-          "country"
-        ],
-        [
-          "==",
-          "rank",
-          1
-        ],
-        [
-          "has",
-          "iso_a2"
-        ]
-      ],
-      "layout": {
-        "text-font": [
-          "Noto Sans Bold"
-        ],
-        "text-field": "{name}",
-        "text-size": {
-          "stops": [
-            [
-              1,
-              11
-            ],
-            [
-              4,
-              17
-            ]
+            [{"zoom":1, "value": 1}, 11],
+            [{"zoom":1, "value": 3}, 11],
+            [{"zoom":3, "value": 1}, 15],
+            [{"zoom":3, "value": 3}, 11],
+            [{"zoom":7, "value": 1}, 17],
+            [{"zoom":7, "value": 3}, 17]
           ]
         },
         "text-transform": "uppercase",

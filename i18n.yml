@@ -150,19 +150,7 @@ languageFallbacks:
     lang:
       *lang_double
   -
-    id: place-country-other
-    lang:
-      *lang_locale
-  -
-    id: place-country-3
-    lang:
-      *lang_locale
-  -
-    id: place-country-2
-    lang:
-      *lang_locale
-  -
-    id: place-country-1
+    id: place-country
     lang:
       *lang_locale
   -
