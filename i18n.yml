@@ -15,14 +15,16 @@ lang:
             - ''
         - - get
           - name:{locale}
-        - - concat
+        - - format
           - - get
             - name:{locale}
+          - {}
           - "\n"
-          - - concat
-            - - get
-              - name
-            - ''
+          - {}
+          - - get
+            - name
+          - 'font-scale': 0.8
+            'text-font': ['literal', ["Noto Sans Italic"]]
       - - case
         - - has
           - name:latin
@@ -38,12 +40,16 @@ lang:
               - ''
           - - get
             - name
-          - - concat
+          - - format
             - - get
               - name:latin
+            - {}
             - "\n"
+            - {}
             - - get
               - name
+            - 'font-scale': 0.8
+              'text-font': ['literal', ["Noto Sans Italic"]]
         - - get
           - name
     - &lang_locale
