@@ -4568,7 +4568,7 @@
         [
           ">=",
           "rank",
-          15
+          9
         ],
         [
           "!in",
@@ -4649,7 +4649,7 @@
         [
           "<=",
           "rank",
-          14
+          8
         ],
         [
           "!in",
@@ -4705,8 +4705,7 @@
         "text-anchor": "top",
         "text-field": "{name}",
         "text-optional": true,
-        "text-max-width": 9,
-        "icon-padding": 10
+        "text-max-width": 9
       },
       "paint": {
         "text-halo-blur": 0.5,
