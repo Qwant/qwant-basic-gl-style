@@ -251,7 +251,7 @@ mappings:
     iconName: museum-11
     color: *culture_color
   - subclass: public_building
-    iconName: building-15
+    iconName: building-11
     color: *services_color
   - subclass: artwork
     iconName: artwork-11
