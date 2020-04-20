@@ -169,6 +169,9 @@ mappings:
   - subclass: lamps
     iconName: furniture-11
     color: *shop_color
+  - subclass: farm
+    iconName: convenience-store-11
+    color: *shop_color
   - subclass: garden_centre
     iconName: garden-center-11
     color: *shop_color
