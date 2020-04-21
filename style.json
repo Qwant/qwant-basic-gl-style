@@ -175,7 +175,7 @@
       }
     },
     {
-      "id": "landuse-commercial",
+      "id": "landuse-commercial-industrial",
       "type": "fill",
       "metadata": {
         "mapbox:group": "1444849388993.3071",
@@ -191,34 +191,9 @@
           "Polygon"
         ],
         [
-          "==",
+          "in",
           "class",
-          "commercial"
-        ]
-      ],
-      "paint": {
-        "fill-color": "hsla(49, 100%, 88%, 0.34)"
-      }
-    },
-    {
-      "id": "landuse-industrial",
-      "type": "fill",
-      "metadata": {
-        "mapbox:group": "1444849388993.3071",
-        "taxonomy:group": "landuse"
-      },
-      "source": "basemap",
-      "source-layer": "landuse",
-      "filter": [
-        "all",
-        [
-          "==",
-          "$type",
-          "Polygon"
-        ],
-        [
-          "==",
-          "class",
+          "commercial",
           "industrial"
         ]
       ],
