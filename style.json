@@ -343,24 +343,6 @@
       }
     },
     {
-      "id": "landcover-garden",
-      "type": "fill",
-      "metadata": {
-        "mapbox:group": "1444849388993.3071",
-        "taxonomy:group": "landuse"
-      },
-      "source": "basemap",
-      "source-layer": "landcover",
-      "filter": [
-        "all",
-        ["==", "class", "grass"],
-        ["in", "subclass", "park", "garden"]
-      ],
-      "paint": {
-        "fill-color": "#c0eab8"
-      }
-    },
-    {
       "id": "landcover-grass",
       "type": "fill",
       "metadata": {
@@ -369,13 +351,12 @@
       },
       "source": "basemap",
       "source-layer": "landcover",
-      "filter": [
-        "all",
-        ["==", "class", "grass"],
-        ["!in", "subclass", "park", "garden"]
-      ],
+      "filter": ["==", "class", "grass"],
       "paint": {
-        "fill-color": "#e0f2d3"
+        "fill-color": ["case",
+          ["in", ["get", "subclass"], ["literal", ["park", "garden"]]], "#c0eab8",
+          "#e0f2d3"
+        ]
       }
     },
     {
