@@ -3459,60 +3459,6 @@
       }
     },
     {
-      "id": "bridge-motorway-link",
-      "type": "line",
-      "metadata": {
-        "mapbox:group": "1444849334699.1902",
-        "taxonomy:group": "bridges"
-      },
-      "source": "basemap",
-      "source-layer": "transportation",
-      "filter": [
-        "all",
-        [
-          "==",
-          "brunnel",
-          "bridge"
-        ],
-        [
-          "==",
-          "class",
-          "motorway_link"
-        ]
-      ],
-      "layout": {
-        "line-join": "round"
-      },
-      "paint": {
-        "line-color": "#fc8",
-        "line-width": {
-          "base": 1.2,
-          "stops": [
-            [
-              12.5,
-              0
-            ],
-            [
-              13,
-              1.5
-            ],
-            [
-              14,
-              2.5
-            ],
-            [
-              18,
-              11.5
-            ],
-            [
-              20,
-              21.5
-            ]
-          ]
-        }
-      }
-    },
-    {
       "id": "bridge-link",
       "type": "line",
       "metadata": {
@@ -3534,14 +3480,18 @@
           "primary_link",
           "secondary_link",
           "tertiary_link",
-          "trunk_link"
+          "trunk_link",
+          "motorway_link"
         ]
       ],
       "layout": {
         "line-join": "round"
       },
       "paint": {
-        "line-color": "#fea",
+        "line-color": ["case",
+          ["==", ["get", "class"], "motorway_link"], "#fc8",
+          "#fea"
+        ],
         "line-width": {
           "base": 1.2,
           "stops": [
