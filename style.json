@@ -4081,7 +4081,6 @@
             "pitch",
             "post_box",
             "post_office",
-            "recycling",
             "sally_port",
             "shelter",
             "stile",
@@ -4247,42 +4246,53 @@
         ],
         [
           "!in",
-          "subclass",
-          "artwork",
-          "bollard",
-          "bicycle_rental",
-          "border_control",
-          "cycle_barrier",
-          "ferry_terminal",
-          "gate",
-          "lift_gate",
-          "playground",
-          "pitch",
-          "post_box",
-          "post_office",
-          "recycling",
-          "sally_port",
-          "shelter",
-          "stile",
-          "taxi",
-          "telephone",
-          "toll_booth",
-          "toilets",
-          "subway_entrance",
-          "train_station_entrance",
-          "waste_basket"
-        ],
-        [
-          "has",
-          "name"
-        ],
-        [
-          "!in",
           "class",
           "railway",
           "bus",
           "information",
           "barrier"
+        ],
+        [
+          "any",
+          [
+            "all",
+            [
+              "!in",
+              "subclass",
+              "artwork",
+              "bollard",
+              "bicycle_rental",
+              "border_control",
+              "cycle_barrier",
+              "ferry_terminal",
+              "gate",
+              "lift_gate",
+              "playground",
+              "pitch",
+              "post_box",
+              "post_office",
+              "recycling",
+              "sally_port",
+              "shelter",
+              "stile",
+              "taxi",
+              "telephone",
+              "toll_booth",
+              "toilets",
+              "subway_entrance",
+              "train_station_entrance",
+              "waste_basket"
+            ],
+            [
+              "has",
+              "name"
+            ]
+          ],
+          [
+            "in",
+            "subclass",
+            "recycling"
+          ]
         ]
       ],
       "layout": {
