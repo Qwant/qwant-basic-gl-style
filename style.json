@@ -157,7 +157,7 @@
       },
       "source": "basemap",
       "source-layer": "landuse",
-      "filter": ["all", ["in", "class", "residential", "suburb", "neighbourhood"]],
+      "filter": ["in", "class", "residential", "suburb", "neighbourhood"],
       "paint": {
         "fill-color": {
           "base": 1,
@@ -829,14 +829,7 @@
       },
       "source": "basemap",
       "source-layer": "landcover",
-      "filter": [
-        "all",
-        [
-          "==",
-          "class",
-          "sand"
-        ]
-      ],
+      "filter": ["==", "class", "sand"],
       "layout": {
         "visibility": "visible"
       },
@@ -1537,14 +1530,7 @@
       },
       "source": "basemap",
       "source-layer": "transportation",
-      "filter": [
-        "all",
-        [
-          "in",
-          "class",
-          "ferry"
-        ]
-      ],
+      "filter": ["in", "class", "ferry"],
       "layout": {
         "line-join": "round",
         "visibility": "visible"
@@ -4932,13 +4918,7 @@
       "source": "basemap",
       "source-layer": "aerodrome_label",
       "minzoom": 10,
-      "filter": [
-        "all",
-        [
-          "has",
-          "iata"
-        ]
-      ],
+      "filter": ["has", "iata"],
       "layout": {
         "text-padding": 2,
         "text-font": [
@@ -5252,14 +5232,7 @@
       "source": "basemap",
       "source-layer": "place",
       "maxzoom": 12,
-      "filter": [
-        "all",
-        [
-          "==",
-          "class",
-          "country"
-        ]
-      ],
+      "filter": ["==", "class", "country"],
       "layout": {
         "text-font": [
           "case",
