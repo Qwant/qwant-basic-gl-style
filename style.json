@@ -1186,17 +1186,14 @@
           "LineString"
         ],
         [
-          "all",
-          [
-            "==",
-            "brunnel",
-            "tunnel"
-          ],
-          [
-            "==",
-            "class",
-            "path"
-          ]
+          "==",
+          "brunnel",
+          "tunnel"
+        ],
+        [
+          "==",
+          "class",
+          "path"
         ]
       ],
       "paint": {
@@ -1943,19 +1940,16 @@
           "LineString"
         ],
         [
-          "all",
-          [
-            "!=",
-            "brunnel",
-            "tunnel"
-          ],
-          [
-            "in",
-            "class",
-            "minor",
-            "service",
-            "track"
-          ]
+          "!=",
+          "brunnel",
+          "tunnel"
+        ],
+        [
+          "in",
+          "class",
+          "minor",
+          "service",
+          "track"
         ]
       ],
       "layout": {
@@ -2289,18 +2283,15 @@
           "LineString"
         ],
         [
-          "all",
-          [
-            "!in",
-            "brunnel",
-            "bridge",
-            "tunnel"
-          ],
-          [
-            "==",
-            "class",
-            "path"
-          ]
+          "!in",
+          "brunnel",
+          "bridge",
+          "tunnel"
+        ],
+        [
+          "==",
+          "class",
+          "path"
         ]
       ],
       "paint": {
@@ -2463,19 +2454,16 @@
           "LineString"
         ],
         [
-          "all",
-          [
-            "!=",
-            "brunnel",
-            "tunnel"
-          ],
-          [
-            "in",
-            "class",
-            "minor",
-            "service",
-            "track"
-          ]
+          "!=",
+          "brunnel",
+          "tunnel"
+        ],
+        [
+          "in",
+          "class",
+          "minor",
+          "service",
+          "track"
         ]
       ],
       "layout": {
@@ -2579,18 +2567,15 @@
           "LineString"
         ],
         [
-          "all",
-          [
-            "!in",
-            "brunnel",
-            "bridge",
-            "tunnel"
-          ],
-          [
-            "in",
-            "class",
-            "primary"
-          ]
+          "!in",
+          "brunnel",
+          "bridge",
+          "tunnel"
+        ],
+        [
+          "in",
+          "class",
+          "primary"
         ]
       ],
       "layout": {
@@ -2640,18 +2625,15 @@
           "LineString"
         ],
         [
-          "all",
-          [
-            "!in",
-            "brunnel",
-            "bridge",
-            "tunnel"
-          ],
-          [
-            "in",
-            "class",
-            "trunk"
-          ]
+          "!in",
+          "brunnel",
+          "bridge",
+          "tunnel"
+        ],
+        [
+          "in",
+          "class",
+          "trunk"
         ]
       ],
       "layout": {
@@ -2702,18 +2684,15 @@
           "LineString"
         ],
         [
-          "all",
-          [
-            "!in",
-            "brunnel",
-            "bridge",
-            "tunnel"
-          ],
-          [
-            "==",
-            "class",
-            "motorway"
-          ]
+          "!in",
+          "brunnel",
+          "bridge",
+          "tunnel"
+        ],
+        [
+          "==",
+          "class",
+          "motorway"
         ]
       ],
       "layout": {
@@ -2763,17 +2742,14 @@
           "LineString"
         ],
         [
-          "all",
-          [
-            "==",
-            "class",
-            "transit"
-          ],
-          [
-            "!in",
-            "brunnel",
-            "tunnel"
-          ]
+          "==",
+          "class",
+          "transit"
+        ],
+        [
+          "!in",
+          "brunnel",
+          "tunnel"
         ]
       ],
       "layout": {
@@ -2812,17 +2788,14 @@
           "LineString"
         ],
         [
-          "all",
-          [
-            "==",
-            "class",
-            "transit"
-          ],
-          [
-            "!in",
-            "brunnel",
-            "tunnel"
-          ]
+          "==",
+          "class",
+          "transit"
+        ],
+        [
+          "!in",
+          "brunnel",
+          "tunnel"
         ]
       ],
       "layout": {
@@ -2870,16 +2843,13 @@
           "LineString"
         ],
         [
-          "all",
-          [
-            "==",
-            "class",
-            "rail"
-          ],
-          [
-            "has",
-            "service"
-          ]
+          "==",
+          "class",
+          "rail"
+        ],
+        [
+          "has",
+          "service"
         ]
       ],
       "paint": {
@@ -2915,16 +2885,13 @@
           "LineString"
         ],
         [
-          "all",
-          [
-            "==",
-            "class",
-            "rail"
-          ],
-          [
-            "has",
-            "service"
-          ]
+          "==",
+          "class",
+          "rail"
+        ],
+        [
+          "has",
+          "service"
         ]
       ],
       "layout": {
@@ -2972,22 +2939,19 @@
           "LineString"
         ],
         [
-          "all",
-          [
-            "!has",
-            "service"
-          ],
-          [
-            "!in",
-            "brunnel",
-            "bridge",
-            "tunnel"
-          ],
-          [
-            "==",
-            "class",
-            "rail"
-          ]
+          "!has",
+          "service"
+        ],
+        [
+          "!in",
+          "brunnel",
+          "bridge",
+          "tunnel"
+        ],
+        [
+          "==",
+          "class",
+          "rail"
         ]
       ],
       "paint": {
@@ -3027,22 +2991,19 @@
           "LineString"
         ],
         [
-          "all",
-          [
-            "!has",
-            "service"
-          ],
-          [
-            "!in",
-            "brunnel",
-            "bridge",
-            "tunnel"
-          ],
-          [
-            "==",
-            "class",
-            "rail"
-          ]
+          "!has",
+          "service"
+        ],
+        [
+          "!in",
+          "brunnel",
+          "bridge",
+          "tunnel"
+        ],
+        [
+          "==",
+          "class",
+          "rail"
         ]
       ],
       "paint": {
@@ -3308,17 +3269,14 @@
           "LineString"
         ],
         [
-          "all",
-          [
-            "==",
-            "brunnel",
-            "bridge"
-          ],
-          [
-            "==",
-            "class",
-            "path"
-          ]
+          "==",
+          "brunnel",
+          "bridge"
+        ],
+        [
+          "==",
+          "class",
+          "path"
         ]
       ],
       "paint": {
@@ -3355,17 +3313,14 @@
           "LineString"
         ],
         [
-          "all",
-          [
-            "==",
-            "brunnel",
-            "bridge"
-          ],
-          [
-            "==",
-            "class",
-            "path"
-          ]
+          "==",
+          "brunnel",
+          "bridge"
+        ],
+        [
+          "==",
+          "class",
+          "path"
         ]
       ],
       "paint": {
@@ -4747,19 +4702,16 @@
           "LineString"
         ],
         [
-          "all",
-          [
-            "!in",
-            "network",
-            "us-highway",
-            "us-interstate",
-            "us-state"
-          ],
-          [
-            "<=",
-            "ref_length",
-            6
-          ]
+          "!in",
+          "network",
+          "us-highway",
+          "us-interstate",
+          "us-state"
+        ],
+        [
+          "<=",
+          "ref_length",
+          6
         ]
       ],
       "layout": {
@@ -4806,17 +4758,14 @@
           "LineString"
         ],
         [
-          "all",
-          [
-            "<=",
-            "ref_length",
-            6
-          ],
-          [
-            "==",
-            "network",
-            "us-interstate"
-          ]
+          "<=",
+          "ref_length",
+          6
+        ],
+        [
+          "==",
+          "network",
+          "us-interstate"
         ]
       ],
       "layout": {
@@ -4869,18 +4818,15 @@
           "LineString"
         ],
         [
-          "all",
-          [
-            "<=",
-            "ref_length",
-            6
-          ],
-          [
-            "in",
-            "network",
-            "us-highway",
-            "us-state"
-          ]
+          "<=",
+          "ref_length",
+          6
+        ],
+        [
+          "in",
+          "network",
+          "us-highway",
+          "us-state"
         ]
       ],
       "layout": {
