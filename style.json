@@ -157,7 +157,7 @@
       },
       "source": "basemap",
       "source-layer": "landuse",
-      "filter": ["all", ["in", "class", "residential", "suburb", "neighbourhood"]],
+      "filter": ["in", "class", "residential", "suburb", "neighbourhood"],
       "paint": {
         "fill-color": {
           "base": 1,
@@ -829,14 +829,7 @@
       },
       "source": "basemap",
       "source-layer": "landcover",
-      "filter": [
-        "all",
-        [
-          "==",
-          "class",
-          "sand"
-        ]
-      ],
+      "filter": ["==", "class", "sand"],
       "layout": {
         "visibility": "visible"
       },
@@ -1193,17 +1186,14 @@
           "LineString"
         ],
         [
-          "all",
-          [
-            "==",
-            "brunnel",
-            "tunnel"
-          ],
-          [
-            "==",
-            "class",
-            "path"
-          ]
+          "==",
+          "brunnel",
+          "tunnel"
+        ],
+        [
+          "==",
+          "class",
+          "path"
         ]
       ],
       "paint": {
@@ -1537,14 +1527,7 @@
       },
       "source": "basemap",
       "source-layer": "transportation",
-      "filter": [
-        "all",
-        [
-          "in",
-          "class",
-          "ferry"
-        ]
-      ],
+      "filter": ["in", "class", "ferry"],
       "layout": {
         "line-join": "round",
         "visibility": "visible"
@@ -1957,19 +1940,16 @@
           "LineString"
         ],
         [
-          "all",
-          [
-            "!=",
-            "brunnel",
-            "tunnel"
-          ],
-          [
-            "in",
-            "class",
-            "minor",
-            "service",
-            "track"
-          ]
+          "!=",
+          "brunnel",
+          "tunnel"
+        ],
+        [
+          "in",
+          "class",
+          "minor",
+          "service",
+          "track"
         ]
       ],
       "layout": {
@@ -2303,18 +2283,15 @@
           "LineString"
         ],
         [
-          "all",
-          [
-            "!in",
-            "brunnel",
-            "bridge",
-            "tunnel"
-          ],
-          [
-            "==",
-            "class",
-            "path"
-          ]
+          "!in",
+          "brunnel",
+          "bridge",
+          "tunnel"
+        ],
+        [
+          "==",
+          "class",
+          "path"
         ]
       ],
       "paint": {
@@ -2477,19 +2454,16 @@
           "LineString"
         ],
         [
-          "all",
-          [
-            "!=",
-            "brunnel",
-            "tunnel"
-          ],
-          [
-            "in",
-            "class",
-            "minor",
-            "service",
-            "track"
-          ]
+          "!=",
+          "brunnel",
+          "tunnel"
+        ],
+        [
+          "in",
+          "class",
+          "minor",
+          "service",
+          "track"
         ]
       ],
       "layout": {
@@ -2593,18 +2567,15 @@
           "LineString"
         ],
         [
-          "all",
-          [
-            "!in",
-            "brunnel",
-            "bridge",
-            "tunnel"
-          ],
-          [
-            "in",
-            "class",
-            "primary"
-          ]
+          "!in",
+          "brunnel",
+          "bridge",
+          "tunnel"
+        ],
+        [
+          "in",
+          "class",
+          "primary"
         ]
       ],
       "layout": {
@@ -2654,18 +2625,15 @@
           "LineString"
         ],
         [
-          "all",
-          [
-            "!in",
-            "brunnel",
-            "bridge",
-            "tunnel"
-          ],
-          [
-            "in",
-            "class",
-            "trunk"
-          ]
+          "!in",
+          "brunnel",
+          "bridge",
+          "tunnel"
+        ],
+        [
+          "in",
+          "class",
+          "trunk"
         ]
       ],
       "layout": {
@@ -2716,18 +2684,15 @@
           "LineString"
         ],
         [
-          "all",
-          [
-            "!in",
-            "brunnel",
-            "bridge",
-            "tunnel"
-          ],
-          [
-            "==",
-            "class",
-            "motorway"
-          ]
+          "!in",
+          "brunnel",
+          "bridge",
+          "tunnel"
+        ],
+        [
+          "==",
+          "class",
+          "motorway"
         ]
       ],
       "layout": {
@@ -2777,17 +2742,14 @@
           "LineString"
         ],
         [
-          "all",
-          [
-            "==",
-            "class",
-            "transit"
-          ],
-          [
-            "!in",
-            "brunnel",
-            "tunnel"
-          ]
+          "==",
+          "class",
+          "transit"
+        ],
+        [
+          "!in",
+          "brunnel",
+          "tunnel"
         ]
       ],
       "layout": {
@@ -2826,17 +2788,14 @@
           "LineString"
         ],
         [
-          "all",
-          [
-            "==",
-            "class",
-            "transit"
-          ],
-          [
-            "!in",
-            "brunnel",
-            "tunnel"
-          ]
+          "==",
+          "class",
+          "transit"
+        ],
+        [
+          "!in",
+          "brunnel",
+          "tunnel"
         ]
       ],
       "layout": {
@@ -2884,16 +2843,13 @@
           "LineString"
         ],
         [
-          "all",
-          [
-            "==",
-            "class",
-            "rail"
-          ],
-          [
-            "has",
-            "service"
-          ]
+          "==",
+          "class",
+          "rail"
+        ],
+        [
+          "has",
+          "service"
         ]
       ],
       "paint": {
@@ -2929,16 +2885,13 @@
           "LineString"
         ],
         [
-          "all",
-          [
-            "==",
-            "class",
-            "rail"
-          ],
-          [
-            "has",
-            "service"
-          ]
+          "==",
+          "class",
+          "rail"
+        ],
+        [
+          "has",
+          "service"
         ]
       ],
       "layout": {
@@ -2986,22 +2939,19 @@
           "LineString"
         ],
         [
-          "all",
-          [
-            "!has",
-            "service"
-          ],
-          [
-            "!in",
-            "brunnel",
-            "bridge",
-            "tunnel"
-          ],
-          [
-            "==",
-            "class",
-            "rail"
-          ]
+          "!has",
+          "service"
+        ],
+        [
+          "!in",
+          "brunnel",
+          "bridge",
+          "tunnel"
+        ],
+        [
+          "==",
+          "class",
+          "rail"
         ]
       ],
       "paint": {
@@ -3041,22 +2991,19 @@
           "LineString"
         ],
         [
-          "all",
-          [
-            "!has",
-            "service"
-          ],
-          [
-            "!in",
-            "brunnel",
-            "bridge",
-            "tunnel"
-          ],
-          [
-            "==",
-            "class",
-            "rail"
-          ]
+          "!has",
+          "service"
+        ],
+        [
+          "!in",
+          "brunnel",
+          "bridge",
+          "tunnel"
+        ],
+        [
+          "==",
+          "class",
+          "rail"
         ]
       ],
       "paint": {
@@ -3322,17 +3269,14 @@
           "LineString"
         ],
         [
-          "all",
-          [
-            "==",
-            "brunnel",
-            "bridge"
-          ],
-          [
-            "==",
-            "class",
-            "path"
-          ]
+          "==",
+          "brunnel",
+          "bridge"
+        ],
+        [
+          "==",
+          "class",
+          "path"
         ]
       ],
       "paint": {
@@ -3369,17 +3313,14 @@
           "LineString"
         ],
         [
-          "all",
-          [
-            "==",
-            "brunnel",
-            "bridge"
-          ],
-          [
-            "==",
-            "class",
-            "path"
-          ]
+          "==",
+          "brunnel",
+          "bridge"
+        ],
+        [
+          "==",
+          "class",
+          "path"
         ]
       ],
       "paint": {
@@ -4761,19 +4702,16 @@
           "LineString"
         ],
         [
-          "all",
-          [
-            "!in",
-            "network",
-            "us-highway",
-            "us-interstate",
-            "us-state"
-          ],
-          [
-            "<=",
-            "ref_length",
-            6
-          ]
+          "!in",
+          "network",
+          "us-highway",
+          "us-interstate",
+          "us-state"
+        ],
+        [
+          "<=",
+          "ref_length",
+          6
         ]
       ],
       "layout": {
@@ -4820,17 +4758,14 @@
           "LineString"
         ],
         [
-          "all",
-          [
-            "<=",
-            "ref_length",
-            6
-          ],
-          [
-            "==",
-            "network",
-            "us-interstate"
-          ]
+          "<=",
+          "ref_length",
+          6
+        ],
+        [
+          "==",
+          "network",
+          "us-interstate"
         ]
       ],
       "layout": {
@@ -4883,18 +4818,15 @@
           "LineString"
         ],
         [
-          "all",
-          [
-            "<=",
-            "ref_length",
-            6
-          ],
-          [
-            "in",
-            "network",
-            "us-highway",
-            "us-state"
-          ]
+          "<=",
+          "ref_length",
+          6
+        ],
+        [
+          "in",
+          "network",
+          "us-highway",
+          "us-state"
         ]
       ],
       "layout": {
@@ -4932,13 +4864,7 @@
       "source": "basemap",
       "source-layer": "aerodrome_label",
       "minzoom": 10,
-      "filter": [
-        "all",
-        [
-          "has",
-          "iata"
-        ]
-      ],
+      "filter": ["has", "iata"],
       "layout": {
         "text-padding": 2,
         "text-font": [
@@ -5252,14 +5178,7 @@
       "source": "basemap",
       "source-layer": "place",
       "maxzoom": 12,
-      "filter": [
-        "all",
-        [
-          "==",
-          "class",
-          "country"
-        ]
-      ],
+      "filter": ["==", "class", "country"],
       "layout": {
         "text-font": [
           "case",
