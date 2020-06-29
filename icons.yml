@@ -9,12 +9,12 @@ defaultAddressColor: *default_color
 
 .colors:
   transports: &transports_color '#123295'
-  services: &services_color '#46464c'
-  food: &food_color '#b35700'
-  culture: &culture_color '#c40000'
-  shop: &shop_color '#8d009b'
-  park: &park_color '#2e7a18'
-  health: &health_color '#0060a5'
+  services: &services_color '#6d6d76'
+  food: &food_color '#d76600'
+  culture: &culture_color '#e2001c'
+  shop: &shop_color '#a125be'
+  park: &park_color '#5d9836'
+  health: &health_color '#1777cb'
   street_furniture: &street_furniture_color '#8C94A0'
 
 mappings:
