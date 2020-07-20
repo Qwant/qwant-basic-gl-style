@@ -1,6 +1,6 @@
 defaultIcon: marker2-11
 defaultColor: &default_color '#5C6F84'
-defaultAdministrativeIcon: town-11
+defaultAdministrativeIcon: marker2-11
 defaultAdministrativeColor: *default_color
 defaultStreetIcon: residential-community-11
 defaultStreetColor: *default_color
