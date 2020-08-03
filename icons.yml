@@ -33,13 +33,13 @@ mappings:
     class: railway
     iconName: rail-light-11
     color: *transports_color
-  - subclass: subway_entrance
-    iconName: entrance-11
-    color: *transports_color
-  - subclass: train_station_entrance
+  - class: entrance
     iconName: entrance-11
     color: *transports_color
   - subclass: bank
+    iconName: bank-11
+    color: *services_color
+  - subclass: atm
     iconName: bank-11
     color: *services_color
   - subclass: car_rental
@@ -81,9 +81,6 @@ mappings:
   - subclass: equestrian
     iconName: horse-riding-11
     color: *default_color
-  - subclass: swimming_pool
-    iconName: swimming-11
-    color: *default_color
   - subclass: bicycle_rental
     iconName: bicycle-share-11
     color: *services_color
@@ -114,6 +111,9 @@ mappings:
     color: *services_color
   - subclass: fire_station
     iconName: fire-station-11
+    color: *services_color
+  - subclass: fitness_centre
+    iconName: fitness-11
     color: *services_color
   - subclass: bakery
     iconName: bakery-11
@@ -205,9 +205,6 @@ mappings:
   - subclass: ferry_terminal
     iconName: ferry-11
     color: *transports_color
-  - subclass: entrance
-    iconName: entrance-11
-    color: *transports_color
   - subclass: park
     iconName: park-alt1-11
     color: *park_color
@@ -274,9 +271,6 @@ mappings:
   - subclass: prison
     iconName: prison-11
     color: *services_color
-  - subclass: sports_centre
-    iconName: basketball-11
-    color: *default_color
   - subclass: fuel
     iconName: fuel-11
     color: *default_color
@@ -313,7 +307,8 @@ mappings:
   - subclass: stationery
     iconName: stationery-11
     color: *shop_color
-  - subclass: sports
+  - class: shop
+    subclass: sports
     iconName: baseball-11
     color: *shop_color
   - subclass: music
@@ -325,15 +320,6 @@ mappings:
   - subclass: electronics
     iconName: electronics-11
     color: *shop_color
-  - subclass: gate
-    iconName: barrier-11
-    color: *street_furniture_color
-  - subclass: cycle_barrier
-    iconName: barrier-11
-    color: *street_furniture_color
-  - subclass: stile
-    iconName: barrier-11
-    color: *street_furniture_color
   - subclass: shelter
     iconName: shelter-11
     color: *default_color
@@ -352,12 +338,6 @@ mappings:
   - subclass: airport
     iconName: airport-11
     color: *transports_color
-  - subclass: athletics
-    iconName: soccer-11
-    color: *default_color
-  - subclass: pitch
-    iconName: soccer-11
-    color: *default_color
   - class: alcohol_shop
     iconName: alcohol-shop-11
     color: *shop_color
@@ -434,9 +414,6 @@ mappings:
   - class: clothing_store
     iconName: clothing-store-11
     color: *shop_color
-  - class: swimming
-    iconName: swimming-11
-    color: *default_color
   - class: town_hall
     iconName: town-hall-11
     color: *services_color
@@ -446,3 +423,23 @@ mappings:
   - class: parking
     iconName: parking-11
     color: *transports_color
+
+  # Sports: class 'pitch' and 'sports_centre'
+  - subclass: athletics
+    iconName: soccer-11
+    color: *default_color
+  - subclass: soccer
+    iconName: soccer-11
+    color: *default_color
+  - subclass: swimming
+    iconName: swimming-11
+    color: *default_color
+  - subclass: basketball
+    iconName: basketball-11
+    color: *default_color
+  - class: sports_centre
+    iconName: basketball-11
+    color: *default_color
+  - class: pitch
+    iconName: soccer-11
+    color: *default_color
