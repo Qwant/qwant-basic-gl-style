@@ -33,10 +33,7 @@ mappings:
     class: railway
     iconName: rail-light-11
     color: *transports_color
-  - subclass: subway_entrance
-    iconName: entrance-11
-    color: *transports_color
-  - subclass: train_station_entrance
+  - class: entrance
     iconName: entrance-11
     color: *transports_color
   - subclass: bank
@@ -204,9 +201,6 @@ mappings:
     color: *transports_color
   - subclass: ferry_terminal
     iconName: ferry-11
-    color: *transports_color
-  - subclass: entrance
-    iconName: entrance-11
     color: *transports_color
   - subclass: park
     iconName: park-alt1-11
