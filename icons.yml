@@ -319,15 +319,6 @@ mappings:
   - subclass: electronics
     iconName: electronics-11
     color: *shop_color
-  - subclass: gate
-    iconName: barrier-11
-    color: *street_furniture_color
-  - subclass: cycle_barrier
-    iconName: barrier-11
-    color: *street_furniture_color
-  - subclass: stile
-    iconName: barrier-11
-    color: *street_furniture_color
   - subclass: shelter
     iconName: shelter-11
     color: *default_color
