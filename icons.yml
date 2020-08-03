@@ -39,6 +39,9 @@ mappings:
   - subclass: bank
     iconName: bank-11
     color: *services_color
+  - subclass: atm
+    iconName: bank-11
+    color: *services_color
   - subclass: car_rental
     iconName: car-rental-11
     color: *services_color
