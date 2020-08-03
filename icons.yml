@@ -112,6 +112,9 @@ mappings:
   - subclass: fire_station
     iconName: fire-station-11
     color: *services_color
+  - subclass: fitness_centre
+    iconName: fitness-11
+    color: *services_color
   - subclass: bakery
     iconName: bakery-11
     color: *food_color
