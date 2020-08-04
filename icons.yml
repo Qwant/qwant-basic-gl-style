@@ -389,6 +389,9 @@ mappings:
   - class: library
     iconName: library-11
     color: *services_color
+  - subclass: public_bookcase
+    iconName: library-11
+    color: *services_color
   - class: laundry
     iconName: laundry-11
     color: *services_color
