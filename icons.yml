@@ -446,3 +446,6 @@ mappings:
   - class: pitch
     iconName: soccer-11
     color: *default_color
+  - subclass: winter_sports
+    iconName: skiing-11
+    color: *default_color
