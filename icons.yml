@@ -277,9 +277,6 @@ mappings:
   - subclass: gift
     iconName: gift-11
     color: *shop_color
-  - subclass: recycling
-    iconName: recycling-11
-    color: *default_color
   - subclass: mall
     iconName: commercial-11
     color: *shop_color
@@ -405,6 +402,9 @@ mappings:
   - class: post
     iconName: post-box-11
     color: *street_furniture_color
+  - class: recycling
+    iconName: recycling-11
+    color: *default_color
   - class: school
     iconName: school-11
     color: *services_color
