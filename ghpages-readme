@@ -18,8 +18,8 @@ Create an HTML page and inclue mapboxgl js viewer. Then point to the style to th
     <meta charset='utf-8' />
     <title>Test Qwant Basic GL Style</title>
     <meta name='viewport' content='initial-scale=1,maximum-scale=1,user-scalable=no' />
-    <script src='https://qwantresearch.github.io/qwant-basic-gl-style/mapbox-gl.js'></script>
-    <link href='https://qwantresearch.github.io/qwant-basic-gl-style/mapbox-gl.css' rel='stylesheet' />
+    <script src='https://qwant.github.io/qwant-basic-gl-style/mapbox-gl.js'></script>
+    <link href='https://qwant.github.io/qwant-basic-gl-style/mapbox-gl.css' rel='stylesheet' />
     <style>
         body { margin:0; padding:0; }
         #map { position:absolute; top:0; bottom:0; width:100%; }
@@ -30,7 +30,7 @@ Create an HTML page and inclue mapboxgl js viewer. Then point to the style to th
     <script>
         var map = new mapboxgl.Map({
             container: 'map',
-            style: 'https://qwantresearch.github.io/qwant-basic-gl-style/style-omt.json',
+            style: 'https://qwant.github.io/qwant-basic-gl-style/style-omt.json',
             center: [2.33321, 48.86008],
             hash: true,
             zoom: 12
@@ -46,4 +46,4 @@ Create an HTML page and inclue mapboxgl js viewer. Then point to the style to th
 
 ## Contribute
 
-[check out this repo](https://github.com/QwantResearch/qwant-basic-gl-style)
+[check out this repo](https://github.com/Qwant/qwant-basic-gl-style)
