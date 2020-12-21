@@ -3,7 +3,7 @@
 set -ev
 
 TAG=`git describe --tags --abbrev=0`
-NEW_TAG=`semver -i minor $TAG`
+NEW_TAG=`npx semver -i minor $TAG`
 TARGET_BRANCH="gh-pages"
 
 git checkout -b $TARGET_BRANCH
