@@ -1,0 +1,39 @@
+name: qwant-basic-gl-style build
+
+on: [push, pull_request]
+
+jobs:
+  build:
+    runs-on: ubuntu-18.04
+
+    steps:
+    - name: Install system dependencies
+      run: |
+        sudo apt-get update 
+        sudo apt-get install -yq libstdc++6
+
+    - uses: actions/checkout@v2
+      with:
+        fetch-depth: 0 # Fetch history including tags
+
+    - name: Use Node.js
+      uses: actions/setup-node@v1
+      with:
+        node-version: "10.x"
+
+    - name: Build style
+      run: |
+        git clone https://github.com/Qwant/map-style-builder.git
+        npm install mapbox-gl semver
+        cd map-style-builder
+        npm install
+        npm test -- ../ --icons=true
+        npm run build_all -- --style-dir=../ --conf=./prod_conf.json --webfont=true --icons=true
+        cd ..
+
+    - name: Publish on gh-pages
+      if: github.ref == 'refs/heads/master'
+      run: |
+        git config user.name github-actions
+        git config user.email github-actions@github.com
+        ./release.sh
