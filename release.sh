@@ -27,9 +27,6 @@ git add style-debug.json style.json style-omt.json
 git add sprite*
 git add iconfont*
 
-git config user.name "github-actions"
-git config user.email "github-actions@github.com"
-
 git commit --message "gh-pages precommit $NEW_TAG"
 git push origin $TARGET_BRANCH -f
 
