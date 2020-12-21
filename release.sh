@@ -34,7 +34,7 @@ git push origin $TARGET_BRANCH -f
 mkdir preview
 cd preview
 docker pull qwantresearch/thumbnail-gl
-docker run -v $(pwd):/data qwantresearch/thumbnail-gl "https://qwantresearch.github.io/qwant-basic-gl-style/style.json" "-x 2.3061 -y 48.8811 -z 15 -w 800 -h 600 -r 1"
+docker run -v $(pwd):/data qwantresearch/thumbnail-gl "https://qwant.github.io/qwant-basic-gl-style/style.json" "-x 2.3061 -y 48.8811 -z 15 -w 800 -h 600 -r 1"
 cd ..
 git add preview/*
 
