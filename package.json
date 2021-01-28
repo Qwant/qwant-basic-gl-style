@@ -1,12 +1,20 @@
 {
   "name": "@qwant/qwant-basic-gl-style",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "description": "a map GL Style for Qwant Map",
-  "main": "index.js",
+  "type": "module",
+  "main": "dist/index.js",
   "keywords": [
     "gl-style"
   ],
   "author": "Qwant Research",
   "license": "BSD-3",
-  "type": "module"
+  "devDependencies": {
+    "@rollup/plugin-yaml": "^3.0.0",
+    "rollup": "^2.38.0"
+  },
+  "scripts": {
+    "build": "rollup -c",
+    "prepare": "npm run build"
+  }
 }
