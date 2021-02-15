@@ -4,7 +4,7 @@ export default {
   input: 'index.js',
   output: {
     dir: 'dist',
-    format: 'es'
+    format: 'cjs'
   },
   plugins: [yaml()]
 };
