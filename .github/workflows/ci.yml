@@ -23,7 +23,7 @@ jobs:
 
     - name: Build style
       run: |
-        git clone https://github.com/Qwant/map-style-builder.git
+        git clone -b update-deps https://github.com/Qwant/map-style-builder.git
         npm install mapbox-gl semver
         cd map-style-builder
         npm install
