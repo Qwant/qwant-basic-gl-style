@@ -4,7 +4,7 @@
   "format": "pbf",
   "basename": "v3.7.mbtiles",
   "id": "openmaptiles",
-  "attribution": "<a href=\"https://about.qwant.com/fr/legal/cgu/qwant-maps/\" target=\"_blank\">Qwant Maps</a> <a href=\"http://www.openmaptiles.org/\" target=\"_blank\">&copy; OpenMapTiles</a> <a href=\"http://www.openstreetmap.org/about/\" target=\"_blank\">&copy; OpenStreetMap contributors</a>",
+  "attribution": "<a href=\"https://about.qwant.com/fr/legal/cgu/qwant-maps/\" target=\"_blank\">Qwant Maps</a> <a href=\"http://www.openmaptiles.org/\" target=\"_blank\">&copy;&nbsp;OpenMapTiles</a> <a href=\"http://www.openstreetmap.org/about/\" target=\"_blank\">&copy;&nbsp;OpenStreetMap contributors</a>",
   "center": [-12.2168, 28.6135, 4],
   "description": "Une adaptation des tuiles OpenMapTiles pour Qwant Maps - juste les POIs",
   "maxzoom": 14,
