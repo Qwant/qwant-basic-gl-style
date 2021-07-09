@@ -111,7 +111,12 @@
       "id": "background",
       "type": "background",
       "paint": {
-        "background-color": "#F8F8F8"
+        "background-color": {
+          "stops": [
+            [5, "rgba(238, 245, 217, 1)"],
+            [10, "rgba(242, 245, 237, 1)"]
+          ]
+        }
       }
     },
     {
