@@ -4970,27 +4970,17 @@
         "text-letter-spacing": 0.1,
         "text-size": {
           "base": 1.2,
-          "stops": [
-            [
-              12,
-              10
-            ],
-            [
-              15,
-              14
-            ]
-          ]
+          "stops": [[12, 10], [15, 14]]
         },
-        "text-font": [
-          "Noto Sans Bold"
-        ],
+        "text-font": ["Noto Sans Regular"],
         "text-field": "{name}",
         "text-max-width": 9
       },
       "paint": {
         "text-color": "hsl(0, 0%, 24%)",
         "text-halo-width": 1.2,
-        "text-halo-color": "rgba(255,255,255,0.8)"
+        "text-halo-color": "rgba(255,255,255,0.8)",
+        "text-opacity": 0.75
       }
     },
     {
