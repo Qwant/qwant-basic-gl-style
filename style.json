@@ -5076,42 +5076,112 @@
       "source-layer": "place",
       "filter": [
         "all",
-        [
-          "!=",
-          "capital",
-          2
-        ],
-        [
-          "==",
-          "class",
-          "city"
-        ]
+        ["!=", "capital", 2],
+        ["==", "class", "city"]
       ],
       "layout": {
-        "text-font": [
-          "Noto Sans Regular"
-        ],
+        "text-font": ["Noto Sans Regular"],
         "text-size": {
           "base": 1.2,
-          "stops": [
+          "stops": [[7, 14], [11, 20]]
+        },
+        "text-field": [
+          "case",
+          ["has", "name:en"],
+          [
+            "case",
             [
-              7,
-              14
+              "==",
+              [
+                "concat",
+                ["get", "name:en"],
+                ""
+              ],
+              [
+                "concat",
+                ["get", "name"],
+                ""
+              ]
             ],
+            ["get", "name:en"],
             [
-              11,
-              24
+              "format",
+              ["get", "name:en"],
+              {},
+              "\n",
+              {},
+              ["get", "name"],
+              {
+                "font-scale": 0.8,
+                "text-font": [
+                  "literal",
+                  ["Noto Sans Italic"]
+                ]
+              }
             ]
+          ],
+          [
+            "case",
+            ["has", "name:latin"],
+            [
+              "case",
+              [
+                "==",
+                [
+                  "concat",
+                  ["get", "name:latin"],
+                  ""
+                ],
+                [
+                  "concat",
+                  ["get", "name"],
+                  ""
+                ]
+              ],
+              ["get", "name"],
+              [
+                "format",
+                ["get", "name:latin"],
+                {},
+                "\n",
+                {},
+                ["get", "name"],
+                {
+                  "font-scale": 0.8,
+                  "text-font": [
+                    "literal",
+                    ["Noto Sans Italic"]
+                  ]
+                }
+              ]
+            ],
+            ["get", "name"]
+          ]
+        ],
+        "text-max-width": 8,
+        "visibility": "visible",
+        "icon-image": {
+          "stops": [
+            [0, "place-dot-black"],
+            [8, "None"]
           ]
         },
-        "text-field": "{name}",
-        "text-max-width": 8,
-        "visibility": "visible"
+        "icon-size": 0.33,
+        "text-offset": [
+          "interpolate",
+          ["linear"],
+          ["zoom"],
+          8,
+          ["literal", [0, -0.8]],
+          9,
+          ["literal", [0, 0]]
+        ]
       },
       "paint": {
         "text-color": "#333",
         "text-halo-width": 1.2,
-        "text-halo-color": "rgba(255,255,255,0.8)"
+        "text-halo-color": "rgba(255,255,255,0.8)",
+        "icon-opacity": 1
       }
     },
     {
@@ -5125,42 +5195,113 @@
       "source-layer": "place",
       "filter": [
         "all",
-        [
-          "==",
-          "capital",
-          2
-        ],
-        [
-          "==",
-          "class",
-          "city"
-        ]
+        ["==", "capital", 2],
+        ["==", "class", "city"]
       ],
       "layout": {
-        "text-font": [
-          "Noto Sans Regular"
-        ],
+        "text-font": ["Noto Sans Regular"],
         "text-size": {
           "base": 1.2,
-          "stops": [
+          "stops": [[7, 18], [11, 28]]
+        },
+        "text-field": [
+          "case",
+          ["has", "name:en"],
+          [
+            "case",
             [
-              7,
-              14
+              "==",
+              [
+                "concat",
+                ["get", "name:en"],
+                ""
+              ],
+              [
+                "concat",
+                ["get", "name"],
+                ""
+              ]
             ],
+            ["get", "name:en"],
             [
-              11,
-              24
+              "format",
+              ["get", "name:en"],
+              {},
+              "\n",
+              {},
+              ["get", "name"],
+              {
+                "font-scale": 0.8,
+                "text-font": [
+                  "literal",
+                  ["Noto Sans Italic"]
+                ]
+              }
             ]
+          ],
+          [
+            "case",
+            ["has", "name:latin"],
+            [
+              "case",
+              [
+                "==",
+                [
+                  "concat",
+                  ["get", "name:latin"],
+                  ""
+                ],
+                [
+                  "concat",
+                  ["get", "name"],
+                  ""
+                ]
+              ],
+              ["get", "name"],
+              [
+                "format",
+                ["get", "name:latin"],
+                {},
+                "\n",
+                {},
+                ["get", "name"],
+                {
+                  "font-scale": 0.8,
+                  "text-font": [
+                    "literal",
+                    ["Noto Sans Italic"]
+                  ]
+                }
+              ]
+            ],
+            ["get", "name"]
+          ]
+        ],
+        "text-max-width": 8,
+        "visibility": "visible",
+        "icon-image": {
+          "stops": [
+            [0, "place-circled-dot-black"],
+            [8, "None"]
           ]
         },
-        "text-field": "{name}",
-        "text-max-width": 8,
-        "visibility": "visible"
+        "icon-size": 0.5,
+        "text-offset": [
+          "interpolate",
+          ["linear"],
+          ["zoom"],
+          8,
+          ["literal", [0, -0.8]],
+          9,
+          ["literal", [0, 0]]
+        ]
       },
       "paint": {
         "text-color": "#333",
         "text-halo-width": 1.2,
-        "text-halo-color": "rgba(255,255,255,0.8)"
+        "text-halo-color": "rgba(255,255,255,0.8)",
+        "icon-opacity": 1,
+        "icon-color": "#000000"
       }
     },
     {
