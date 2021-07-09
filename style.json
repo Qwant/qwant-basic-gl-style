@@ -4932,7 +4932,7 @@
           ]
         },
         "text-font": [
-          "Noto Sans Bold"
+          "Noto Sans Regular"
         ],
         "text-field": "{name}",
         "text-transform": "none",
