@@ -4992,7 +4992,27 @@
         },
         "text-field": "{name}",
         "text-max-width": 8,
-        "visibility": "visible"
+        "visibility": "visible",
+        "text-offset": [
+          "step",
+          ["zoom"],
+          ["literal", [0, -0.3]],
+          10,
+          ["literal", [0, 0]]
+        ],
+        "icon-image": {
+          "stops": [
+            [0, "place-dot-black"],
+            [10, "None"]
+          ]
+        },
+        "icon-size": 0.25,
+        "text-anchor": {
+          "stops": [
+            [0, "bottom"],
+            [10, "center"]
+          ]
+        }
       },
       "paint": {
         "text-color": "#333",
@@ -5037,19 +5057,23 @@
         "icon-image": {
           "stops": [
             [0, "place-dot-black"],
-            [8, "None"]
+            [10, "None"]
           ]
         },
         "text-offset": [
-          "interpolate",
-          ["linear"],
+          "step",
           ["zoom"],
-          8,
-          ["literal", [0, -0.75]],
-          9,
+          ["literal", [0, -0.3]],
+          10,
           ["literal", [0, 0]]
         ],
-        "icon-size": 0.25
+        "icon-size": 0.25,
+        "text-anchor": {
+          "stops": [
+            [0, "bottom"],
+            [10, "center"]
+          ]
+        }
       },
       "paint": {
         "text-color": "#333",
@@ -5155,19 +5179,23 @@
         "icon-image": {
           "stops": [
             [0, "place-dot-black"],
-            [8, "None"]
+            [10, "None"]
           ]
         },
         "icon-size": 0.33,
         "text-offset": [
-          "interpolate",
-          ["linear"],
+          "step",
           ["zoom"],
-          8,
-          ["literal", [0, -0.8]],
-          9,
+          ["literal", [0, -0.2]],
+          10,
           ["literal", [0, 0]]
-        ]
+        ],
+        "text-anchor": {
+          "stops": [
+            [0, "bottom"],
+            [10, "center"]
+          ]
+        }
       },
       "paint": {
         "text-color": "#333",
@@ -5274,19 +5302,23 @@
         "icon-image": {
           "stops": [
             [0, "place-circled-dot-black"],
-            [8, "None"]
+            [10, "None"]
           ]
         },
         "icon-size": 0.5,
         "text-offset": [
-          "interpolate",
-          ["linear"],
+          "step",
           ["zoom"],
-          8,
-          ["literal", [0, -0.8]],
-          9,
+          ["literal", [0, -0.2]],
+          10,
           ["literal", [0, 0]]
-        ]
+        ],
+        "text-anchor": {
+          "stops": [
+            [0, "bottom"],
+            [10, "center"]
+          ]
+        }
       },
       "paint": {
         "text-color": "#333",
