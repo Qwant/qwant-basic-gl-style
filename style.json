@@ -3668,10 +3668,7 @@
       "paint": {
         "line-color": "#9e9cab",
         "line-dasharray": [
-          3,
-          1,
-          1,
-          1
+          1,1
         ],
         "line-width": {
           "base": 1.4,
