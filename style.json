@@ -4967,37 +4967,18 @@
           "stops": [
             [
               10,
-              12
+              11
             ],
             [
               15,
-              22
+              20
             ]
           ]
         },
         "text-field": "{name}",
         "text-max-width": 8,
         "visibility": "visible",
-        "text-offset": [
-          "step",
-          ["zoom"],
-          ["literal", [0, -0.3]],
-          10,
-          ["literal", [0, 0]]
-        ],
-        "icon-image": {
-          "stops": [
-            [0, "place-dot-black"],
-            [10, "None"]
-          ]
-        },
-        "icon-size": 0.25,
-        "text-anchor": {
-          "stops": [
-            [0, "bottom"],
-            [10, "center"]
-          ]
-        }
+        "text-anchor": "center"
       },
       "paint": {
         "text-color": "#333",
@@ -5042,21 +5023,21 @@
         "icon-image": {
           "stops": [
             [0, "place-dot-black"],
-            [10, "None"]
+            [8, "None"]
           ]
         },
         "text-offset": [
           "step",
           ["zoom"],
           ["literal", [0, -0.3]],
-          10,
+          8,
           ["literal", [0, 0]]
         ],
         "icon-size": 0.25,
         "text-anchor": {
           "stops": [
             [0, "bottom"],
-            [10, "center"]
+            [8, "center"]
           ]
         }
       },
@@ -5084,7 +5065,7 @@
         "text-font": ["Noto Sans Regular"],
         "text-size": {
           "base": 1.2,
-          "stops": [[7, 14], [11, 20]]
+          "stops": [[7, 13], [10, 18], [15, 26]]
         },
         "text-field": [
           "case",
@@ -5164,7 +5145,7 @@
         "icon-image": {
           "stops": [
             [0, "place-dot-black"],
-            [10, "None"]
+            [8, "None"]
           ]
         },
         "icon-size": 0.33,
@@ -5172,13 +5153,13 @@
           "step",
           ["zoom"],
           ["literal", [0, -0.2]],
-          10,
+          8,
           ["literal", [0, 0]]
         ],
         "text-anchor": {
           "stops": [
             [0, "bottom"],
-            [10, "center"]
+            [8, "center"]
           ]
         }
       },
@@ -5207,7 +5188,7 @@
         "text-font": ["Noto Sans Regular"],
         "text-size": {
           "base": 1.2,
-          "stops": [[7, 18], [11, 28]]
+          "stops": [[7, 16], [10, 24], [15, 32]]
         },
         "text-field": [
           "case",
@@ -5287,7 +5268,7 @@
         "icon-image": {
           "stops": [
             [0, "place-circled-dot-black"],
-            [10, "None"]
+            [8, "None"]
           ]
         },
         "icon-size": 0.5,
@@ -5295,13 +5276,13 @@
           "step",
           ["zoom"],
           ["literal", [0, -0.2]],
-          10,
+          8,
           ["literal", [0, 0]]
         ],
         "text-anchor": {
           "stops": [
             [0, "bottom"],
-            [10, "center"]
+            [8, "center"]
           ]
         }
       },
