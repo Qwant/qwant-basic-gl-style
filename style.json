@@ -5306,12 +5306,7 @@
       "maxzoom": 12,
       "filter": ["==", "class", "country"],
       "layout": {
-        "text-font": [
-          "case",
-          ["has", "iso_a2"],
-          ["literal", ["Noto Sans Bold"]],
-          ["literal", ["Noto Sans Italic"]]
-        ],
+        "text-font": ["Noto Sans Bold"],
         "text-field": "{name}",
         "text-size": {
           "property": "rank",
