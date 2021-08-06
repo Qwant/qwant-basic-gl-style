@@ -4618,7 +4618,7 @@
       },
       "source": "basemap",
       "source-layer": "transportation_name",
-      "minzoom": 8,
+      "minzoom": 7,
       "filter": [
         "all",
         [
@@ -4662,6 +4662,7 @@
         },
         "text-rotation-alignment": "viewport",
         "icon-size": 1,
+        "icon-padding": 12,
         "text-field": "{ref}"
       },
       "paint": {}
