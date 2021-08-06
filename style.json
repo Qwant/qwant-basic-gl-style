@@ -2237,7 +2237,8 @@
           "bridge",
           "tunnel"
         ],
-        ["==", "class", "path"]
+        ["==", "class", "path"],
+        ["!in", "subclass", "pedestrian", "cycleway"]
       ],
       "paint": {
         "line-color": "hsla(0, 0%, 0%, 0.07)",
@@ -2361,6 +2362,90 @@
             [
               20,
               21.5
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "id": "highway-cycleway-1",
+      "type": "line",
+      "metadata": {
+        "mapbox:group": "1444849345966.4436",
+        "taxonomy:group": "roads"
+      },
+      "source": "basemap",
+      "source-layer": "transportation",
+      "minzoom": 15,
+      "filter": [
+        "all",
+        ["==", "$type", "LineString"],
+        ["==", "class", "path"],
+        ["==", "subclass", "cycleway"]
+      ],
+      "paint": {
+        "line-color": "hsla(0, 0%, 0%, 0.15)",
+        "line-offset": -1,
+        "line-width": 1
+      }
+    },
+    {
+      "id": "highway-cycleway-2",
+      "type": "line",
+      "metadata": {
+        "mapbox:group": "1444849345966.4436",
+        "taxonomy:group": "roads"
+      },
+      "source": "basemap",
+      "source-layer": "transportation",
+      "minzoom": 15,
+      "filter": [
+        "all",
+        ["==", "$type", "LineString"],
+        ["==", "class", "path"],
+        ["==", "subclass", "cycleway"]
+      ],
+      "paint": {
+        "line-color": "hsla(0, 0%, 0%, 0.15)",
+        "line-offset": 1,
+        "line-width": 1
+      }
+    },
+    {
+      "id": "highway-pedestrian",
+      "type": "line",
+      "metadata": {
+        "mapbox:group": "1444849345966.4436",
+        "taxonomy:group": "roads"
+      },
+      "source": "basemap",
+      "source-layer": "transportation",
+      "filter": [
+        "all",
+        ["==", "$type", "LineString"],
+        ["==", "class", "path"],
+        ["==", "subclass", "pedestrian"]
+      ],
+      "layout": {
+        "line-cap": "round",
+        "line-join": "round"
+      },
+      "paint": {
+        "line-color": "#e3e3e3",
+        "line-width": {
+          "base": 1.2,
+          "stops": [
+            [
+              14,
+              1
+            ],
+            [
+              18,
+              10
+            ],
+            [
+              20,
+              18
             ]
           ]
         }
