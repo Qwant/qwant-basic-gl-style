@@ -4912,6 +4912,7 @@
       },
       "source": "basemap",
       "source-layer": "place",
+      "maxzoom": 17,
       "filter": [
         "==",
         "class",
@@ -4954,6 +4955,7 @@
       },
       "source": "basemap",
       "source-layer": "place",
+      "maxzoom": 17,
       "filter": [
         "==",
         "class",
@@ -5015,6 +5017,7 @@
       },
       "source": "basemap",
       "source-layer": "place",
+      "maxzoom": 16,
       "filter": [
         "all",
         ["!=", "capital", 2],
@@ -5138,6 +5141,7 @@
       },
       "source": "basemap",
       "source-layer": "place",
+      "maxzoom": 15,
       "filter": [
         "all",
         ["==", "capital", 2],
@@ -5262,7 +5266,7 @@
       },
       "source": "basemap",
       "source-layer": "place",
-      "maxzoom": 12,
+      "maxzoom": 9,
       "filter": ["==", "class", "country"],
       "layout": {
         "text-font": ["Noto Sans Bold"],
