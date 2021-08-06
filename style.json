@@ -735,6 +735,7 @@
         "fill-color": "#9FD0F7",
         "fill-opacity": ["case",
           ["==", ["get", "intermittent"], 1], 0.7,
+          ["==", ["get", "brunnel"], "tunnel"], 0.25,
           1
         ]
       }
