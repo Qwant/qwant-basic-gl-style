@@ -4130,7 +4130,6 @@
               "playground",
               "pitch",
               "post_box",
-              "recycling",
               "sally_port",
               "shelter",
               "stile",
@@ -4147,11 +4146,6 @@
               "rank",
               25
             ]
-          ],
-          [
-            "in",
-            "subclass",
-            "recycling"
           ]
         ]
       ],
@@ -4227,7 +4221,6 @@
           "playground",
           "pitch",
           "post_box",
-          "recycling",
           "sally_port",
           "shelter",
           "stile",
@@ -4303,7 +4296,6 @@
           "playground",
           "pitch",
           "post_box",
-          "recycling",
           "sally_port",
           "shelter",
           "stile",
