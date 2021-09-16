@@ -2,7 +2,7 @@
 
 [![CI status](https://github.com/Qwant/qwant-basic-gl-style/workflows/qwant-basic-gl-style%20build/badge.svg)](https://github.com/Qwant/fafnir)
 
-This is the Mapbox GL basemap style used for [Qwant Maps](https://github.com/QwantResearch/QwantMaps).
+This is the Mapbox GL basemap style used for [Qwant Maps](https://github.com/Qwant/QwantMaps).
 
 ![preview](https://qwant.github.io/qwant-basic-gl-style/preview/custom.png)
 
