@@ -4021,7 +4021,6 @@
             "playground",
             "pitch",
             "post_box",
-            "post_office",
             "sally_port",
             "shelter",
             "stile",
@@ -4093,81 +4092,6 @@
       }
     },
     {
-      "id": "poi-level-no-name",
-      "type": "symbol",
-      "source": "poi",
-      "source-layer": "poi",
-      "minzoom": 18,
-      "filter": [
-        "all",
-        [
-          "==",
-          "$type",
-          "Point"
-        ],
-        [
-          "!in",
-          "subclass",
-          "artwork",
-          "bollard",
-          "bicycle_rental",
-          "border_control",
-          "cycle_barrier",
-          "ferry_terminal",
-          "gate",
-          "lift_gate",
-          "playground",
-          "pitch",
-          "post_box",
-          "post_office",
-          "recycling",
-          "sally_port",
-          "shelter",
-          "stile",
-          "taxi",
-          "telephone",
-          "toll_booth",
-          "toilets",
-          "subway_entrance",
-          "train_station_entrance",
-          "waste_basket"
-        ],
-        [
-          "!has",
-          "name"
-        ],
-        [
-          "!in",
-          "class",
-          "railway",
-          "bus",
-          "information",
-          "barrier"
-        ]
-      ],
-      "layout": {
-        "icon-image": "{subclass}-11",
-        "icon-padding": {
-          "stops": [
-            [
-              16,
-              20
-            ],
-            [
-              18,
-              2
-            ]
-          ]
-        },
-        "text-font": [
-          "Noto Sans Regular"
-        ]
-      },
-      "paint": {
-        "text-color": "#000"
-      }
-    },
-    {
       "id": "poi-level-3",
       "type": "symbol",
       "source": "poi",
@@ -4206,8 +4130,6 @@
               "playground",
               "pitch",
               "post_box",
-              "post_office",
-              "recycling",
               "sally_port",
               "shelter",
               "stile",
@@ -4220,19 +4142,10 @@
               "waste_basket"
             ],
             [
-              "has",
-              "name"
-            ],
-            [
               ">=",
               "rank",
               25
             ]
-          ],
-          [
-            "in",
-            "subclass",
-            "recycling"
           ]
         ]
       ],
@@ -4262,7 +4175,11 @@
         "text-anchor": "top",
         "text-field": "{name}",
         "text-optional": true,
-        "text-max-width": 9
+        "text-max-width": 9,
+        "symbol-sort-key": ["case",
+          ["has", "name"], ["get","rank"],
+          999999
+        ]
       },
       "paint": {
         "text-halo-blur": 0.5,
@@ -4308,8 +4225,6 @@
           "playground",
           "pitch",
           "post_box",
-          "post_office",
-          "recycling",
           "sally_port",
           "shelter",
           "stile",
@@ -4320,10 +4235,6 @@
           "subway_entrance",
           "train_station_entrance",
           "waste_basket"
-        ],
-        [
-          "has",
-          "name"
         ],
         [
           "!in",
@@ -4389,8 +4300,6 @@
           "playground",
           "pitch",
           "post_box",
-          "post_office",
-          "recycling",
           "sally_port",
           "shelter",
           "stile",
@@ -4401,10 +4310,6 @@
           "subway_entrance",
           "train_station_entrance",
           "waste_basket"
-        ],
-        [
-          "has",
-          "name"
         ],
         [
           "!in",
