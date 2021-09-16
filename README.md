@@ -26,7 +26,7 @@ Here are the main files of this repo and their usage:
 
 Thanks for considering to contribute ! :heart:
 
-If you want to report bugs and make suggestions about Qwant Maps style, please use [Qwant Maps central repository](https://github.com/QwantResearch/QwantMaps) and provide screenshots.
+If you want to report bugs and make suggestions about Qwant Maps style, please use [Qwant Maps central repository](https://github.com/Qwant/QwantMaps) and provide screenshots.
 
 If you know a bit about [Mapbox GL Style format](https://www.mapbox.com/mapbox-gl-js/style-spec) and want to send us some improvements, please read on ;)
 
