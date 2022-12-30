@@ -102,6 +102,16 @@
     "poi": {
       "url": "tileschema_poi.json",
       "type": "vector"
+    },
+    "mapillary": {
+      "type": "vector",
+      "tiles": [
+        "https://tiles.mapillary.com/maps/vtp/mly1_public/2/{z}/{x}/{y}?access_token=MLY|4142433049200173|72206abe5035850d6743b23a49c41333"
+      ],
+      "minZoom": 0,
+      "maxZoom": 14,
+      "minzoom": 6,
+      "maxzoom": 14
     }
   },
   "sprite": "{sprite_url}",
@@ -5183,6 +5193,23 @@
         "text-halo-width": 2,
         "text-halo-color": "rgba(255,255,255,0.8)"
       }
+    },
+    {
+      "id": "mapillary-sequence",
+      "type": "line",
+      "source": "mapillary",
+      "source-layer": "sequence",
+      "minzoom": 5,
+      "maxzoom": 24,
+      "paint": {"line-color": "rgba(53, 175, 109, 1)"}
+      }
+    {
+      "id": "mapillary-images",
+      "type": "circle",
+      "source": "mapillary",
+      "source-layer": "image",
+      "minzoom": 9,
+      "paint": {"circle-color": "rgba(52, 175, 108, 1)"}
     }
   ],
   "id": "cjbdftwmm936t2rquyt8ycvor",
