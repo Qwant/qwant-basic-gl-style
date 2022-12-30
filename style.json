@@ -5202,7 +5202,7 @@
       "minzoom": 5,
       "maxzoom": 24,
       "paint": {"line-color": "rgba(53, 175, 109, 1)"}
-      }
+      },
     {
       "id": "mapillary-images",
       "type": "circle",
