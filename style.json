@@ -5202,7 +5202,7 @@
       "minzoom": 5,
       "maxzoom": 24,
       "layout": {"visibility": "none"},
-      "paint": {"line-color": "rgba(53, 175, 109, 1)", "line-opacity": 0.3, "line-width": 3}
+      "paint": {"line-color": "rgba(53, 175, 109, 1)", "line-opacity": 0.3, "line-width": 2}
       },
     {
       "id": "mapillary-images",
@@ -5211,7 +5211,7 @@
       "source-layer": "image",
       "minzoom": 9,
       "layout": {"visibility": "none"},
-      "paint": {"circle-color": "rgba(52, 175, 108, 1)", "circle-opacity": 0.4, "circle-radius": 7}
+      "paint": {"circle-color": "rgba(52, 175, 108, 1)", "circle-opacity": 0.4, "circle-radius": 5}
     }
   ],
   "id": "cjbdftwmm936t2rquyt8ycvor",
