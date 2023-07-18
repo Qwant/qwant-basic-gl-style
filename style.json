@@ -112,6 +112,10 @@
       "maxZoom": 14,
       "minzoom": 6,
       "maxzoom": 14
+    },
+    "terrain": {
+      "type": "raster-dem",
+      "url": "https://api.maptiler.com/tiles/terrain-rgb/tiles.json?key=7B5lTONVe91Cn6e3onCo"
     }
   },
   "sprite": "{sprite_url}",
@@ -5212,6 +5216,11 @@
       "minzoom": 9,
       "layout": {"visibility": "none"},
       "paint": {"circle-color": "rgba(52, 175, 108, 1)", "circle-opacity": 0.4, "circle-radius": 5}
+    },
+    {
+      "id": "terrain",
+      "type": "hillshade",
+      "source": "terrain"
     }
   ],
   "id": "cjbdftwmm936t2rquyt8ycvor",
