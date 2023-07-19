@@ -5220,8 +5220,7 @@
     {
       "id": "terrain",
       "type": "hillshade",
-      "source": "terrain",
-      "layout": {"visibility": "none"}
+      "source": "terrain"
     }
   ],
   "id": "cjbdftwmm936t2rquyt8ycvor",
