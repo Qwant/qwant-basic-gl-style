@@ -5568,17 +5568,13 @@
       "type": "hillshade",
       "source": "hillshadeSource",
       "layout": {
-        "visibility": "visible"
+        "visibility": "none"
       },
       "paint": {
         "hillshade-shadow-color": "#473B24"
       }
     }
   ],
-  "terrain": {
-    "source": "terrainSource",
-    "exaggeration": 1
-  },
   "id": "cjbdftwmm936t2rquyt8ycvor",
   "visibility": "private"
 }

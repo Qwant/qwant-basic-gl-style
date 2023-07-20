@@ -1,6 +1,6 @@
 {
   "name": "@qwant/qwant-basic-gl-style",
-  "version": "1.6.4",
+  "version": "1.6.5",
   "description": "a map GL Style for Qwant Map",
   "main": "dist/index.js",
   "keywords": [
