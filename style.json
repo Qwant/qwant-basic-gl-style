@@ -4357,9 +4357,9 @@
               "waste_basket"
             ],
             [
-              ">=",
+              ">",
               "rank",
-              25
+              9
             ]
           ]
         ]
@@ -4416,7 +4416,7 @@
       "type": "symbol",
       "source": "poi",
       "source-layer": "poi",
-      "minzoom": 15,
+      "minzoom": 14,
       "filter": [
         "all",
         [
@@ -4427,12 +4427,12 @@
         [
           "<=",
           "rank",
-          24
+          7
         ],
         [
-          ">=",
+          ">",
           "rank",
-          9
+          1
         ],
         [
           "!in",
@@ -4467,7 +4467,8 @@
           "information",
           "bus",
           "barrier"
-        ]
+        ],
+        ["has", "name"]
       ],
       "layout": {
         "text-padding": 2,
@@ -4497,7 +4498,7 @@
       "type": "symbol",
       "source": "poi",
       "source-layer": "poi",
-      "minzoom": 14,
+      "minzoom": 12,
       "filter": [
         "all",
         [
@@ -4508,7 +4509,7 @@
         [
           "<=",
           "rank",
-          8
+          7
         ],
         [
           "!in",
@@ -4543,7 +4544,8 @@
           "information",
           "bus",
           "barrier"
-        ]
+        ],
+        ["has", "name"]
       ],
       "layout": {
         "text-size": 10,
