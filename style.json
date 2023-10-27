@@ -4310,7 +4310,7 @@
       "type": "symbol",
       "source": "poi",
       "source-layer": "poi",
-      "minzoom": 16,
+      "minzoom": 17,
       "filter": [
         "all",
         [
@@ -4355,11 +4355,6 @@
               "subway_entrance",
               "train_station_entrance",
               "waste_basket"
-            ],
-            [
-              ">",
-              "rank",
-              9
             ]
           ]
         ]
@@ -4416,7 +4411,7 @@
       "type": "symbol",
       "source": "poi",
       "source-layer": "poi",
-      "minzoom": 14,
+      "minzoom": 15,
       "filter": [
         "all",
         [
@@ -4427,12 +4422,7 @@
         [
           "<=",
           "rank",
-          7
-        ],
-        [
-          ">",
-          "rank",
-          1
+          9
         ],
         [
           "!in",
@@ -4498,7 +4488,7 @@
       "type": "symbol",
       "source": "poi",
       "source-layer": "poi",
-      "minzoom": 12,
+      "minzoom": 13,
       "filter": [
         "all",
         [
@@ -4509,7 +4499,84 @@
         [
           "<=",
           "rank",
-          7
+          3
+        ],
+        [
+          "!in",
+          "subclass",
+          "artwork",
+          "bollard",
+          "bicycle_rental",
+          "border_control",
+          "cycle_barrier",
+          "ferry_terminal",
+          "gate",
+          "lift_gate",
+          "playground",
+          "pitch",
+          "post_box",
+          "sally_port",
+          "shelter",
+          "stile",
+          "taxi",
+          "garden",
+          "telephone",
+          "toll_booth",
+          "toilets",
+          "subway_entrance",
+          "train_station_entrance",
+          "waste_basket"
+        ],
+        [
+          "!in",
+          "class",
+          "railway",
+          "information",
+          "bus",
+          "barrier"
+        ],
+        ["has", "name"]
+      ],
+      "layout": {
+        "text-size": 10,
+        "icon-image": "{subclass}-11",
+        "text-font": [
+          "Noto Sans Regular"
+        ],
+        "text-padding": 2,
+        "text-offset": [
+          0,
+          1.4
+        ],
+        "text-anchor": "top",
+        "text-field": "{name}",
+        "text-optional": true,
+        "text-max-width": 9
+      },
+      "paint": {
+        "text-halo-blur": 0.5,
+        "text-color": "#000",
+        "text-halo-width": 1,
+        "text-halo-color": "#ffffff"
+      }
+    },
+    {
+      "id": "poi-level-0",
+      "type": "symbol",
+      "source": "poi",
+      "source-layer": "poi",
+      "minzoom": 10,
+      "filter": [
+        "all",
+        [
+          "==",
+          "$type",
+          "Point"
+        ],
+        [
+          "<=",
+          "rank",
+          1
         ],
         [
           "!in",
