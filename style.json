@@ -4334,6 +4334,7 @@
               "telephone",
               "toll_booth",
               "toilets",
+              "vacant",
               "subway_entrance",
               "train_station_entrance",
               "waste_basket"
